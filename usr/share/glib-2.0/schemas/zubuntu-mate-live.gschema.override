@@ -1,0 +1,11 @@
+[org.gnome.desktop.interface]
+gtk-theme='Ambiant-MATE'
+
+[org.gnome.desktop.wm.preferences]
+theme='Ambiant-MATE'
+
+[org.mate.interface]
+gtk-theme='Ambiant-MATE'
+
+[org.mate.Marco.general]
+theme='Ambiant-MATE'

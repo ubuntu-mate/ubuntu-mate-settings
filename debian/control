@@ -1,0 +1,27 @@
+Source: ubuntu-mate-settings
+Section: x11
+Priority: optional
+Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://launchpad.net/ubuntu-mate/
+Vcs-Bzr: lp:~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-settings
+Vcs-Browser: http://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-settings/files
+
+Package: ubuntu-mate-default-settings
+Architecture: all
+Depends: ${misc:Depends}, desktop-file-utils,
+         libglib2.0-bin, mate-panel,
+         ttf-ubuntu-font-family
+Replaces: policykit-desktop-privileges-ubuntu-mate
+Suggests: mate-desktop-environment-core (>= 1.8.0)
+Description: Default settings for Ubuntu MATE
+ Various system settings tailored for Ubuntu MATE.
+
+Package: ubuntu-mate-live-settings
+Architecture: all
+Depends: ${misc:Depends}
+Description: Default settings for Ubuntu MATE live CD
+ Various system settings tailored for Ubuntu MATE live CD.
+
+

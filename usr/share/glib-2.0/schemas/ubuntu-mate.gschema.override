@@ -1,0 +1,122 @@
+[com.ubuntu.update-manager]
+show-details=true
+show-versions=true
+
+[org.gnome.crypto.pgp]
+keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
+
+[org.gnome.desktop.interface]
+cursor-theme='DMZ-White'
+document-font-name='Ubuntu 11'
+font-name='Ubuntu 11'
+gtk-theme='Ambiant-MATE'
+icon-theme='Ambiant-MATE'
+monospace-font-name='Ubuntu Mono 13'
+
+[org.gnome.desktop.wm.preferences]
+button-layout='menu:minimize,maximize,close'
+theme='Yuyo-Dark'
+titlebar-font='Ubuntu Bold 11'
+
+[org.gnome.rhythmbox.encoding-settings]
+media-type-presets={'audio/x-vorbis':'Ubuntu', 'audio/mpeg':'Ubuntu'}
+
+[org.gnome.rhythmbox.rhythmdb]
+monitor-library=true
+
+[org.gnome.rhythmbox.plugins]
+active-plugins=['artsearch', 'audiocd','audioscrobbler','cd-recorder','daap','dbus-media-server','generic-player','ipod','iradio','mmkeys','mpris','mtpdevice','notification','power-manager']
+
+[org.gnome.Charmap]
+font='Ubuntu 22'
+
+[org.gnome.DejaDup]
+backend='file'
+
+[org.mate.applications-at-mobility]
+exec='onboard'
+
+[org.mate.applications-at-visual]
+exec='orca'
+
+[org.mate.background]
+picture-filename='/usr/share/backgrounds/ubuntu-mate-utopic/Ubuntu-Mate-Cold.jpg'
+
+[org.mate.caja.desktop]
+font='Ubuntu 11'
+computer-icon-visible=false
+home-icon-visible=true
+trash-icon-visible=false
+
+[org.mate.dictionary]
+print-font='Ubuntu 12'
+
+[org.mate.font-rendering]
+antialiasing = 'rgba'
+hinting = 'slight'
+
+[org.mate.interface]
+icon-theme='Ambiant-MATE'
+gtk-decoration-layout='menu:minimize,maximize,close'
+gtk-theme='Yuyo-Dark'
+font-name='Ubuntu 11'
+document-font-name='Ubuntu 11'
+monospace-font-name='Ubuntu Mono 13'
+
+[org.mate.Marco.general]
+center-new-windows=false
+side-by-side-tiling=true
+theme='Yuyo-Dark'
+titlebar-font='Ubuntu Medium 11'
+
+[org.mate.Marco.global-keybindings]
+run-command-terminal='<Control><Alt>t'
+switch-panels='disabled'
+switch-windows='<Alt>Tab'
+switch-windows-all='<Control><Alt>Tab'
+switch-windows-all-backward='<Control><Alt><Shift>Tab'
+switch-windows-backward='<Alt><Shift>Tab'
+
+[org.mate.NotificationDaemon]
+theme='slider'
+
+[org.mate.panel]
+default-layout='ubuntu-mate'
+
+[org.mate.peripherals-mouse]
+cursor-theme='DMZ-White'
+
+[org.mate.peripherals-touchpad]
+disable-while-typing=true
+tap-to-click=true
+
+[org.mate.pluma]
+color-scheme='Yuyo-Dark'
+display-line-numbers=true
+display-right-margin=true
+highlight-current-line=true
+editor-font='Ubuntu Mono 13'
+print-font-body-pango='Ubuntu Mono 9'
+print-font-header-pango='Ubuntu 11'
+print-font-numbers-pango='Ubuntu 8'
+
+[org.mate.screensaver]
+mode='single'
+themes=['screensavers-footlogo-floaters']
+
+[org.mate.sound]
+theme-name='ubuntu'
+event-sounds=true
+input-feedback-sounds=true
+
+[org.mate.SettingsDaemon.plugins.media-keys]
+magnifier='<Alt><Mod4>m'
+screenreader='<Alt><Mod4>s'
+on-screen-keyboard='<Alt><Mod4>k'
+
+[org.mate.terminal.profile]
+allow-bold=false
+use-system-font=true
+
+[org.yorba.shotwell.printing]
+titles-font='Ubuntu Bold 12'

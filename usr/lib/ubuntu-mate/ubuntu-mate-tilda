@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+function overlay_file() {
+    local SYSTEM_FILE="/usr/share/ubuntu-mate/settings-overlay/${1}"
+    local USER_FILE="${HOME}/.${1}"
+    local USER_DIR=$(dirname "${USER_FILE}")
+    if [ ! -f "${USER_FILE}" ]; then
+        mkdir -p "${USER_DIR}"
+        cp "${SYSTEM_FILE}" "${USER_FILE}"
+    fi
+}
+
+overlay_file config/tilda/config_0
+tilda &
