@@ -1,11 +1,5 @@
-[org.gnome.desktop.interface]
-gtk-theme='Ambiant-MATE'
+[org.mate.Marco.global-keybindings]
+run-command-1='<Mod4>1'
 
-[org.gnome.desktop.wm.preferences]
-theme='Ambiant-MATE'
-
-[org.mate.interface]
-gtk-theme='Ambiant-MATE'
-
-[org.mate.Marco.general]
-theme='Ambiant-MATE'
+[org.mate.Marco.keybinding-commands]
+command-1='ubiquity gtk_ui'

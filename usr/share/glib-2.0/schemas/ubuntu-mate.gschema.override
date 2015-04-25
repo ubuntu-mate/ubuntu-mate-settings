@@ -15,7 +15,7 @@ monospace-font-name='Ubuntu Mono 13'
 
 [org.gnome.desktop.wm.preferences]
 button-layout='menu:minimize,maximize,close'
-theme='Yuyo-Dark'
+theme='Ambiant-MATE'
 titlebar-font='Ubuntu Bold 11'
 
 [org.gnome.rhythmbox.encoding-settings]
@@ -58,7 +58,7 @@ hinting = 'slight'
 [org.mate.interface]
 icon-theme='Ambiant-MATE'
 gtk-decoration-layout='menu:minimize,maximize,close'
-gtk-theme='Yuyo-Dark'
+gtk-theme='Ambiant-MATE'
 font-name='Ubuntu 11'
 document-font-name='Ubuntu 11'
 monospace-font-name='Ubuntu Mono 13'
@@ -66,7 +66,7 @@ monospace-font-name='Ubuntu Mono 13'
 [org.mate.Marco.general]
 center-new-windows=false
 side-by-side-tiling=true
-theme='Yuyo-Dark'
+theme='Ambiant-MATE'
 titlebar-font='Ubuntu Medium 11'
 
 [org.mate.Marco.global-keybindings]
@@ -76,6 +76,17 @@ switch-windows='<Alt>Tab'
 switch-windows-all='<Control><Alt>Tab'
 switch-windows-all-backward='<Control><Alt><Shift>Tab'
 switch-windows-backward='<Alt><Shift>Tab'
+
+[org.mate.Marco.window-keybindings]
+move-to-center='<Control><Alt>5'
+move-to-corner-ne='<Control><Alt>9'
+move-to-corner-nw='<Control><Alt>7'
+move-to-corner-se='<Control><Alt>3'
+move-to-corner-sw='<Control><Alt>1'
+move-to-side-e='<Control><Alt>6'
+move-to-side-n='<Control><Alt>8'
+move-to-side-s='<Control><Alt>2'
+move-to-side-w='<Control><Alt>4'
 
 [org.mate.NotificationDaemon]
 theme='slider'
@@ -91,7 +102,7 @@ disable-while-typing=true
 tap-to-click=true
 
 [org.mate.pluma]
-color-scheme='Yuyo-Dark'
+color-scheme='Ambiant-MATE'
 display-line-numbers=true
 display-right-margin=true
 highlight-current-line=true

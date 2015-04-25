@@ -23,5 +23,3 @@ Architecture: all
 Depends: ${misc:Depends}
 Description: Default settings for Ubuntu MATE live CD
  Various system settings tailored for Ubuntu MATE live CD.
-
-

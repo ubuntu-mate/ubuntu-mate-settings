@@ -1,3 +1,11 @@
+ubuntu-mate-settings (0.4.5) UNRELEASED; urgency=medium
+
+  * Added default settings for Plank.
+  * Make Ambiant-MATE the default theme.
+  * Remove obsolete ubuntu-mate-live-settings packages.
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 25 Apr 2015 12:50:39 +0100
+
 ubuntu-mate-settings (0.4.4.1) vivid; urgency=medium
 
   * Make /usr/lib/ubuntu-mate/ubuntu-mate-tilda executable (LP: #1432439)
