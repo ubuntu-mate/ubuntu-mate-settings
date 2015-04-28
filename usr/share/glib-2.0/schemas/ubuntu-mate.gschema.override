@@ -91,6 +91,10 @@ move-to-side-w='<Control><Alt>4'
 [org.mate.NotificationDaemon]
 theme='slider'
 
+[org.mate.maximus]
+no-maximize=true
+undecorate=false
+
 [org.mate.panel]
 default-layout='ubuntu-mate'
 

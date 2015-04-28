@@ -1,21 +1,28 @@
 [Toplevel top]
-expand=true
 orientation=top
+expand=true
 size=24
 
-[Object menu-bar]
-object-type=menu-bar
+[Object menu]
+object-type=menu
 toplevel-id=top
 position=0
 locked=true
 
-[Object firefox]
-locked=true
-position=10
-launcher-location=/usr/share/applications/firefox.desktop
+[Object matewindowpicker]
+object-type=applet
+applet-iid=MateWindowPickerFactory::MateWindowPicker
 toplevel-id=top
-object-type=launcher
-menu-path=applications:/
+position=10
+locked=true
+
+[Object workspaceswitcherapplet]
+object-type=applet
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+toplevel-id=top
+position=40
+panel-right-stick=true
+locked=true
 
 [Object notification-area]
 object-type=applet
@@ -33,7 +40,7 @@ position=20
 panel-right-stick=true
 locked=true
 
-[Object clock]
+[Object clockapplet]
 object-type=applet
 applet-iid=ClockAppletFactory::ClockApplet
 toplevel-id=top
@@ -44,7 +51,7 @@ locked=true
 [Object shutdown]
 action-type=shutdown
 object-type=action
+toplevel-id=top
 position=0
 panel-right-stick=true
-toplevel-id=top
 locked=true
