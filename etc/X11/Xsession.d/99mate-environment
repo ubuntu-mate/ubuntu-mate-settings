@@ -8,10 +8,8 @@ if [ "x$DESKTOP_SESSION" = "xmate" ] || [ "x$XDG_SESSION_DESKTOP" == "xmate" ]; 
     fi
     export GTK_MODULES
 
-    # Sadly these environment variables cause applications to segfault.
+    # Sadly this environment variable can cause applications to segfault.
     # For example:
     #  - Telegram doesn't work with QT_STYLE_OVERRIDE=gtk
-    #  - Rosegarden doesn't work with QT_ACCESSIBILITY=1
     # export QT_STYLE_OVERRIDE=gtk
-    # export QT_ACCESSIBILITY=1
 fi
