@@ -19,6 +19,3 @@ overlay_file config/dock1/launchers/ubuntu-software-center.dockitem
 overlay_file config/dock1/launchers/vlc.dockitem
 overlay_file config/folder-color/hide_donation
 overlay_file config/Trolltech.conf
-overlay_file local/share/applications/im-config.desktop
-overlay_file local/share/applications/tilda.desktop
-update-desktop-database -q ${HOME}/.local/share/applications/

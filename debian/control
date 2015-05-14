@@ -23,3 +23,19 @@ Architecture: all
 Depends: ${misc:Depends}
 Description: Default settings for Ubuntu MATE live CD
  Various system settings tailored for Ubuntu MATE live CD.
+
+Package: ubuntu-mate-libreoffice-draw-icons
+Architecture: all
+Depends: ${misc:Depends}, libreoffice-draw
+Description: Ubuntu MATE desktop icons for LibreOffice draw
+ Slightly modified LibreOffice draw .desktop files, for
+ Ubuntu MATE, that reduce menu clutter.
+
+Package: ubuntu-mate-libreoffice-mate-icons
+Architecture: all
+Depends: ${misc:Depends}, libreoffice-math
+Description: Ubuntu MATE desktop icons for LibreOffice math
+ Slightly modified LibreOffice math .desktop files, for
+ Ubuntu MATE, that reduce menu clutter.
+
+
