@@ -1,4 +1,4 @@
-ubuntu-mate-settings (0.4.5) UNRELEASED; urgency=medium
+ubuntu-mate-settings (0.4.5) wily; urgency=medium
 
   * Added default settings for Plank.
   * Added keybinding for launching Ubiquity from the live session.
@@ -7,17 +7,16 @@ ubuntu-mate-settings (0.4.5) UNRELEASED; urgency=medium
   * Added missing default applications list.
   * Added ubuntu-mate-libreoffice-draw-icons package.
   * Added ubuntu-mate-libreoffice-math-icons package.
-  * Added custom .desktop icons to reduce clutter and better organise
-  MATE menus.
+  * Updated custom menu entries to reduce clutter.
   * Updated keybindings so they are consitent with Compiz.
-  * Updated the Xsession environment for MATE so QT accessibility and
+  * Updated the Xsession environment so QT accessibility and
   QT styling are not enabled by default.
   * Updated other panel layouts with correct offsets.
   * Changed the default theme to Ambiant-MATE.
   * Removed custom im-config.desktop. Upstream only shows in GNOME
   and KDE now.
 
- -- Martin Wimpress <code@flexion.org>  Sat, 25 Apr 2015 12:50:39 +0100
+ -- Martin Wimpress <code@flexion.org>  Sat, 16 May 2015 09:28:39 +0100
 
 ubuntu-mate-settings (0.4.4.1) vivid; urgency=medium
 
