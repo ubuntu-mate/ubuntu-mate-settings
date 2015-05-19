@@ -31,7 +31,7 @@ Description: Ubuntu MATE desktop icons for LibreOffice draw
  Slightly modified LibreOffice draw .desktop files, for
  Ubuntu MATE, that reduce menu clutter.
 
-Package: ubuntu-mate-libreoffice-mate-icons
+Package: ubuntu-mate-libreoffice-math-icons
 Architecture: all
 Depends: ${misc:Depends}, libreoffice-math
 Description: Ubuntu MATE desktop icons for LibreOffice math
