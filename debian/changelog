@@ -9,12 +9,12 @@ ubuntu-mate-settings (0.4.5) wily; urgency=medium
   * Added ubuntu-mate-libreoffice-math-icons package.
   * Updated custom menu entries to reduce clutter.
   * Updated keybindings so they are consitent with Compiz.
-  * Updated the Xsession environment so QT accessibility and
-  QT styling are not enabled by default.
-  * Updated other panel layouts with correct offsets.
+  * Updated the Xsession environment so QT accessibility and styling
+  are not enabled by default.
+  * Updated panel layouts with correct applet placement offsets.
   * Changed the default theme to Ambiant-MATE.
-  * Removed custom im-config.desktop. Upstream only shows in GNOME
-  and KDE now.
+  * Removed custom im-config.desktop. Upstream is fixed.
+  * Closes (LP: #1456597)
 
  -- Martin Wimpress <code@flexion.org>  Sat, 16 May 2015 09:28:39 +0100
 
