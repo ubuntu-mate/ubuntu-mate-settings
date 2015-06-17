@@ -1,3 +1,13 @@
+ubuntu-mate-settings (0.4.6) UNRELEASED; urgency=medium
+
+  * Fix overlay settings so they do not clobber Planks settings.
+  * Update default application handlers.
+    + .deb files are now handled by gdebi.
+    + apt:// URLs are now handled by aptutl.
+    + DVD, VideCD and SuperVCD discs are handled by VLC.
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 13 June 2015 15:18:28 +0100
+
 ubuntu-mate-settings (0.4.5) wily; urgency=medium
 
   * Added default settings for Plank.
