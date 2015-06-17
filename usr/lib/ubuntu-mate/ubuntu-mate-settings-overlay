@@ -10,12 +10,16 @@ function overlay_file() {
     fi
 }
 
-overlay_file config/plank/dock1/settings
-overlay_file config/plank/dock1/launchers/firefox.dockitem
-overlay_file config/plank/dock1/launchers/matecc.dockitem
-overlay_file config/plank/dock1/launchers/plank.dockitem
-overlay_file config/plank/dock1/launchers/thunderbird.dockitem
-overlay_file config/plank/dock1/launchers/ubuntu-software-center.dockitem
-overlay_file config/plank/dock1/launchers/vlc.dockitem
+if [ ! -d "${HOME}/.config/plank/dock1" ]; then
+    overlay_file config/plank/dock1/settings
+    overlay_file config/plank/dock1/launchers/firefox.dockitem
+    overlay_file config/plank/dock1/launchers/matecc.dockitem
+    overlay_file config/plank/dock1/launchers/plank.dockitem
+    overlay_file config/plank/dock1/launchers/thunderbird.dockitem
+    overlay_file config/plank/dock1/launchers/vlc.dockitem
+    if [ -f /usr/bin/software-center ]; then
+        overlay_file config/plank/dock1/launchers/ubuntu-software-center.dockitem
+    fi
+fi
 overlay_file config/folder-color/hide_donation
 overlay_file config/Trolltech.conf
