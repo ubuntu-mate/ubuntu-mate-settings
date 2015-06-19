@@ -15,8 +15,12 @@ if [ ! -d "${HOME}/.config/plank/dock1" ]; then
     overlay_file config/plank/dock1/launchers/firefox.dockitem
     overlay_file config/plank/dock1/launchers/matecc.dockitem
     overlay_file config/plank/dock1/launchers/plank.dockitem
-    overlay_file config/plank/dock1/launchers/thunderbird.dockitem
-    overlay_file config/plank/dock1/launchers/vlc.dockitem
+    if [ -f /usr/bin/thunderbird ]; then
+        overlay_file config/plank/dock1/launchers/thunderbird.dockitem
+    fi
+    if [ -f /usr/bin/vlc ]; then
+        overlay_file config/plank/dock1/launchers/vlc.dockitem
+    fi
     if [ -f /usr/bin/software-center ]; then
         overlay_file config/plank/dock1/launchers/ubuntu-software-center.dockitem
     fi
