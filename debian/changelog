@@ -1,3 +1,10 @@
+
+ubuntu-mate-settings (0.4.7) wily; urgency=medium
+
+  * Update overlay settings to replace corrupt Tilda configuration. 
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 27 June 2015 09:15:37 +0100
+
 ubuntu-mate-settings (0.4.6) wily; urgency=medium
 
   * Fix overlay settings so they do not clobber Plank.
