@@ -1,3 +1,9 @@
+ubuntu-mate-settings (0.4.8) wily; urgency=medium
+
+  * Process debian folder with wrap and sort.
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 21 July 2015 00:21:12 +0100
+
 ubuntu-mate-settings (0.4.7) wily; urgency=medium
 
   * Update overlay settings to replace corrupt Tilda configurations.
