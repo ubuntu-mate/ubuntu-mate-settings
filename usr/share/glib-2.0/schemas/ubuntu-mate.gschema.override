@@ -65,6 +65,7 @@ monospace-font-name='Ubuntu Mono 13'
 
 [org.mate.Marco.general]
 center-new-windows=false
+compositing-manager=true
 side-by-side-tiling=true
 theme='Ambiant-MATE'
 titlebar-font='Ubuntu Medium 11'
