@@ -30,9 +30,6 @@ active-plugins=['artsearch', 'audiocd','audioscrobbler','cd-recorder','daap','db
 [org.gnome.Charmap]
 font='Ubuntu 22'
 
-[org.gnome.DejaDup]
-backend='file'
-
 [org.mate.applications-at-mobility]
 exec='onboard'
 

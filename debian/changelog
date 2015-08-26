@@ -1,16 +1,27 @@
-ubuntu-mate-settings (0.4.8) wily; urgency=medium
+ubuntu-mate-settings (15.10.1) wily; urgency=medium
 
-  * Process debian folder with wrap and sort.
+  [ Robert Ancell ]
+  * Merge LightDM configuration changes.
 
- -- Martin Wimpress <code@flexion.org>  Mon, 21 July 2015 00:21:12 +0100
+  [ Martin Wimpress ]
+  * ubuntu-mate.gschema.override:
+    + Remove Deja Dup override to ensure the backup wizard runs.
+  * debian/changelog:
+    + Bump version to track Ubuntu release cycle.
+    + White space cleanup.
+  * Closes (LP: #1488930)
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 26 Aug 2015 12:10:37 +0100
 
 ubuntu-mate-settings (0.4.7) wily; urgency=medium
 
   * Update overlay settings to replace corrupt Tilda configurations.
   * Add gsettings override to enable Marco compositing.
+  * Remove Ubuntu Software Center dockitem.
+  * Process debian folder with wrap and sort.
   * Closes (LP: #1476616)
 
- -- Martin Wimpress <code@flexion.org>  Mon, 20 July 2015 00:03:37 +0100
+ -- Martin Wimpress <code@flexion.org>  Mon, 20 Jul 2015 00:03:37 +0100
 
 ubuntu-mate-settings (0.4.6) wily; urgency=medium
 
@@ -21,7 +32,7 @@ ubuntu-mate-settings (0.4.6) wily; urgency=medium
     + DVD, VideCD and SuperVCD discs are handled by VLC.
   * Closes (LP: #1466785).
 
- -- Martin Wimpress <code@flexion.org>  Sat, 13 June 2015 15:18:28 +0100
+ -- Martin Wimpress <code@flexion.org>  Sat, 13 Jun 2015 15:18:28 +0100
 
 ubuntu-mate-settings (0.4.5) wily; urgency=medium
 
@@ -83,7 +94,7 @@ ubuntu-mate-settings (0.4.2) vivid; urgency=medium
 ubuntu-mate-settings (0.4.1~15.04~20) vivid; urgency=medium
 
   * Switched to Yuyo GTK theme.
-  * Sane defaults for Touchpads. 
+  * Sane defaults for Touchpads.
   * Consistent units throughout MATE.
   * Consistent button layouts in MATE, GTK3 and GNOME.
   * Changed Pluma theme to Yuyo-Dark.

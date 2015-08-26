@@ -21,9 +21,6 @@ if [ ! -d "${HOME}/.config/plank/dock1" ]; then
     if [ -f /usr/bin/vlc ]; then
         overlay_file config/plank/dock1/launchers/vlc.dockitem
     fi
-    if [ -f /usr/bin/software-center ]; then
-        overlay_file config/plank/dock1/launchers/ubuntu-software-center.dockitem
-    fi
 fi
 overlay_file config/folder-color/hide_donation
 overlay_file config/Trolltech.conf
