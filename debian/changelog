@@ -1,7 +1,10 @@
 ubuntu-mate-settings (15.10.2) wily; urgency=medium
 
   * Correct categorisation of Accessibility settings.
+  * Correct date stamp in earlier releases to prevent errors with dpkg.
+  * Sync LibreOffice custom .desktop entries with upstream.
   * Remove obsolete .desktop entries.
+  * Closes (LP: #1493034)
 
  -- Martin Wimpress <code@flexion.org>  Mon, 07 Sep 2015 09:46:58 +0100
 
