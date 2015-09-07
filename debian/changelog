@@ -1,3 +1,10 @@
+ubuntu-mate-settings (15.10.2) wily; urgency=medium
+
+  * Correct categorisation of Accessibility settings.
+  * Remove obsolete .desktop entries.
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 07 Sep 2015 09:46:58 +0100
+
 ubuntu-mate-settings (15.10.1) wily; urgency=medium
 
   [ Robert Ancell ]

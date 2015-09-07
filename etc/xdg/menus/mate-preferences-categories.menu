@@ -23,6 +23,10 @@
         <Category>X-GNOME-SystemSettings</Category>
         <Category>Archiving</Category>
       </And>
+      <And>
+        <Category>Settings</Category>
+        <Category>Accessibility</Category>
+      </And>
     </Include>
   </Menu>
 
@@ -85,6 +89,7 @@
     <Include>
       <And>
         <Category>Settings</Category>
+        <Not><Category>Accessibility</Category></Not>
         <Not><Category>System</Category></Not>
         <Not><Category>DesktopSettings</Category></Not>
         <Not><Category>HardwareSettings</Category></Not>
