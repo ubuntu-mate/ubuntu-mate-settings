@@ -59,6 +59,7 @@ gtk-theme='Ambiant-MATE'
 font-name='Ubuntu 11'
 document-font-name='Ubuntu 11'
 monospace-font-name='Ubuntu Mono 13'
+enable-animations=false
 
 [org.mate.Marco.general]
 center-new-windows=false
