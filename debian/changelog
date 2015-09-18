@@ -1,3 +1,13 @@
+ubuntu-mate-settings (15.10.3) wily; urgency=medium
+
+  * debian/ubuntu-mate-settings.install: Fix FTBFS due to missing files:
+    - remove mate-keybinding desktop file (already dropped in previous upload)
+    - remove mate-network-properties desktop file (same as above)
+  * debian/ubuntu-mate-settings.install: add mate-at-properties.desktop file
+    which was introduced in the previous upload.
+
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Thu, 17 Sep 2015 17:38:47 -0400
+
 ubuntu-mate-settings (15.10.2) wily; urgency=medium
 
   * Correct categorisation of Accessibility settings.
