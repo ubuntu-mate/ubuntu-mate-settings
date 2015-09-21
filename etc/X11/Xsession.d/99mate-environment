@@ -15,4 +15,7 @@ if [ "x$DESKTOP_SESSION" = "xmate" ] || [ "x$XDG_SESSION_DESKTOP" == "xmate" ]; 
     # For example:
     #  - Telegram doesn't work with QT_STYLE_OVERRIDE=gtk
     # export QT_STYLE_OVERRIDE=gtk
+
+    # Workaround clutter issue (LP: #1462445)
+    export CLUTTER_BACKEND=x11
 fi

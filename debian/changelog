@@ -1,3 +1,11 @@
+ubuntu-mate-settings (15.10.4) wily; urgency=medium
+
+  * Workaround clutter issue (LP: #1462445)
+  * Update Plank configuration so it is compatible with version 0.10.0
+  * Closes (LP: #)
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 22 Sep 2015 00:35:16 +0100
+
 ubuntu-mate-settings (15.10.3) wily; urgency=medium
 
   * debian/ubuntu-mate-settings.install: Fix FTBFS due to missing files:

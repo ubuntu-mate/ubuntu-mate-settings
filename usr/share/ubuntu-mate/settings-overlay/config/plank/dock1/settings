@@ -15,7 +15,7 @@ HideDelay=0
 #The plug-name of the monitor for the dock to show on (e.g. DVI-I-1, HDMI1, LVDS1). Leave this empty to keep on the primary monitor.
 Monitor=
 #List of *.dockitem files on this dock. DO NOT MODIFY
-DockItems=plank.dockitem;;firefox.dockitem;;thunderbird.dockitem;;vlc.dockitem;;matecc.dockitem
+DockItems=firefox.dockitem;;thunderbird.dockitem;;vlc.dockitem;;matecc.dockitem
 #The position for the dock on the monitor.  If 0, left.  If 1, right.  If 2, top.  If 3, bottom.
 Position=3
 #The dock's position offset from center (in percent).
