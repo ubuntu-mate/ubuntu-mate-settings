@@ -11,10 +11,8 @@ if [ "x$DESKTOP_SESSION" = "xmate" ] || [ "x$XDG_SESSION_DESKTOP" == "xmate" ]; 
     # Disable GTK3 overlay scrollbars
     export GTK_OVERLAY_SCROLLING=0
 
-    # Sadly this environment variable can cause applications to segfault.
-    # For example:
-    #  - Telegram doesn't work with QT_STYLE_OVERRIDE=gtk
-    # export QT_STYLE_OVERRIDE=gtk
+	# QT apps to use GTK styling
+    export QT_STYLE_OVERRIDE=gtk
 
     # Workaround clutter issue (LP: #1462445)
     export CLUTTER_BACKEND=x11

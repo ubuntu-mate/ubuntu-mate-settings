@@ -16,7 +16,9 @@ Depends: desktop-file-utils,
          ttf-ubuntu-font-family,
          ${misc:Depends},
 Replaces: policykit-desktop-privileges-ubuntu-mate,
-Suggests: mate-desktop-environment-core (>= 1.8.0),
+Suggests: mate-desktop-environment-core (>= 1.10.0),
+Conflicts: debian-mate-default-settings,
+           mint-mate-default-settings,
 Description: Default settings for Ubuntu MATE
  Various system settings tailored for Ubuntu MATE.
 

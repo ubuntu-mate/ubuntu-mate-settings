@@ -1,8 +1,23 @@
+ubuntu-mate-settings (16.04.1) xenial; urgency=medium
+
+  * etc/X11/Xsession.d/99mate-environment
+    + Enable GTK styling for QT applications.
+  * usr/share/glib-2.0/schemas/ubuntu-mate.gschema.override
+    + Enable Marco animations.
+  * usr/share/mate/applications/defaults.list:
+    + Correct .destkop typos.
+    + Update and sort default application handlers.
+  * debian/control:
+    + Conflict with debian-mate-default-settings.
+  * Closes (LP: #)
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 27 Oct 2015 14:01:48 +0000
+
 ubuntu-mate-settings (15.10.4) wily; urgency=medium
 
   * Workaround clutter issue (LP: #1462445)
   * Update Plank configuration so it is compatible with version 0.10.0
-  * Closes (LP: #)
+  * Closes (LP: #1498340)
 
  -- Martin Wimpress <code@flexion.org>  Tue, 22 Sep 2015 00:35:16 +0100
 
