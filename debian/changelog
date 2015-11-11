@@ -1,4 +1,4 @@
-ubuntu-mate-settings (16.04.0) xenial; urgency=medium
+ubuntu-mate-settings (16.04.0~xenial1.1) xenial; urgency=medium
 
   * etc/X11/Xsession.d/99mate-environment
     + Enable GTK styling for QT applications.
@@ -12,6 +12,8 @@ ubuntu-mate-settings (16.04.0) xenial; urgency=medium
     + Conflict with debian-mate-default-settings.
   * etc/xdg/menus/mate-preferences-categories.menu:
     + Removed, now provided by mate-control-center 1.12.0.
+  * usr/share/mate-panel/layouts/mutiny.layout:
+    + Add Mutiny panel layout support.
   * Closes (LP: #)
 
  -- Martin Wimpress <code@flexion.org>  Tue, 27 Oct 2015 14:01:48 +0000

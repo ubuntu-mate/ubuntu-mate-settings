@@ -1,0 +1,134 @@
+[Toplevel top]
+orientation=top
+expand=true
+size=24
+
+[Toplevel left]
+orientation=left
+expand=true
+size=64
+
+[Object notificationarea]
+locked=true
+position=20
+panel-right-stick=true
+toplevel-id=top
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+object-type=applet
+
+[Object clockapplet]
+locked=true
+position=10
+panel-right-stick=true
+toplevel-id=top
+applet-iid=ClockAppletFactory::ClockApplet
+object-type=applet
+
+[Object shutdown]
+action-type=shutdown
+locked=true
+position=0
+panel-right-stick=true
+toplevel-id=top
+
+[Object menu]
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=left
+object-type=menu
+
+[Object launcher]
+locked=true
+position=10
+launcher-location=/usr/share/applications/matecc.desktop
+panel-right-stick=false
+toplevel-id=left
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=20
+launcher-location=/usr/share/applications/firefox.desktop
+panel-right-stick=false
+toplevel-id=left
+object-type=launcher
+menu-path=applications:/
+object-type=action
+
+[Object menu]
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=left
+object-type=menu
+
+[Object launcher]
+locked=true
+position=10
+launcher-location=/usr/share/applications/matecc.desktop
+panel-right-stick=false
+toplevel-id=left
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=20
+launcher-location=/usr/share/applications/firefox.desktop
+panel-right-stick=false
+toplevel-id=left
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=30
+launcher-location=/usr/share/applications/libreoffice-writer.desktop
+panel-right-stick=false
+toplevel-id=left
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=40
+launcher-location=/home/martin/.local/share/applications/libreoffice-calc.desktop
+panel-right-stick=false
+toplevel-id=left
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=50
+launcher-location=/usr/share/applications/libreoffice-impress.desktop
+panel-right-stick=false
+toplevel-id=left
+object-type=launcher
+menu-path=applications:/
+
+[Object dockapplet]
+locked=true
+position=60
+panel-right-stick=false
+toplevel-id=left
+applet-iid=DockAppletFactory::DockApplet
+object-type=applet
+
+[Object workspaceswitcherapplet]
+locked=false
+position=20
+panel-right-stick=false
+toplevel-id=left
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+object-type=applet
+
+[Object trashapplet]
+locked=false
+position=10
+panel-right-stick=true
+toplevel-id=left
+applet-iid=TrashAppletFactory::TrashApplet
+object-type=applet
