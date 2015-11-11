@@ -1,14 +1,17 @@
-ubuntu-mate-settings (16.04.1) xenial; urgency=medium
+ubuntu-mate-settings (16.04.0) xenial; urgency=medium
 
   * etc/X11/Xsession.d/99mate-environment
     + Enable GTK styling for QT applications.
   * usr/share/glib-2.0/schemas/ubuntu-mate.gschema.override
     + Enable Marco animations.
+    + Show program list in launcher.
   * usr/share/mate/applications/defaults.list:
     + Correct .destkop typos.
     + Update and sort default application handlers.
   * debian/control:
     + Conflict with debian-mate-default-settings.
+  * etc/xdg/menus/mate-preferences-categories.menu:
+    + Removed, now provided by mate-control-center 1.12.0.
   * Closes (LP: #)
 
  -- Martin Wimpress <code@flexion.org>  Tue, 27 Oct 2015 14:01:48 +0000

@@ -95,6 +95,7 @@ undecorate=false
 
 [org.mate.panel]
 default-layout='ubuntu-mate'
+show-program-list=true
 
 [org.mate.peripherals-mouse]
 cursor-theme='DMZ-White'

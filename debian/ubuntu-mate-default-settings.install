@@ -1,6 +1,5 @@
 etc/X11/Xsession.d/
 etc/profile.d/
-etc/xdg/menus/
 usr/lib/ubuntu-mate/
 usr/share/X11/xorg.conf.d/
 usr/share/applications/
