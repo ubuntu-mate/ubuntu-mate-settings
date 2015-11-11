@@ -1,4 +1,4 @@
-ubuntu-mate-settings (16.04.0~xenial1.1) xenial; urgency=medium
+ubuntu-mate-settings (16.04.0~wily1.4) wily; urgency=medium
 
   * etc/X11/Xsession.d/99mate-environment
     + Enable GTK styling for QT applications.
