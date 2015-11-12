@@ -1,5 +1,6 @@
-ubuntu-mate-settings (16.04.0~wily1.4) wily; urgency=medium
+ubuntu-mate-settings (16.04.0~xenial1.5) xenial; urgency=medium
 
+  * Added Mutiny panel layouts.
   * etc/X11/Xsession.d/99mate-environment
     + Enable GTK styling for QT applications.
   * usr/share/glib-2.0/schemas/ubuntu-mate.gschema.override
@@ -12,8 +13,6 @@ ubuntu-mate-settings (16.04.0~wily1.4) wily; urgency=medium
     + Conflict with debian-mate-default-settings.
   * etc/xdg/menus/mate-preferences-categories.menu:
     + Removed, now provided by mate-control-center 1.12.0.
-  * usr/share/mate-panel/layouts/mutiny.layout:
-    + Add Mutiny panel layout support.
   * Closes (LP: #)
 
  -- Martin Wimpress <code@flexion.org>  Tue, 27 Oct 2015 14:01:48 +0000

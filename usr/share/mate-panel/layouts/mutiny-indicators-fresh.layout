@@ -47,54 +47,9 @@ panel-right-stick=false
 toplevel-id=left
 object-type=menu
 
-[Object firefox]
-locked=true
-position=10
-launcher-location=/usr/share/applications/firefox.desktop
-panel-right-stick=false
-toplevel-id=left
-object-type=launcher
-menu-path=applications:/
-
-[Object writer]
-locked=true
-position=20
-launcher-location=/usr/share/applications/libreoffice-writer.desktop
-panel-right-stick=false
-toplevel-id=left
-object-type=launcher
-menu-path=applications:/
-
-[Object calc]
-locked=true
-position=30
-launcher-location=/usr/share/applications/libreoffice-calc.desktop
-panel-right-stick=false
-toplevel-id=left
-object-type=launcher
-menu-path=applications:/
-
-[Object impress]
-locked=true
-position=40
-launcher-location=/usr/share/applications/libreoffice-impress.desktop
-panel-right-stick=false
-toplevel-id=left
-object-type=launcher
-menu-path=applications:/
-
-[Object matecc]
-locked=true
-position=50
-launcher-location=/usr/share/applications/matecc.desktop
-panel-right-stick=false
-toplevel-id=left
-object-type=launcher
-menu-path=applications:/
-
 [Object dockapplet]
 locked=true
-position=60
+position=10
 panel-right-stick=false
 toplevel-id=left
 applet-iid=DockAppletFactory::DockApplet
