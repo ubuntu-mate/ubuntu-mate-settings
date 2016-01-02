@@ -1,4 +1,4 @@
-ubuntu-mate-settings (16.04.1) UNRELEASED; urgency=medium
+ubuntu-mate-settings (16.04.1) xenial; urgency=medium
 
   * Updated custom menu entries to reduce clutter.
 
