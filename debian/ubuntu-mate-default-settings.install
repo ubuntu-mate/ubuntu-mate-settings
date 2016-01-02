@@ -7,6 +7,7 @@ usr/share/glib-2.0/schemas/ubuntu-mate.gschema.override
 usr/share/lightdm/lightdm.conf.d/50-ubuntu-mate.conf
 usr/share/mate-panel/layouts/
 usr/share/mate/applications/defaults.list
+usr/share/mate/applications/kde-Kantiword-Installer.desktop
 usr/share/mate/applications/language-selector.desktop
 usr/share/mate/applications/mate-at-properties.desktop
 usr/share/mate/applications/software-properties-gtk.desktop
