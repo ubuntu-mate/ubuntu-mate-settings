@@ -1,4 +1,10 @@
-ubuntu-mate-settings (16.04.0~wily1.4) wily; urgency=medium
+ubuntu-mate-settings (16.04.1) UNRELEASED; urgency=medium
+
+  * Updated custom menu entries to reduce clutter.
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 02 Jan 2016 14:05:31 +0000
+
+ubuntu-mate-settings (16.04.0) xenial; urgency=medium
 
   * etc/X11/Xsession.d/99mate-environment
     + Enable GTK styling for QT applications.
@@ -14,7 +20,7 @@ ubuntu-mate-settings (16.04.0~wily1.4) wily; urgency=medium
     + Removed, now provided by mate-control-center 1.12.0.
   * usr/share/mate-panel/layouts/mutiny.layout:
     + Add Mutiny panel layout support.
-  * Closes (LP: #)
+  * Closes (LP: #1523834)
 
  -- Martin Wimpress <code@flexion.org>  Tue, 27 Oct 2015 14:01:48 +0000
 
