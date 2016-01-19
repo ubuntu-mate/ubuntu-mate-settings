@@ -22,4 +22,5 @@ if [ ! -d "${HOME}/.config/plank/dock1" ]; then
     fi
 fi
 overlay_file config/folder-color/hide_donation
+overlay_file config/libreoffice/4/user/registrymodifications.xcu
 overlay_file config/Trolltech.conf
