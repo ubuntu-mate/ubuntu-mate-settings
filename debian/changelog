@@ -1,4 +1,14 @@
-ubuntu-mate-settings (16.04.1~xenial1.2) xenial; urgency=medium
+ubuntu-mate-settings (16.04.1~wily1.3) wily; urgency=medium
+
+  * Updated custom menu entries to reduce clutter.
+  * Updated gsettings override for GTK file-chooser.
+  * Updated gsettings override for window-keybindings.
+  * Fixed Mutiny panel layouts.
+  * Closes (LP: #)
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 02 Jan 2016 14:05:31 +0000
+
+ubuntu-mate-settings (16.04.1~wily1.1) wily; urgency=medium
 
   * Updated custom menu entries to reduce clutter.
   * Fixed Mutiny panel layouts.

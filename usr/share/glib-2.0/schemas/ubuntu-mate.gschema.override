@@ -30,6 +30,14 @@ active-plugins=['artsearch', 'audiocd','audioscrobbler','cd-recorder','daap','db
 [org.gnome.Charmap]
 font='Ubuntu 22'
 
+[org.gtk.Settings.FileChooser]
+show-hidden=false
+show-size-column=true
+sort-directories-first=true
+sort-order=ascending
+sort-column=name
+startup-mode=cwd
+
 [org.mate.applications-at-mobility]
 exec='onboard'
 
@@ -81,10 +89,10 @@ move-to-corner-ne='<Control><Alt>KP_Page_Up'
 move-to-corner-nw='<Control><Alt>KP_Home'
 move-to-corner-se='<Control><Alt>KP_Page_Down'
 move-to-corner-sw='<Control><Alt>KP_End'
-move-to-side-e='<Control><Alt>KP_Right'
 move-to-side-n='<Control><Alt>KP_Up'
 move-to-side-s='<Control><Alt>KP_Down'
-move-to-side-w='<Control><Alt>KP_Left'
+tile-to-side-e='<Control><Alt>KP_Right'
+tile-to-side-w='<Control><Alt>KP_Left'
 
 [org.mate.NotificationDaemon]
 theme='slider'
