@@ -44,6 +44,12 @@ exec='onboard'
 [org.mate.applications-at-visual]
 exec='orca'
 
+[org.mate.applications-office.calendar]
+exec='thunderbird'
+
+[org.mate.applications-office.tasks]
+exec='thunderbird'
+
 [org.mate.background]
 picture-filename='/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Cold.jpg'
 
@@ -53,8 +59,14 @@ computer-icon-visible=false
 home-icon-visible=true
 trash-icon-visible=false
 
+[org.mate.control-center.appearance]
+more-backgrounds-url='https://ubuntu-mate.community/c/multimedia/artwork'
+
 [org.mate.dictionary]
 print-font='Ubuntu 12'
+
+[org.mate.disk-usage-analyzer.ui]
+statusbar-visible=true
 
 [org.mate.font-rendering]
 antialiasing = 'rgba'
@@ -63,6 +75,7 @@ hinting = 'slight'
 [org.mate.interface]
 icon-theme='Ambiant-MATE'
 gtk-decoration-layout='menu:minimize,maximize,close'
+gtk-key-theme='Ambiant-MATE'
 gtk-theme='Ambiant-MATE'
 font-name='Ubuntu 11'
 document-font-name='Ubuntu 11'
@@ -78,10 +91,10 @@ titlebar-font='Ubuntu Medium 11'
 [org.mate.Marco.global-keybindings]
 run-command-terminal='<Control><Alt>t'
 switch-panels='disabled'
-switch-windows='<Alt>Tab'
-switch-windows-all='<Control><Alt>Tab'
-switch-windows-all-backward='<Control><Alt><Shift>Tab'
-switch-windows-backward='<Alt><Shift>Tab'
+switch-windows='<Control><Alt>Tab'
+switch-windows-all='<Alt>Tab'
+switch-windows-all-backward='<Alt><Shift>Tab'
+switch-windows-backward='<Control><Alt><Shift>Tab'
 
 [org.mate.Marco.window-keybindings]
 move-to-center='<Control><Alt>KP_Begin'
@@ -123,6 +136,7 @@ print-font-header-pango='Ubuntu 11'
 print-font-numbers-pango='Ubuntu 8'
 
 [org.mate.screensaver]
+lock-delay=1
 mode='single'
 themes=['screensavers-footlogo-floaters']
 
@@ -131,10 +145,20 @@ theme-name='ubuntu'
 event-sounds=true
 input-feedback-sounds=true
 
+[org.mate.session]
+idle-delay=30
+
 [org.mate.SettingsDaemon.plugins.media-keys]
 magnifier='<Alt><Mod4>m'
 screenreader='<Alt><Mod4>s'
 on-screen-keyboard='<Alt><Mod4>k'
+
+[org.mate.stickynotes]
+default-font='Ubuntu 10'
+
+[org.mate.system-monitor]
+show-tree=true
+solaris-mode=true
 
 [org.mate.terminal.profile]
 allow-bold=false
