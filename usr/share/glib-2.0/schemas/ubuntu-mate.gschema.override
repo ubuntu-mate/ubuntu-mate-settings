@@ -90,10 +90,10 @@ titlebar-font='Ubuntu Medium 11'
 [org.mate.Marco.global-keybindings]
 run-command-terminal='<Control><Alt>t'
 switch-panels='disabled'
-switch-windows='<Control><Alt>Tab'
-switch-windows-all='<Alt>Tab'
-switch-windows-all-backward='<Alt><Shift>Tab'
-switch-windows-backward='<Control><Alt><Shift>Tab'
+switch-windows='<Alt>Tab'
+switch-windows-all='<Control><Alt>Tab'
+switch-windows-all-backward='<Control><Alt><Shift>Tab'
+switch-windows-backward='<Alt><Shift>Tab'
 
 [org.mate.Marco.window-keybindings]
 move-to-center='<Control><Alt>KP_Begin'
