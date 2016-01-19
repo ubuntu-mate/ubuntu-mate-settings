@@ -75,7 +75,6 @@ hinting = 'slight'
 [org.mate.interface]
 icon-theme='Ambiant-MATE'
 gtk-decoration-layout='menu:minimize,maximize,close'
-gtk-key-theme='Ambiant-MATE'
 gtk-theme='Ambiant-MATE'
 font-name='Ubuntu 11'
 document-font-name='Ubuntu 11'
