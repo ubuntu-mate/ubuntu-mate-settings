@@ -1,18 +1,9 @@
-ubuntu-mate-settings (16.04.1~wily1.4) wily; urgency=medium
+ubuntu-mate-settings (16.04.1~wily1.6) wily; urgency=medium
 
   * Update custom menu entries to reduce clutter.
   * Update gsettings override to improve default behaviour.
-  * Update gsettings override for global-keybinding. (LP: #1493408)
-  * Correct LibreOffice default font to use Human.
+  * Correct LibreOffice default icons to use Human style.
   * Fix Mutiny panel layouts.
-  * Closes (LP: #)
-
- -- Martin Wimpress <code@flexion.org>  Sat, 02 Jan 2016 14:05:31 +0000
-
-ubuntu-mate-settings (16.04.1~wily1.1) wily; urgency=medium
-
-  * Updated custom menu entries to reduce clutter.
-  * Fixed Mutiny panel layouts.
   * Closes (LP: #)
 
  -- Martin Wimpress <code@flexion.org>  Sat, 02 Jan 2016 14:05:31 +0000
