@@ -1,7 +1,7 @@
 [general]
 toplevel-id-list=['top', 'left']
 default-layout='mutiny'
-object-id-list=['notification-area', 'clock', 'shutdown', 'menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
+object-id-list=['topmenu', 'notification-area', 'clock', 'shutdown', 'mate-menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
 
 [toplevels/left]
 expand=true
@@ -15,6 +15,38 @@ expand=true
 orientation='top'
 screen=0
 size=24
+
+[objects/notification-area]
+applet-iid='NotificationAreaAppletFactory::NotificationArea'
+locked=true
+toplevel-id='top'
+position=20
+object-type='applet'
+panel-right-stick=true
+
+[objects/clock]
+applet-iid='ClockAppletFactory::ClockApplet'
+locked=true
+toplevel-id='top'
+position=10
+object-type='applet'
+panel-right-stick=true
+
+[objects/shutdown]
+locked=true
+toplevel-id='top'
+action-type='shutdown'
+position=0
+object-type='action'
+panel-right-stick=true
+
+[objects/mate-menu]
+applet-iid='MateMenuAppletFactory::MateMenuApplet'
+locked=true
+toplevel-id='left'
+position=0
+object-type='applet'
+panel-right-stick=false
 
 [objects/dockapplet]
 applet-iid='DockAppletFactory::DockApplet'
@@ -32,14 +64,6 @@ click-restore-last-active=true
 apps-from-all-workspaces=true
 multi-ind=true
 
-[objects/clock]
-applet-iid='ClockAppletFactory::ClockApplet'
-locked=true
-toplevel-id='top'
-position=10
-object-type='applet'
-panel-right-stick=true
-
 [objects/workspaceswitcherapplet]
 applet-iid='WnckletFactory::WorkspaceSwitcherApplet'
 locked=true
@@ -47,29 +71,6 @@ toplevel-id='left'
 position=10
 object-type='applet'
 panel-right-stick=true
-
-[objects/shutdown]
-locked=true
-toplevel-id='top'
-action-type='shutdown'
-position=0
-object-type='action'
-panel-right-stick=true
-
-[objects/notification-area]
-applet-iid='NotificationAreaAppletFactory::NotificationArea'
-locked=true
-toplevel-id='top'
-position=30
-object-type='applet'
-panel-right-stick=true
-
-[objects/menu]
-locked=true
-toplevel-id='left'
-position=0
-object-type='menu'
-panel-right-stick=false
 
 [objects/trashapplet]
 applet-iid='TrashAppletFactory::TrashApplet'
