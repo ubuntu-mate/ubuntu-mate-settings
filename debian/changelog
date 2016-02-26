@@ -1,7 +1,9 @@
-ubuntu-mate-settings (16.04.2) UNRELEASED; urgency=medium
+ubuntu-mate-settings (16.04.2) xenial; urgency=medium
 
   * Add support for topmenu-gtk.
-  * Closes (LP: #)
+  * Add topmenu to the Mutiny layouts.
+  * Correct the "fresh" variants of the Mutiny layouts.
+  * Closes (LP: #1547989)
 
  -- Martin Wimpress <code@flexion.org>  Fri, 19 Feb 2016 00:46:59 +0000
 
