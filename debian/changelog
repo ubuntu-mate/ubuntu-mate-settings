@@ -1,3 +1,12 @@
+ubuntu-mate-settings (16.04.3) UNRELEASED; urgency=medium
+
+  * Added a workaround for incorrect ~/.xinputrc configuration.
+  See LP: #1550325
+  * Migrated Plank configuration to gsettings, required by the
+  new version of Plank.
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 26 Feb 2016 13:27:27 +0000
+
 ubuntu-mate-settings (16.04.2) xenial; urgency=medium
 
   * Add support for topmenu-gtk.
