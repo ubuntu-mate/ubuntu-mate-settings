@@ -11,6 +11,7 @@ Vcs-Browser: http://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/ubuntu-mat
 Package: ubuntu-mate-default-settings
 Architecture: all
 Depends: desktop-file-utils,
+         im-config,
          libglib2.0-bin,
          mate-panel,
          ttf-ubuntu-font-family,
