@@ -3,6 +3,8 @@ ubuntu-mate-settings (16.04.4) UNRELEASED; urgency=medium
   * Add modified mate-panel.desktop, specific to Ubuntu MATE, to cater
   for the various supported  compositors and disk encryption
   strategies.
+  * Add all optical video mime types and set them to autoplay.
+  * Closes (LP: #)
 
  -- Martin Wimpress <code@flexion.org>  Fri, 11 Mar 2016 16:58:48 +0000
 
