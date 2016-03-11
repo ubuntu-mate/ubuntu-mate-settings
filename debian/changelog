@@ -1,4 +1,12 @@
-ubuntu-mate-settings (16.04.3) UNRELEASED; urgency=medium
+ubuntu-mate-settings (16.04.4) UNRELEASED; urgency=medium
+
+  * Add modified mate-panel.desktop, specific to Ubuntu MATE, to cater
+  for the various supported  compositors and disk encryption
+  strategies.
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 11 Mar 2016 16:58:48 +0000
+
+ubuntu-mate-settings (16.04.3) xenial; urgency=medium
 
   * Added a workaround for incorrect ~/.xinputrc configuration.
   See LP: #1550325
