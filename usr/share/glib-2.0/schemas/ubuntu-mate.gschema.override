@@ -73,6 +73,9 @@ statusbar-visible=true
 antialiasing = 'rgba'
 hinting = 'slight'
 
+[org.mate.gnome-main-menu]
+network-config-tool='network.desktop'
+
 [org.mate.interface]
 icon-theme='Ambiant-MATE'
 gtk-decoration-layout='menu:minimize,maximize,close'
