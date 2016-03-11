@@ -81,6 +81,9 @@ font-name='Ubuntu 11'
 document-font-name='Ubuntu 11'
 monospace-font-name='Ubuntu Mono 13'
 
+[org.mate.media-handling]
+autorun-x-content-start-app=['x-content/software','x-content/video-bluray.xml','x-content/video-dvd.xml', 'x-content/video-hddvd.xml','x-content/video-svcd.xml','x-content/video-vcd.xml']
+
 [org.mate.Marco.general]
 center-new-windows=false
 compositing-manager=true
