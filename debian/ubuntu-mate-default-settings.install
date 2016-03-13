@@ -16,4 +16,5 @@ usr/share/mate/applications/language-selector.desktop
 usr/share/mate/applications/software-properties-gtk.desktop
 usr/share/mate/applications/tilda.desktop
 usr/share/mate/autostart/
+usr/share/plank/themes/
 usr/share/ubuntu-mate/
