@@ -23,15 +23,10 @@ function correct_xinputrc() {
 }
 
 if [ ! -d "${HOME}/.config/plank/dock1" ]; then
-    overlay_file config/plank/dock1/settings
+    overlay_file config/plank/dock1/launchers/clock.dockitem
+    overlay_file config/plank/dock1/launchers/desktop.dockitem
     overlay_file config/plank/dock1/launchers/firefox.dockitem
     overlay_file config/plank/dock1/launchers/matecc.dockitem
-    if [ -f /usr/bin/thunderbird ]; then
-        overlay_file config/plank/dock1/launchers/thunderbird.dockitem
-    fi
-    if [ -f /usr/bin/vlc ]; then
-        overlay_file config/plank/dock1/launchers/vlc.dockitem
-    fi
 fi
 overlay_file config/folder-color/hide_donation
 overlay_file config/libreoffice/4/user/registrymodifications.xcu
