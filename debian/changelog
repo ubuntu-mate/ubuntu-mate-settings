@@ -6,7 +6,7 @@ ubuntu-mate-settings (16.04.4) xenial; urgency=medium
   * Add all optical video mime types and enable autoplay.
   * Correct the settings for Plank. See LP: #1556651  
   * Correct the GNOME Main Menu entry for network-config-tool.
-  * Closes (LP: #)
+  * Closes (LP: #1556711)
 
  -- Martin Wimpress <code@flexion.org>  Fri, 11 Mar 2016 16:58:48 +0000
 
