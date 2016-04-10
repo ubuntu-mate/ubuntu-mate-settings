@@ -1,3 +1,9 @@
+ubuntu-mate-settings (16.04.5) xenial; urgency=medium
+
+  * Use the default LibreOffice Tango icons, just as Ubuntu does.
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 10 Apr 2016 13:54:43 +0100
+
 ubuntu-mate-settings (16.04.4) xenial; urgency=medium
 
   * Add modified mate-panel.desktop, specific to Ubuntu MATE, to cater
