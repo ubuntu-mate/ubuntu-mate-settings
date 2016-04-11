@@ -7,12 +7,14 @@ usr/share/glib-2.0/schemas/ubuntu-mate.gschema.override
 usr/share/lightdm/lightdm.conf.d/50-ubuntu-mate.conf
 usr/share/mate-panel/layouts/
 usr/share/mate/applications/defaults.list
+usr/share/mate/applications/compiz.desktop
 usr/share/mate/applications/debian-uxterm.desktop
 usr/share/mate/applications/debian-xterm.desktop
 usr/share/mate/applications/display-im6.desktop
 usr/share/mate/applications/display-im6.q16.desktop
 usr/share/mate/applications/kde-Kantiword-Installer.desktop
 usr/share/mate/applications/language-selector.desktop
+usr/share/mate/applications/marco.desktop
 usr/share/mate/applications/software-properties-gtk.desktop
 usr/share/mate/applications/tilda.desktop
 usr/share/mate/autostart/
