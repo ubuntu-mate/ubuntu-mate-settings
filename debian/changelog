@@ -1,4 +1,4 @@
-ubuntu-mate-settings (16.04.5~xenial1.2) xenial; urgency=medium
+ubuntu-mate-settings (16.04.5~xenial1.3) xenial; urgency=medium
 
   * Add modified window manager .desktop files, specific to Ubuntu MATE,
   to cater for the all supported compositors. Closes (LP: #1553070)
