@@ -2,6 +2,8 @@ ubuntu-mate-settings (16.04.5) xenial; urgency=medium
 
   * Add modified window manager .desktop files, specific to Ubuntu MATE,
   to cater for the all supported compositors. Closes (LP: #1553070)
+  * Revert the GNOME Main Menu entry for network-config-tool
+  * Closes (LP: #1569320)
 
  -- Martin Wimpress <code@flexion.org>  Sun, 10 Apr 2016 13:54:43 +0100
 
