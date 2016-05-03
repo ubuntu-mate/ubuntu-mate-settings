@@ -5,3 +5,4 @@ rm_conffile /etc/skel/.local/share/applications/mimeapps.list 0.4.2ubuntu1
 rm_conffile /etc/skel/.config/libreoffice/4/user/registrymodifications.xcu 0.4.2ubuntu1
 rm_conffile /etc/skel/.config/tilda/config_0 0.4.2ubuntu1
 rm_conffile /etc/skel/.config/Trolltech.conf 0.4.2ubuntu1
+rm_conffile /usr/share/X11/xorg.conf.d/90-zap.conf 16.04.5

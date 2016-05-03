@@ -1,3 +1,10 @@
+ubuntu-mate-settings (16.04.5.1) xenial; urgency=medium
+
+  * Remove /usr/share/X11/xorg.conf.d/90-zap.conf. Closes (LP: #1574789)
+  * Closes (LP: #1577706)
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 02 May 2016 23:42:23 +0100
+
 ubuntu-mate-settings (16.04.5) xenial; urgency=medium
 
   * Add modified window manager .desktop files, specific to Ubuntu MATE,

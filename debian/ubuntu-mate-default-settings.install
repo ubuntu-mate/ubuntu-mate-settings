@@ -1,7 +1,6 @@
 etc/X11/Xsession.d/
 etc/profile.d/
 usr/lib/ubuntu-mate/
-usr/share/X11/xorg.conf.d/
 usr/share/applications/
 usr/share/glib-2.0/schemas/ubuntu-mate.gschema.override
 usr/share/lightdm/lightdm.conf.d/50-ubuntu-mate.conf
