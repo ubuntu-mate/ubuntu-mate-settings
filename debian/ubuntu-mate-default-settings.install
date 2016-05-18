@@ -7,6 +7,7 @@ usr/share/lightdm/lightdm.conf.d/50-ubuntu-mate.conf
 usr/share/mate-panel/layouts/
 usr/share/mate/applications/defaults.list
 usr/share/mate/applications/compiz.desktop
+usr/share/mate/applications/compton.desktop
 usr/share/mate/applications/debian-uxterm.desktop
 usr/share/mate/applications/debian-xterm.desktop
 usr/share/mate/applications/display-im6.desktop

@@ -1,3 +1,11 @@
+ubuntu-mate-settings (16.10.0) yakkety; urgency=medium
+
+  * Do not automatically start Tilda.
+  * Migrate to LibreOffice Tango icons.
+  * Hide Compton desktop icon when running MATE.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 17 May 2016 22:57:48 +0100
+
 ubuntu-mate-settings (16.04.5.1) xenial; urgency=medium
 
   * Remove /usr/share/X11/xorg.conf.d/90-zap.conf. Closes (LP: #1574789)
