@@ -1,3 +1,10 @@
+ubuntu-mate-settings (16.10.1) yakkety; urgency=medium
+
+  * Overlay Tilda configuration with the other overlays.
+  * Add Ubuntu MATE theming to Galculator.
+
+ -- Martin Wimpress <code@flexion.org>  Thu, 19 May 2016 22:54:56 +0100
+
 ubuntu-mate-settings (16.10.0) yakkety; urgency=medium
 
   * Do not automatically start Tilda.
