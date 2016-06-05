@@ -1,3 +1,12 @@
+ubuntu-mate-settings (16.10.2) yakkety; urgency=medium
+
+  * Drop usr/share/mate/autostart/nm-applet.desktop. Obsolete,
+  upstream is MATE compatible now.
+  * Add usr/share/mate/autostart/indicator-application.desktop.
+  Closes (LP: #1588297)
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 05 Jun 2016 10:20:34 +0100
+
 ubuntu-mate-settings (16.10.1) yakkety; urgency=medium
 
   * Overlay Tilda configuration with the other overlays.

@@ -12,6 +12,7 @@ Package: ubuntu-mate-default-settings
 Architecture: all
 Depends: desktop-file-utils,
          im-config,
+         indicator-application,
          libglib2.0-bin,
          mate-panel,
          ttf-ubuntu-font-family,
