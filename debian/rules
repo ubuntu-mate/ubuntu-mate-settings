@@ -1,4 +1,10 @@
 #!/usr/bin/make -f
 
+GNUTYPE=$(shell dpkg-architecture -q DEB_TARGET_GNU_TYPE)
+
 %:
-	dh $@ 
+	dh $@
+
+override_dh_install:
+	sed 's/GNUTYPE/${GNUTYPE}/' data/indicator-application.desktop.in > debian/indicator-application.desktop
+	dh_install -pubuntu-mate-default-settings debian/indicator-application.desktop /usr/share/mate/autostart/

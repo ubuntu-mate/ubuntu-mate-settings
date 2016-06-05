@@ -1,3 +1,9 @@
+ubuntu-mate-settings (16.10.3) yakkety; urgency=medium
+
+  * Correct indicator-application.desktop. Now architecture specific.
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 05 Jun 2016 19:59:59 +0100
+
 ubuntu-mate-settings (16.10.2) yakkety; urgency=medium
 
   * Drop usr/share/mate/autostart/nm-applet.desktop. Obsolete,

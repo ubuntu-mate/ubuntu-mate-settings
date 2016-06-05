@@ -3,13 +3,15 @@ Section: x11
 Priority: optional
 Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
 Build-Depends: debhelper (>= 9),
+               dpkg-dev,
+               sed,
 Standards-Version: 3.9.8
 Homepage: https://launchpad.net/ubuntu-mate/
 Vcs-Bzr: lp:~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-settings
 Vcs-Browser: https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-settings/files
 
 Package: ubuntu-mate-default-settings
-Architecture: all
+Architecture: any
 Depends: desktop-file-utils,
          im-config,
          indicator-application,
