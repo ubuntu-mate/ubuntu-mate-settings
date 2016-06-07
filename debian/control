@@ -3,8 +3,8 @@ Section: x11
 Priority: optional
 Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
 Build-Depends: debhelper (>= 9),
-               dpkg-dev,
-               sed,
+               dpkg-dev (>= 1.17),
+               sed (>= 4.2.2),
 Standards-Version: 3.9.8
 Homepage: https://launchpad.net/ubuntu-mate/
 Vcs-Bzr: lp:~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-settings
@@ -16,11 +16,10 @@ Depends: desktop-file-utils,
          im-config,
          indicator-application,
          libglib2.0-bin,
-         mate-panel,
          ttf-ubuntu-font-family,
          ${misc:Depends},
 Replaces: policykit-desktop-privileges-ubuntu-mate,
-Suggests: mate-desktop-environment-core (>= 1.10.0),
+Suggests: mate-desktop-environment-core (>= 1.14.0),
 Conflicts: debian-mate-default-settings,
            mint-mate-default-settings,
 Description: Default settings for Ubuntu MATE
@@ -31,19 +30,3 @@ Architecture: all
 Depends: ${misc:Depends},
 Description: Default settings for Ubuntu MATE live CD
  Various system settings tailored for Ubuntu MATE live CD.
-
-Package: ubuntu-mate-libreoffice-draw-icons
-Architecture: all
-Depends: libreoffice-draw,
-         ${misc:Depends},
-Description: Ubuntu MATE desktop icons for LibreOffice draw
- Slightly modified LibreOffice draw .desktop files, for
- Ubuntu MATE, that reduce menu clutter.
-
-Package: ubuntu-mate-libreoffice-math-icons
-Architecture: all
-Depends: libreoffice-math,
-         ${misc:Depends},
-Description: Ubuntu MATE desktop icons for LibreOffice math
- Slightly modified LibreOffice math .desktop files, for
- Ubuntu MATE, that reduce menu clutter.

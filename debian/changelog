@@ -1,3 +1,17 @@
+ubuntu-mate-settings (16.10.4) yakkety; urgency=medium
+
+  * Reinstate usr/share/mate/autostart/nm-applet.desktop. Required to
+  work when MATE is not using Indicators.
+  * Drop custom compiz, marco and mate-panel .desktop files.
+  * Drop im-config auto-correction. Fixed upstream.
+  * debian/control:
+    - Version dpkg-dev (>= 1.17)
+    - Version sed (>=4.2.2)
+    - Drop mate-panel Depends
+    - Drop custom LibreOffice Draw and LibreOffce Math packages.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 07 Jun 2016 11:11:41 +0100
+
 ubuntu-mate-settings (16.10.3) yakkety; urgency=medium
 
   * Correct indicator-application.desktop. Now architecture specific.
