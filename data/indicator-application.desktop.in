@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Indicator Application
-Exec=/usr/lib/GNUTYPE/indicator-application/indicator-application-service
-StartupNotify=false
-Terminal=false

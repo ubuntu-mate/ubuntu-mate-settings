@@ -1,3 +1,9 @@
+ubuntu-mate-settings (16.10.5) yakkety; urgency=medium
+
+  * Drop indicator-application.desktop.
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 08 Jun 2016 22:05:08 +0100
+
 ubuntu-mate-settings (16.10.4) yakkety; urgency=medium
 
   * Reinstate usr/share/mate/autostart/nm-applet.desktop. Required to

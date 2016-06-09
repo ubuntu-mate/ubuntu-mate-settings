@@ -11,10 +11,9 @@ Vcs-Bzr: lp:~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-settings
 Vcs-Browser: https://bazaar.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/ubuntu-mate-settings/files
 
 Package: ubuntu-mate-default-settings
-Architecture: any
+Architecture: all
 Depends: desktop-file-utils,
          im-config,
-         indicator-application,
          libglib2.0-bin,
          ttf-ubuntu-font-family,
          ${misc:Depends},
