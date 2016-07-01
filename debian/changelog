@@ -1,3 +1,9 @@
+ubuntu-mate-settings (16.10.6) UNRELEASED; urgency=medium
+
+  * Add GDK_SCALE=1 to etc/X11/Xsession.d/99mate-environment.
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 01 Jul 2016 09:58:46 +0100
+
 ubuntu-mate-settings (16.10.5) yakkety; urgency=medium
 
   * Drop indicator-application.desktop.
