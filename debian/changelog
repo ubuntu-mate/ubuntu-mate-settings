@@ -1,3 +1,10 @@
+ubuntu-mate-settings (16.10.7) yakkety; urgency=medium
+
+  * debian/ubuntu-mate-default-settings.install: Add usr/lib/firefox.
+    - Ubuntu MATE branded start page.
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 13 Jul 2016 20:10:13 +0100
+
 ubuntu-mate-settings (16.10.6) yakkety; urgency=medium
 
   * debian/control:
