@@ -22,6 +22,7 @@ fi
 overlay_file config/folder-color/hide_donation
 overlay_file config/galculator/galculator.conf
 overlay_file config/libreoffice/4/user/registrymodifications.xcu
+overlay_file config/qt5ct/qt5ct.conf
 overlay_file config/synapse/config.json
 overlay_file config/tilda/config_0
 overlay_file config/Trolltech.conf

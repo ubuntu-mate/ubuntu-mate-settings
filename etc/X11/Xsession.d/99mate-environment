@@ -12,10 +12,7 @@ if [ "x$DESKTOP_SESSION" = "xmate" ] || [ "x$XDG_SESSION_DESKTOP" == "xmate" ]; 
     export GTK_OVERLAY_SCROLLING=0
 
     # QT apps to use GTK styling
-    export QT_STYLE_OVERRIDE=gtk
-
-    # Workaround clutter issue (LP: #1462445)
-    export CLUTTER_BACKEND=x11
+    export QT_QPA_PLATFORMTHEME=qt5ct
 
     # Change to GDK_SCALE=2 for experimental HiDPI support.
     # Requires reboot.
