@@ -31,7 +31,7 @@ media-type-presets={'audio/x-vorbis':'Ubuntu', 'audio/mpeg':'Ubuntu'}
 monitor-library=true
 
 [org.gnome.rhythmbox.plugins]
-active-plugins=['artsearch', 'audiocd','audioscrobbler','cd-recorder','daap','dbus-media-server','generic-player','ipod','iradio','mmkeys','mpris','mtpdevice','notification','power-manager']
+active-plugins=['alternative_toolbar', 'artsearch', 'audiocd','audioscrobbler','cd-recorder','daap','dbus-media-server','generic-player','ipod','iradio','mmkeys','mpris','mtpdevice','notification','power-manager']
 
 [org.gnome.Charmap]
 font='Ubuntu 22'

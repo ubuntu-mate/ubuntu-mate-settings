@@ -1,3 +1,15 @@
+ubuntu-mate-settings (17.04.1) zesty; urgency=medium
+
+  * Enable alternative Rhythmbox toolbar.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 16 Feb 2017 22:47:56 +0000
+
+ubuntu-mate-settings (17.04.0) zesty; urgency=medium
+
+  * Add support for theming Qt5 applications via qt5ct.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 16 Jan 2017 20:21:43 +0000
+
 ubuntu-mate-settings (16.10.7) yakkety; urgency=medium
 
   * debian/ubuntu-mate-default-settings.install: Add usr/lib/firefox.
