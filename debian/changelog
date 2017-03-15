@@ -1,3 +1,10 @@
+ubuntu-mate-settings (17.04.2) zesty; urgency=medium
+
+  * Fix mate-mimeapps.list by removing trailing semi-colon. (LP: #1673156)
+  * Add missing Brisk Menu pinned shortcuts.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 15 Mar 2017 16:19:50 +0000
+
 ubuntu-mate-settings (17.04.1) zesty; urgency=medium
 
   * Enable alternative Rhythmbox toolbar.
