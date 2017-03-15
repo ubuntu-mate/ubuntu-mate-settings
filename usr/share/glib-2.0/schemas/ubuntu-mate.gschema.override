@@ -1,3 +1,6 @@
+[com.solus-project.brisk-menu]
+pinned-shortcuts=['matecc.desktop','ubuntu-mate-welcome.desktop']
+
 [com.ubuntu.update-manager]
 show-details=true
 show-versions=true
