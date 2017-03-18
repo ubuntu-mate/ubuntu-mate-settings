@@ -1,3 +1,9 @@
+ubuntu-mate-settings (17.04.4) zesty; urgency=medium
+
+  * Fix typo in default Rhythmbox plugins.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 18 Mar 2017 23:14:27 +0000
+
 ubuntu-mate-settings (17.04.3) zesty; urgency=medium
 
   * Remove obsolete Galculator configuration.
