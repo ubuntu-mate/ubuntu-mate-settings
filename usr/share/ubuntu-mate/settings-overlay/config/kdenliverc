@@ -1,0 +1,6 @@
+[unmanaged]
+force_breeze=false
+widgetstyle=gtk2
+
+[version]
+version=16.12.3

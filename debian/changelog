@@ -1,6 +1,7 @@
-ubuntu-mate-settings (17.04.5~zesty1.0) zesty; urgency=medium
+ubuntu-mate-settings (17.04.5) zesty; urgency=medium
 
   * Fix Qt5 application theme integratrion.
+  * Fix default look and feel for kdenlive.
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 19 Mar 2017 09:09:02 +0000
 
