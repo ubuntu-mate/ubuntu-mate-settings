@@ -1,3 +1,9 @@
+ubuntu-mate-settings (17.04.5~zesty1.0) zesty; urgency=medium
+
+  * Fix Qt5 application theme integratrion.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 19 Mar 2017 09:09:02 +0000
+
 ubuntu-mate-settings (17.04.4) zesty; urgency=medium
 
   * Fix typo in default Rhythmbox plugins.

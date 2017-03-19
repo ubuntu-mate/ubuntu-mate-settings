@@ -20,6 +20,7 @@ if [ ! -d "${HOME}/.config/plank/dock1" ]; then
     overlay_file config/plank/dock1/launchers/matecc.dockitem
 fi
 overlay_file config/folder-color/hide_donation
+overlay_file config/kdenliverc
 overlay_file config/libreoffice/4/user/registrymodifications.xcu
 overlay_file config/qt5ct/qt5ct.conf
 overlay_file config/synapse/config.json
