@@ -1,3 +1,10 @@
+ubuntu-mate-settings (17.04.6) zesty; urgency=medium
+
+  * Fix dynamic placement of Brisk Menu search entry. (LP: #1677517)
+  * Activate Brisk Menu category rollover by default. (LP: #1677520)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 30 Mar 2017 21:47:49 +0100
+
 ubuntu-mate-settings (17.04.5) zesty; urgency=medium
 
   * Fix Qt5 application theme integratrion.

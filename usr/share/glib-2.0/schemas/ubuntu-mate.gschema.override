@@ -1,5 +1,7 @@
 [com.solus-project.brisk-menu]
 pinned-shortcuts=['matecc.desktop','ubuntu-mate-welcome.desktop']
+rollover-activate=true
+search-position='automatic'
 
 [com.ubuntu.update-manager]
 show-details=true
