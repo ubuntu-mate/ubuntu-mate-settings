@@ -1,4 +1,4 @@
-ubuntu-mate-settings (17.10.0) artful; urgency=medium
+ubuntu-mate-settings (17.10.0~artful1.1) artful; urgency=medium
 
   * Change the default wallpaper.
   * Make Pantheon the default layout.

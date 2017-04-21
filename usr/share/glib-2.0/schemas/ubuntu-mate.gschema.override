@@ -130,6 +130,9 @@ undecorate=false
 default-layout='pantheon'
 show-program-list=true
 
+[org.mate.panel.menubar]
+show-applications=false
+
 [org.mate.peripherals-mouse]
 cursor-theme='DMZ-White'
 
