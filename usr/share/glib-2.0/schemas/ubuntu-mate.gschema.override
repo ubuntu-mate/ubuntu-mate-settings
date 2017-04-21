@@ -12,6 +12,8 @@ dock-items=['desktop.dockitem','clock.dockitem','firefox.dockitem','matecc.docki
 hide-mode='window-dodge'
 show-dock-item=true
 theme='Ubuntu-MATE'
+zoom-enabled=true
+zoom-percent=150
 
 [org.gnome.crypto.pgp]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
@@ -59,7 +61,7 @@ exec='thunderbird'
 exec='thunderbird'
 
 [org.mate.background]
-picture-filename='/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Cold.jpg'
+picture-filename='/usr/share/backgrounds/ubuntu-mate-common/ubuntu-mate-circles.png'
 
 [org.mate.caja.desktop]
 font='Ubuntu 11'
@@ -125,7 +127,7 @@ no-maximize=true
 undecorate=false
 
 [org.mate.panel]
-default-layout='ubuntu-mate'
+default-layout='pantheon'
 show-program-list=true
 
 [org.mate.peripherals-mouse]
@@ -157,6 +159,9 @@ input-feedback-sounds=true
 
 [org.mate.session]
 idle-delay=30
+
+[org.mate.session.required-components]
+dock='plank'
 
 [org.mate.SettingsDaemon.plugins.media-keys]
 magnifier='<Alt><Mod4>m'
