@@ -127,11 +127,8 @@ no-maximize=true
 undecorate=false
 
 [org.mate.panel]
-default-layout='pantheon'
+default-layout='ubuntu-mate'
 show-program-list=true
-
-[org.mate.panel.menubar]
-show-applications=false
 
 [org.mate.peripherals-mouse]
 cursor-theme='DMZ-White'
@@ -162,9 +159,6 @@ input-feedback-sounds=true
 
 [org.mate.session]
 idle-delay=30
-
-[org.mate.session.required-components]
-dock='plank'
 
 [org.mate.SettingsDaemon.plugins.media-keys]
 magnifier='<Alt><Mod4>m'
