@@ -1,3 +1,9 @@
+ubuntu-mate-settings (17.10.1) artful; urgency=medium
+
+  * Return to the traditional layout.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 23 Apr 2017 08:25:43 +0100
+
 ubuntu-mate-settings (17.10.0) artful; urgency=medium
 
   * Change the default wallpaper.
