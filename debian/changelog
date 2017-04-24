@@ -1,10 +1,11 @@
-ubuntu-mate-settings (17.10.2~artful1.0) artful; urgency=medium
+ubuntu-mate-settings (17.10.2) artful; urgency=medium
 
   * Updated Ubuntu MATE layout to include Ubuntu MATE Welcome launcher.
   * Updated Cupertino and Patheon layouts to remove Firefox launcher.
   * Updated Cupertino layout to use Menu instead of Menu Bar.
   * Updated Mutiny layout to remove TopMenu and add Ubuntu MATE Welcome 
     launcher.
+  * Update Mutiny layout so left panel is transparent.
   * Updated Plank defaults to include Caja and Ubuntu MATE Welcome.
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 23 Apr 2017 23:11:27 +0100
