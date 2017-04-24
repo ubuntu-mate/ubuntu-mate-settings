@@ -9,6 +9,13 @@ position=0
 toplevel-id=top
 object-type=menu
 
+[Object appmenuapplet]
+locked=true
+position=10
+toplevel-id=top
+applet-iid=AppmenuAppletFactory::AppmenuApplet
+object-type=applet
+
 [Object notification-area]
 object-type=applet
 applet-iid=NotificationAreaAppletFactory::NotificationArea
