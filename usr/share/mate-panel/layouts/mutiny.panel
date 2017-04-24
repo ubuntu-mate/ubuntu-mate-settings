@@ -10,6 +10,10 @@ screen=0
 auto-hide=false
 size=48
 
+[toplevels/left/background]
+color='rgba(60,59,55,0.5)'
+type='color'
+
 [toplevels/top]
 expand=true
 orientation='top'
