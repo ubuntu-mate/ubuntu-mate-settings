@@ -8,7 +8,7 @@ show-details=true
 show-versions=true
 
 [net.launchpad.plank.dock.settings]
-dock-items=['desktop.dockitem','clock.dockitem','firefox.dockitem','matecc.dockitem']
+dock-items=['desktop.dockitem','clock.dockitem','firefox.dockitem','caja.dockitem','matecc.dockitem','ubuntu-mate-welcome.dockitem']
 hide-mode='window-dodge'
 show-dock-item=true
 theme='Ubuntu-MATE'

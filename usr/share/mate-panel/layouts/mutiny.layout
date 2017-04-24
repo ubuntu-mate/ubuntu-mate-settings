@@ -8,14 +8,6 @@ orientation=left
 expand=true
 size=48
 
-[Object topmenu]
-object-type=applet
-applet-iid=TopMenuMatePanelAppletFactory::TopMenuMatePanelApplet
-toplevel-id=top
-position=48
-panel-right-stick=false
-locked=true
-
 [Object notification-area]
 object-type=applet
 applet-iid=NotificationAreaAppletFactory::NotificationArea

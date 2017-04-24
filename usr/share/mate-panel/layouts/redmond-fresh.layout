@@ -33,11 +33,19 @@ toplevel-id=bottom
 object-type=launcher
 menu-path=applications:/
 
+[Object welcome]
+locked=true
+position=40
+launcher-location=/usr/share/applications/ubuntu-mate-welcome.desktop
+toplevel-id=bottom
+object-type=launcher
+menu-path=applications:/
+
 [Object window-list]
 object-type=applet
 applet-iid=WnckletFactory::WindowListApplet
 toplevel-id=bottom
-position=40
+position=50
 locked=true
 
 [Object notification-area]

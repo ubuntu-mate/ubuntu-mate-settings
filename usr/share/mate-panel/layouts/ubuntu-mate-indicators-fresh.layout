@@ -23,6 +23,14 @@ toplevel-id=top
 object-type=launcher
 menu-path=applications:/
 
+[Object welcome]
+locked=true
+position=20
+launcher-location=/usr/share/applications/ubuntu-mate-welcome.desktop
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
 [Object notification-area]
 object-type=applet
 applet-iid=NotificationAreaAppletFactory::NotificationArea

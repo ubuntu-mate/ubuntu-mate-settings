@@ -1,7 +1,7 @@
 [general]
 toplevel-id-list=['top', 'left']
 default-layout='mutiny'
-object-id-list=['topmenu', 'notification-area', 'clock', 'shutdown', 'menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
+object-id-list=['notification-area', 'clock', 'shutdown', 'menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
 
 [toplevels/left]
 expand=true
@@ -15,14 +15,6 @@ expand=true
 orientation='top'
 screen=0
 size=24
-
-[objects/topmenu]
-applet-iid='TopMenuMatePanelAppletFactory::TopMenuMatePanelApplet'
-locked=true
-toplevel-id='top'
-position=48
-object-type='applet'
-panel-right-stick=false
 
 [objects/notification-area]
 applet-iid='NotificationAreaAppletFactory::NotificationArea'
@@ -85,7 +77,7 @@ object-type='applet'
 panel-right-stick=false
 
 [objects/dockapplet/prefs]
-pinned-apps=['firefox.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'libreoffice-impress.desktop', 'matecc.desktop']
+pinned-apps=['firefox.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'libreoffice-impress.desktop', 'matecc.desktop', 'ubuntu-mate-welcome.desktop']
 first-run=false
 indicator-type=0
 click-restore-last-active=true

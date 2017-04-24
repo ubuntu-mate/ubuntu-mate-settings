@@ -1,7 +1,7 @@
 [general]
 toplevel-id-list=['top', 'left']
 default-layout='mutiny'
-object-id-list=['topmenu', 'notification-area', 'clock', 'shutdown', 'mate-menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
+object-id-list=['notification-area', 'clock', 'shutdown', 'mate-menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
 
 [toplevels/left]
 expand=true
@@ -57,7 +57,7 @@ object-type='applet'
 panel-right-stick=false
 
 [objects/dockapplet/prefs]
-pinned-apps=['firefox.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'libreoffice-impress.desktop', 'matecc.desktop']
+pinned-apps=['firefox.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'libreoffice-impress.desktop', 'matecc.desktop', 'ubuntu-mate-welcome.desktop']
 first-run=false
 indicator-type=0
 click-restore-last-active=true

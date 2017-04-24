@@ -3,19 +3,11 @@ expand=true
 orientation=top
 size=24
 
-[Object menu-bar]
-object-type=menu-bar
-toplevel-id=top
+[Object menu]
+locked=true
 position=0
-locked=true
-
-[Object firefox]
-locked=true
-position=10
-launcher-location=/usr/share/applications/firefox.desktop
 toplevel-id=top
-object-type=launcher
-menu-path=applications:/
+object-type=menu
 
 [Object notification-area]
 object-type=applet
