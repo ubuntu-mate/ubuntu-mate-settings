@@ -48,6 +48,14 @@ toplevel-id=bottom
 position=50
 locked=true
 
+[Object drivemountapplet]
+object-type=applet
+applet-iid=DriveMountAppletFactory::DriveMountApplet
+toplevel-id=bottom
+position=20
+panel-right-stick=true
+locked=true
+
 [Object notification-area]
 object-type=applet
 applet-iid=NotificationAreaAppletFactory::NotificationArea
