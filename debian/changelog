@@ -1,6 +1,7 @@
-ubuntu-mate-settings (17.10.4~artful1.0) artful; urgency=medium
+ubuntu-mate-settings (17.10.4) artful; urgency=medium
 
   * Add Drive Mount applet to Redmond layouts.
+  * Remove Indicator variants of the panel layouts.
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 13 May 2017 12:04:22 +0100
 
