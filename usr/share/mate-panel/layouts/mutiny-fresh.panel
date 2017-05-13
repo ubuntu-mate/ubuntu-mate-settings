@@ -18,7 +18,7 @@ type='color'
 expand=true
 orientation='top'
 screen=0
-size=24
+size=28
 
 [objects/appmenuapplet]
 applet-iid='AppmenuAppletFactory::AppmenuApplet'
