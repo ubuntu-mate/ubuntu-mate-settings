@@ -51,13 +51,21 @@ locked=true
 object-type=applet
 applet-iid=DriveMountAppletFactory::DriveMountApplet
 toplevel-id=bottom
-position=20
+position=30
 panel-right-stick=true
 locked=true
 
 [Object notification-area]
 object-type=applet
 applet-iid=NotificationAreaAppletFactory::NotificationArea
+toplevel-id=bottom
+position=20
+panel-right-stick=true
+locked=true
+
+[Object indicatorappletcomplete]
+object-type=applet
+applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
 toplevel-id=bottom
 position=10
 panel-right-stick=true

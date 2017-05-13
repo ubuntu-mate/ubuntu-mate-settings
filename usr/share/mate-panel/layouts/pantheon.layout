@@ -20,6 +20,14 @@ locked=true
 object-type=applet
 applet-iid=NotificationAreaAppletFactory::NotificationArea
 toplevel-id=top
+position=30
+panel-right-stick=true
+locked=true
+
+[Object indicatorappletcomplete]
+object-type=applet
+applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
+toplevel-id=top
 position=20
 panel-right-stick=true
 locked=true

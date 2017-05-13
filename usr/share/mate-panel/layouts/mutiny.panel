@@ -1,7 +1,7 @@
 [general]
 toplevel-id-list=['top', 'left']
-default-layout='mutiny'
-object-id-list=['appmenuapplet', 'notification-area', 'clock', 'shutdown', 'menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
+default-layout='mutiny-indicators'
+object-id-list=['appmenuapplet', 'notification-area', 'indicatorappletcomplete', 'clock', 'shutdown', 'menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
 
 [toplevels/left]
 expand=true
@@ -32,7 +32,15 @@ panel-right-stick=false
 applet-iid='NotificationAreaAppletFactory::NotificationArea'
 locked=true
 toplevel-id='top'
-position=50
+position=30
+object-type='applet'
+panel-right-stick=true
+
+[objects/indicatorappletcomplete]
+applet-iid='IndicatorAppletCompleteFactory::IndicatorAppletComplete'
+locked=true
+toplevel-id='top'
+position=20
 object-type='applet'
 panel-right-stick=true
 
@@ -40,29 +48,8 @@ panel-right-stick=true
 applet-iid='ClockAppletFactory::ClockApplet'
 locked=true
 toplevel-id='top'
-position=40
-object-type='applet'
-panel-right-stick=true
-
-[objects/sep-left]
-locked=true
-toplevel-id='top'
-position=30
-object-type='separator'
-panel-right-stick=true
-
-[objects/menu-bar]
-locked=true
-toplevel-id='top'
-position=20
-object-type='menu-bar'
-panel-right-stick=true
-
-[objects/sep-right]
-locked=true
-toplevel-id='top'
 position=10
-object-type='separator'
+object-type='applet'
 panel-right-stick=true
 
 [objects/shutdown]

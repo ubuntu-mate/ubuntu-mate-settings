@@ -1,7 +1,7 @@
 [general]
 toplevel-id-list=['top', 'left']
-default-layout='mutiny'
-object-id-list=['appmenuapplet', 'notification-area', 'clock', 'shutdown', 'mate-menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
+default-layout='mutiny-indicators'
+object-id-list=['appmenuapplet', 'notification-area', 'indicatorappletcomplete', 'clock', 'shutdown', 'mate-menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
 
 [toplevels/left]
 expand=true
@@ -30,6 +30,14 @@ panel-right-stick=false
 
 [objects/notification-area]
 applet-iid='NotificationAreaAppletFactory::NotificationArea'
+locked=true
+toplevel-id='top'
+position=30
+object-type='applet'
+panel-right-stick=true
+
+[objects/indicatorappletcomplete]
+applet-iid='IndicatorAppletCompleteFactory::IndicatorAppletComplete'
 locked=true
 toplevel-id='top'
 position=20
