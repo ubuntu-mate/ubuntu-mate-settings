@@ -1,3 +1,10 @@
+ubuntu-mate-settings (17.10.5) artful; urgency=medium
+
+  * Increase panels that include indicators to 28px in height.
+  * Re-instate and update qt5ct.conf.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 13 May 2017 21:47:39 +0100
+
 ubuntu-mate-settings (17.10.4) artful; urgency=medium
 
   * Add Drive Mount applet to Redmond layouts.
