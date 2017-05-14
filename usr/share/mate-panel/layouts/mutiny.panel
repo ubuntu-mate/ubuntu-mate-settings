@@ -1,14 +1,14 @@
 [general]
 toplevel-id-list=['top', 'left']
 default-layout='mutiny-indicators'
-object-id-list=['appmenuapplet', 'notification-area', 'indicatorappletcomplete', 'clock', 'shutdown', 'menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
+object-id-list=['appmenuapplet', 'notification-area', 'indicatorappletcomplete', 'clock', 'shutdown', 'mate-menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
 
 [toplevels/left]
 expand=true
 orientation='left'
 screen=0
 auto-hide=false
-size=48
+size=64
 
 [toplevels/left/background]
 color='rgba(60,59,55,0.5)'
@@ -24,7 +24,7 @@ size=28
 applet-iid='AppmenuAppletFactory::AppmenuApplet'
 locked=true
 toplevel-id='top'
-position=48
+position=64
 object-type='applet'
 panel-right-stick=false
 
@@ -60,11 +60,12 @@ position=0
 object-type='action'
 panel-right-stick=true
 
-[objects/menu]
+[objects/mate-menu]
+applet-iid='MateMenuAppletFactory::MateMenuApplet'
 locked=true
 toplevel-id='left'
 position=0
-object-type='menu'
+object-type='applet'
 panel-right-stick=false
 
 [objects/dockapplet]

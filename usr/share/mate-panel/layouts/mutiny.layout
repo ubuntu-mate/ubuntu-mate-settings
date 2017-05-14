@@ -6,10 +6,10 @@ size=28
 [Toplevel left]
 orientation=left
 expand=true
-size=48
+size=64
 
 [Object appmenuapplet]
-position=48
+position=64
 toplevel-id=top
 applet-iid=AppmenuAppletFactory::AppmenuApplet
 object-type=applet
@@ -48,12 +48,13 @@ panel-right-stick=true
 toplevel-id=top
 locked=true
 
-[Object menu]
+[Object mate-menu]
 locked=true
 position=0
 panel-right-stick=false
 toplevel-id=left
-object-type=menu
+applet-iid=MateMenuAppletFactory::MateMenuApplet
+object-type=applet
 
 [Object dockapplet]
 locked=true
