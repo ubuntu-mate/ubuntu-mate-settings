@@ -1,3 +1,9 @@
+ubuntu-mate-settings (17.10.6) artful; urgency=medium
+
+  * Update Mutiny to use 64px wide left panel. Only use MATE Menu.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 14 May 2017 21:00:23 +0100
+
 ubuntu-mate-settings (17.10.5) artful; urgency=medium
 
   * Increase panels that include indicators to 28px in height.
