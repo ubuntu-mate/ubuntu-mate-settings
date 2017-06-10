@@ -1,6 +1,6 @@
 [general]
 toplevel-id-list=['top', 'left']
-default-layout='mutiny-indicators'
+default-layout='mutiny'
 object-id-list=['appmenuapplet', 'notification-area', 'indicatorappletcomplete', 'clock', 'shutdown', 'brisk-menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
 
 [toplevels/left]
