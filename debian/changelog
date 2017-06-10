@@ -1,3 +1,10 @@
+ubuntu-mate-settings (17.10.7) artful; urgency=medium
+
+  * Update the Cupertino layout to use Brisk Menu by default.
+  * Update the Mutiny layout to look more like Unity 7.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 10 Jun 2017 14:57:30 +0100
+
 ubuntu-mate-settings (17.10.6) artful; urgency=medium
 
   * Update Mutiny to use 64px wide left panel. Only use MATE Menu.
