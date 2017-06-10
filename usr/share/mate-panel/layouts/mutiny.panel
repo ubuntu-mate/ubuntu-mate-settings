@@ -1,7 +1,7 @@
 [general]
 toplevel-id-list=['top', 'left']
 default-layout='mutiny-indicators'
-object-id-list=['appmenuapplet', 'notification-area', 'indicatorappletcomplete', 'clock', 'shutdown', 'mate-menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
+object-id-list=['appmenuapplet', 'notification-area', 'indicatorappletcomplete', 'clock', 'shutdown', 'brisk-menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
 
 [toplevels/left]
 expand=true
@@ -60,8 +60,8 @@ position=0
 object-type='action'
 panel-right-stick=true
 
-[objects/mate-menu]
-applet-iid='MateMenuAppletFactory::MateMenuApplet'
+[objects/brisk-menu]
+applet-iid='BriskMenuFactory::BriskMenu'
 locked=true
 toplevel-id='left'
 position=0
@@ -79,10 +79,14 @@ panel-right-stick=false
 [objects/dockapplet/prefs]
 pinned-apps=['firefox.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'libreoffice-impress.desktop', 'matecc.desktop', 'ubuntu-mate-welcome.desktop']
 first-run=false
-indicator-type=0
+indicator-type=6
+app-spacing=4
+bg-type=1
+attention-type=1
 click-restore-last-active=true
 apps-from-all-workspaces=true
 multi-ind=true
+panel-act-list=true
 
 [objects/workspaceswitcherapplet]
 applet-iid='WnckletFactory::WorkspaceSwitcherApplet'
