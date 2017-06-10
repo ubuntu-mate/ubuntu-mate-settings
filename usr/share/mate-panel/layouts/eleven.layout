@@ -3,11 +3,12 @@ expand=true
 orientation=top
 size=28
 
-[Object menu]
-locked=true
-position=0
+[Object briskmenu]
+object-type=applet
+applet-iid=BriskMenuFactory::BriskMenu
 toplevel-id=top
-object-type=menu
+position=0
+locked=true
 
 [Object appmenuapplet]
 locked=true
