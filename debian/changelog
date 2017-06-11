@@ -1,3 +1,9 @@
+ubuntu-mate-settings (17.10.8) artful; urgency=medium
+
+  * Fix the panel layout name used by the Mutiny layout.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 10 Jun 2017 16:16:48 +0100
+
 ubuntu-mate-settings (17.10.7) artful; urgency=medium
 
   * Update the Cupertino layout to use Brisk Menu by default.
