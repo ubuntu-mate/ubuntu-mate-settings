@@ -1,3 +1,10 @@
+ubuntu-mate-settings (17.10.11) UNRELEASED; urgency=medium
+
+  * Modify Pluma overrides to insert spaces and enable bracket matching
+    by default.
+
+ -- Martin Wimpress <martin.wimpress@canonical.com>  Tue, 13 Jun 2017 12:35:07 +0100
+
 ubuntu-mate-settings (17.10.10) artful; urgency=medium
 
   * Remove shutdown applets from Pantheon and Cupertino layouts.
