@@ -1,3 +1,16 @@
+ubuntu-mate-settings (17.10.10) artful; urgency=medium
+
+  * Remove shutdown applets from Pantheon and Cupertino layouts.
+  * Change default background to Ubuntu MATE Splash.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 13 Jun 2017 01:14:00 +0100
+
+ubuntu-mate-settings (17.10.9) artful; urgency=medium
+
+  * Remove TopMenu modules.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 11 Jun 2017 15:00:19 +0100
+
 ubuntu-mate-settings (17.10.8) artful; urgency=medium
 
   * Fix the panel layout name used by the Mutiny layout.
