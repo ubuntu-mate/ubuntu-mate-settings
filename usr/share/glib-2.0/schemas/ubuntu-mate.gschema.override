@@ -138,10 +138,12 @@ disable-while-typing=true
 tap-to-click=true
 
 [org.mate.pluma]
+bracket-matching=true
 color-scheme='Ambiant-MATE'
 display-line-numbers=true
 display-right-margin=true
 highlight-current-line=true
+insert-spaces=true
 editor-font='Ubuntu Mono 13'
 print-font-body-pango='Ubuntu Mono 9'
 print-font-header-pango='Ubuntu 11'
