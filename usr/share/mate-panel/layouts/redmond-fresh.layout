@@ -1,7 +1,7 @@
 [Toplevel bottom]
 expand=true
 orientation=bottom
-size=28
+size=24
 
 [Object mate-menu]
 locked=true

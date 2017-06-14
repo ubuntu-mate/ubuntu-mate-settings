@@ -1,15 +1,22 @@
 [Toplevel top]
-orientation=top
 expand=true
+orientation=top
 size=28
 
-[Toplevel left]
-orientation=left
+[Toplevel bottom]
 expand=true
-size=64
+orientation=bottom
+size=24
+
+[Object briskmenu]
+object-type=applet
+applet-iid=BriskMenuFactory::BriskMenu
+toplevel-id=top
+position=0
+locked=true
 
 [Object appmenuapplet]
-position=64
+position=10
 toplevel-id=top
 applet-iid=AppmenuAppletFactory::AppmenuApplet
 object-type=applet
@@ -40,34 +47,32 @@ position=0
 panel-right-stick=true
 locked=true
 
-[Object brisk-menu]
-locked=true
+[Object show-desktop]
+object-type=applet
+applet-iid=WnckletFactory::ShowDesktopApplet
+toplevel-id=bottom
 position=0
-panel-right-stick=false
-toplevel-id=left
-applet-iid=BriskMenuFactory::BriskMenu
-object-type=applet
-
-[Object dockapplet]
 locked=true
-position=10
-panel-right-stick=false
-toplevel-id=left
-applet-iid=DockAppletFactory::DockApplet
-object-type=applet
 
-[Object workspaceswitcherapplet]
+[Object window-list]
+object-type=applet
+applet-iid=WnckletFactory::WindowListApplet
+toplevel-id=bottom
+position=20
 locked=true
+
+[Object workspace-switcher]
+object-type=applet
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+toplevel-id=bottom
 position=10
 panel-right-stick=true
-toplevel-id=left
-applet-iid=WnckletFactory::WorkspaceSwitcherApplet
-object-type=applet
+locked=true
 
 [Object trashapplet]
 locked=true
 position=0
-panel-right-stick=true
-toplevel-id=left
+toplevel-id=bottom
 applet-iid=TrashAppletFactory::TrashApplet
 object-type=applet
+panel-right-stick=true
