@@ -100,7 +100,11 @@ side-by-side-tiling=true
 theme='Ambiant-MATE'
 titlebar-font='Ubuntu Medium 11'
 
+[org.mate.Marco.keybindings-command]
+command-1='mate-screensaver-command -lock'
+
 [org.mate.Marco.global-keybindings]
+run-command-1='<Mod4>l'
 run-command-terminal='<Control><Alt>t'
 switch-panels='disabled'
 switch-windows='<Alt>Tab'
