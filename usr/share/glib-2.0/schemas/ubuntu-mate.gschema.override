@@ -120,8 +120,10 @@ move-to-corner-se='<Control><Alt>KP_Page_Down'
 move-to-corner-sw='<Control><Alt>KP_End'
 move-to-side-n='<Control><Alt>KP_Up'
 move-to-side-s='<Control><Alt>KP_Down'
-tile-to-side-e='<Control><Alt>KP_Right'
-tile-to-side-w='<Control><Alt>KP_Left'
+move-to-side-e='<Control><Alt>KP_Right'
+move-to-side-w='<Control><Alt>KP_Left'
+tile-to-side-e='<Control><Mod4>KP_Right'
+tile-to-side-w='<Control><Mod4>KP_Left'
 
 [org.mate.NotificationDaemon]
 theme='slider'
