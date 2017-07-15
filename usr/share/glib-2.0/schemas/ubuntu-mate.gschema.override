@@ -134,6 +134,7 @@ undecorate=false
 
 [org.mate.panel]
 default-layout='ubuntu-mate'
+enable-sni-support=false
 show-program-list=true
 
 [org.mate.peripherals-mouse]

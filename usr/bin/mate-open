@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ -x /usr/bin/gio ]; then
+    gio open "${1}"
+elif [ -x /usr/bin/gvfs-open ]; then
+    gvfs-open "${1}"
+else
+    echo "ERROR! Could not find gvfs-open or gio to open ${1}"
+fi
