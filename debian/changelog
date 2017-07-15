@@ -1,3 +1,11 @@
+ubuntu-mate-settings (17.10.13) artful; urgency=medium
+
+  * Correct GTK theme integration for Qt applications.
+  * Drop kdenlive theme customisations preventing segfaults. (LP: #1683393)
+  * Drop obsolete settings overlay for Synapse.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 15 Jul 2017 13:36:37 +0100
+
 ubuntu-mate-settings (17.10.12) artful; urgency=medium
 
   * Disable SNI support.
