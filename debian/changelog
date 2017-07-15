@@ -1,3 +1,11 @@
+ubuntu-mate-settings (17.10.14) artful; urgency=medium
+
+  * Move theme integrations to etc/profile.d/mate.sh.
+  * Lower priority of etc/X11/Xsession.d/80mate-environment from 99.
+  * Whitespace cleanup in etc/profile.d/gtk-accessibility.sh
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 15 Jul 2017 16:44:30 +0100
+
 ubuntu-mate-settings (17.10.13) artful; urgency=medium
 
   * Correct GTK theme integration for Qt applications.
