@@ -1,3 +1,12 @@
+ubuntu-mate-settings (17.10.15) artful; urgency=medium
+
+  * Make competition winning wallpaper the default.
+  * Remove alternative menu options from panel layouts.
+  * Export GTK and GDK environment variables via /etc/X11/Xsession.d
+  * Export Qt enviroment variables via /etc/profile.d
+
+ -- Martin Wimpress <martin.wimpress@ubuntu-mate.com>  Wed, 19 Jul 2017 16:27:04 +0100
+
 ubuntu-mate-settings (17.10.14) artful; urgency=medium
 
   * Move theme integrations to etc/profile.d/mate.sh.
