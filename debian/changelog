@@ -1,4 +1,4 @@
-ubuntu-mate-settings (17.10.16) UNRELEASED; urgency=medium
+ubuntu-mate-settings (17.10.16) artful; urgency=medium
 
   * Add Onboard overrides. (LP: #1703116)
   * Remove LibreOffice settings overlay. Upstream defaults are suitable.
