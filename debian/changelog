@@ -1,3 +1,10 @@
+ubuntu-mate-settings (17.10.16) UNRELEASED; urgency=medium
+
+  * Add Onboard overrides. (LP: #1703116)
+  * Remove LibreOffice settings overlay. Upstream defaults are suitable.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 21 Jul 2017 01:51:59 +0100
+
 ubuntu-mate-settings (17.10.15) artful; urgency=medium
 
   * Make competition winning wallpaper the default.
@@ -97,7 +104,7 @@ ubuntu-mate-settings (17.10.2) artful; urgency=medium
   * Updated Ubuntu MATE layout to include Ubuntu MATE Welcome launcher.
   * Updated Cupertino and Patheon layouts to remove Firefox launcher.
   * Updated Cupertino layout to use Menu instead of Menu Bar.
-  * Updated Mutiny layout to remove TopMenu and add Ubuntu MATE Welcome 
+  * Updated Mutiny layout to remove TopMenu and add Ubuntu MATE Welcome
     launcher.
   * Update Mutiny layout so left panel is transparent.
   * Updated Plank defaults to include Caja and Ubuntu MATE Welcome.
@@ -255,7 +262,7 @@ ubuntu-mate-settings (16.04.4) xenial; urgency=medium
   for the all supported  compositors and disk encryption strategies.
   Closes (LP: #1553070)
   * Add all optical video mime types and enable autoplay.
-  * Correct the settings for Plank. See LP: #1556651  
+  * Correct the settings for Plank. See LP: #1556651
   * Correct the GNOME Main Menu entry for network-config-tool.
   * Closes (LP: #1556711)
 
