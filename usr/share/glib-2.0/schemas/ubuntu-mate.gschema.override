@@ -185,5 +185,16 @@ solaris-mode=true
 allow-bold=false
 use-system-font=true
 
+[org.onboard]
+layout='Compact'
+theme='Nightshade'
+key-label-font='Ubuntu'
+key-label-overrides=['RWIN::super-group', 'LWIN::super-group']
+xembed-onboard=true
+
+[org.onboard.window]
+docking-enabled=true
+force-to-top=true
+
 [org.yorba.shotwell.printing]
 titles-font='Ubuntu Bold 12'
