@@ -61,7 +61,7 @@ exec='thunderbird'
 exec='thunderbird'
 
 [org.mate.background]
-picture-filename='usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Northern-Lights.jpg'
+picture-filename='/usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Northern-Lights.jpg'
 
 [org.mate.caja.desktop]
 font='Ubuntu 11'
