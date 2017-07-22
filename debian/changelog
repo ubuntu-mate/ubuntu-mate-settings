@@ -1,3 +1,10 @@
+ubuntu-mate-settings (17.10.17) artful; urgency=medium
+
+  * Fix path to default wallpaper.
+  * Remove obsolete configurations files.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 23 Jul 2017 00:22:17 +0100
+
 ubuntu-mate-settings (17.10.16) artful; urgency=medium
 
   * Add Onboard overrides. (LP: #1703116)
