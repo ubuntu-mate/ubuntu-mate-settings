@@ -30,6 +30,7 @@ monospace-font-name='Ubuntu Mono 13'
 button-layout='menu:minimize,maximize,close'
 theme='Ambiant-MATE'
 titlebar-font='Ubuntu Bold 11'
+titlebar-uses-system-font=false
 
 [org.gnome.rhythmbox.encoding-settings]
 media-type-presets={'audio/x-vorbis':'Ubuntu', 'audio/mpeg':'Ubuntu'}
@@ -47,6 +48,7 @@ font='Ubuntu 22'
 show-hidden=false
 show-size-column=true
 sort-directories-first=true
+startup-mode='cwd'
 
 [org.mate.applications-at-mobility]
 exec='onboard'
