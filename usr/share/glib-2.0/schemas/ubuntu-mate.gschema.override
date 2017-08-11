@@ -18,7 +18,7 @@ zoom-percent=150
 [org.gnome.crypto.pgp]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
-[org.gnome.desktop.interface]
+[org.gnome.desktop.interface:MATE]
 cursor-theme='DMZ-White'
 document-font-name='Ubuntu 11'
 font-name='Ubuntu 11'
@@ -26,7 +26,7 @@ gtk-theme='Ambiant-MATE'
 icon-theme='Ambiant-MATE'
 monospace-font-name='Ubuntu Mono 13'
 
-[org.gnome.desktop.wm.preferences]
+[org.gnome.desktop.wm.preferences:MATE]
 button-layout='menu:minimize,maximize,close'
 theme='Ambiant-MATE'
 titlebar-font='Ubuntu Bold 11'
@@ -34,16 +34,16 @@ titlebar-font='Ubuntu Bold 11'
 [org.gnome.rhythmbox.encoding-settings]
 media-type-presets={'audio/x-vorbis':'Ubuntu', 'audio/mpeg':'Ubuntu'}
 
-[org.gnome.rhythmbox.rhythmdb]
+[org.gnome.rhythmbox.rhythmdb:MATE]
 monitor-library=true
 
-[org.gnome.rhythmbox.plugins]
+[org.gnome.rhythmbox.plugins:MATE]
 active-plugins=['alternative-toolbar', 'artsearch', 'audiocd','audioscrobbler','cd-recorder','daap','dbus-media-server','generic-player','ipod','iradio','mmkeys','mpris','mtpdevice','notification','power-manager']
 
-[org.gnome.Charmap]
+[org.gnome.Charmap:MATE]
 font='Ubuntu 22'
 
-[org.gtk.Settings.FileChooser]
+[org.gtk.Settings.FileChooser:MATE]
 show-hidden=false
 show-size-column=true
 sort-directories-first=true
