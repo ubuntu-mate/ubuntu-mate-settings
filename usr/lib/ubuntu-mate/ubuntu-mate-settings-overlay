@@ -22,5 +22,6 @@ if [ ! -d "${HOME}/.config/plank/dock1" ]; then
     overlay_file config/plank/dock1/launchers/ubuntu-mate-welcome.dockitem
 fi
 overlay_file config/folder-color/hide_donation
+overlay_file config/smplayer/smplayer.ini
 overlay_file config/tilda/config_0
 overlay_file config/Trolltech.conf
