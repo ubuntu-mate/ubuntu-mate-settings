@@ -1,3 +1,6 @@
+[com.canonical.unity-gtk-module]
+blacklist=['mate-panel','mate-indicator-applet','mate-indicator-applet-appmenu','mate-indicator-applet-complete']
+
 [com.solus-project.brisk-menu]
 pinned-shortcuts=['matecc.desktop','ubuntu-mate-welcome.desktop']
 rollover-activate=true
