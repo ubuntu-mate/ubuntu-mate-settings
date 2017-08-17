@@ -1,8 +1,8 @@
 [x.dm.slick-greeter]
-background='/usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Northern-Lights.jpg'
+background='/usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo.png'
 background-color='#3C3B37'
 draw-grid=false
-draw-user-backgrounds=true
+draw-user-backgrounds=false
 enable-hidpi='auto'
 font-name='Ubuntu 11'
 icon-theme-name='Ambiant-MATE'
@@ -21,7 +21,7 @@ xft-hintstyle='hintslight'
 xft-rgba='rgb'
 
 [com.canonical.unity-gtk-module]
-blacklist=['mate-panel','mate-indicator-applet','mate-indicator-applet-appmenu','mate-indicator-applet-complete']
+blacklist=['mate-menu', 'mate-panel','mate-indicator-applet','mate-indicator-applet-appmenu','mate-indicator-applet-complete']
 
 [com.solus-project.brisk-menu]
 pinned-shortcuts=['matecc.desktop','ubuntu-mate-welcome.desktop']
@@ -88,7 +88,7 @@ exec='thunderbird'
 exec='thunderbird'
 
 [org.mate.background]
-picture-filename='/usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Northern-Lights.jpg'
+picture-filename='/usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo.png'
 
 [org.mate.caja.desktop]
 font='Ubuntu 11'
