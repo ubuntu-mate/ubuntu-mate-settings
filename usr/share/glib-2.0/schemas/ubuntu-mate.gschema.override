@@ -1,3 +1,25 @@
+[x.dm.slick-greeter]
+background='/usr/share/backgrounds/ubuntu-mate-artful/Ubuntu-MATE-Northern-Lights.jpg'
+background-color='#3C3B37'
+draw-grid=false
+draw-user-backgrounds=true
+enable-hidpi='auto'
+font-name='Ubuntu 11'
+icon-theme-name='Ambiant-MATE'
+idle-timeout=300
+high-contrast=false
+show-hostname=true
+#logo=Logo file to use
+onscreen-keyboard=false
+#other-monitors-logo=Logo file to use for other monitors
+# play-ready-sound=A sound file to play when the greeter is ready
+screen-reader=false
+theme-name='Ambiant-MATE'
+xft-antialias=true
+xft-dpi=96
+xft-hintstyle='hintslight'
+xft-rgba='rgb'
+
 [com.canonical.unity-gtk-module]
 blacklist=['mate-panel','mate-indicator-applet','mate-indicator-applet-appmenu','mate-indicator-applet-complete']
 
