@@ -1,3 +1,11 @@
+ubuntu-mate-settings (17.10.19) artful; urgency=medium
+
+  * Add Slick Greeter configuration.
+  * Use the same background on the greeter and desktop.
+  * Blacklist mate-menu from Global Menu.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 17 Aug 2017 17:03:38 +0100
+
 ubuntu-mate-settings (17.10.18) artful; urgency=medium
 
   * Add smplayer default suitable for use with Ubuntu MATE.
