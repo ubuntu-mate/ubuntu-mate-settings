@@ -1,3 +1,9 @@
+ubuntu-mate-settings (17.10.20) artful; urgency=medium
+
+  * Set the default desktop background to the winning entry.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 18 Aug 2017 00:39:44 +0100
+
 ubuntu-mate-settings (17.10.19) artful; urgency=medium
 
   * Add Slick Greeter configuration.
