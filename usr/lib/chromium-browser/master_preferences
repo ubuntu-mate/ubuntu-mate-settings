@@ -1,0 +1,21 @@
+{
+  "homepage" : "https://start.ubuntu-mate.org",
+  "homepage_is_newtabpage" : false,
+  "browser": {
+    "show_home_button": true
+  },
+  "distribution" : {
+    "skip_first_run_ui" : true,
+    "show_welcome_page" : false
+  },
+  "first_run_tabs": [
+    "https://start.ubuntu-mate.org",
+    "http://welcome_page"
+  ],
+  "session": {
+    "restore_on_startup": 1
+  },
+  "sync_promo": {
+    "show_on_first_run_allowed": false
+  }
+}

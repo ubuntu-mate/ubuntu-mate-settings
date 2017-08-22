@@ -2,6 +2,7 @@ etc/apport/
 etc/X11/Xsession.d/
 etc/profile.d/
 usr/bin/
+usr/lib/chromium-browser/
 usr/lib/firefox/
 usr/lib/ubuntu-mate/
 usr/share/applications/
