@@ -1,3 +1,11 @@
+ubuntu-mate-settings (17.10.21) artful; urgency=medium
+
+  * Set the background for the live session.
+  * Divert the icon used in Ubiquity with Ubuntu MATE branded version.
+  * Provide sane default for Chromium.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 22 Aug 2017 00:51:13 +0100
+
 ubuntu-mate-settings (17.10.20) artful; urgency=medium
 
   * Set the default desktop background to the winning entry.
