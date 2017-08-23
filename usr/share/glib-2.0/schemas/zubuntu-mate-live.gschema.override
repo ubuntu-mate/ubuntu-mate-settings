@@ -5,4 +5,4 @@ run-command-1='<Mod4>1'
 command-1='ubiquity gtk_ui'
 
 [org.mate.background]
-picture-filename='/usr/share/backgrounds/ubuntu-mate-common/Grey-Wall.png'
+picture-filename='/usr/share/backgrounds/ubuntu-mate-common/Green-Wall.png'
