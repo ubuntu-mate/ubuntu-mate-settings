@@ -1,3 +1,10 @@
+ubuntu-mate-settings (17.10.22) artful; urgency=medium
+
+  * Hide gtkhash menu entries.
+  * Use Green wallpaper for Slick Greeter and Live Session.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 23 Aug 2017 17:45:40 +0100
+
 ubuntu-mate-settings (17.10.21) artful; urgency=medium
 
   * Set the background for the live session.
