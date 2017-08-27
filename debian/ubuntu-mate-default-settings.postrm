@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ "$1" = remove -o "$1" = purge ]; then
+  rm -f /usr/local/bin/firefox
+  rm -f /usr/local/bin/thunderbird
+fi
+
+#DEBHELPER#
+exit 0
