@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Wrapper for Firefox to expose AppMenu integration in MATE
+if [[ ${XDG_CURRENT_DESKTOP} == *"MATE"* ]]; then
+    env UBUNTU_MENUPROXY=0 /usr/bin/firefox $@ &
+else
+    /usr/bin/firefox $@ &
+fi

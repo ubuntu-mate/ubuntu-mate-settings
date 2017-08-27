@@ -5,6 +5,7 @@ usr/bin/
 usr/lib/chromium-browser/
 usr/lib/firefox/
 usr/lib/ubuntu-mate/
+usr/local/bin/
 usr/share/applications/
 usr/share/glib-2.0/schemas/ubuntu-mate.gschema.override
 usr/share/lightdm/lightdm.conf.d/50-ubuntu-mate.conf
