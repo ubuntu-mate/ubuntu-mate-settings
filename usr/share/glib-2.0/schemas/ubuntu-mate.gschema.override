@@ -129,9 +129,11 @@ titlebar-font='Ubuntu Medium 11'
 
 [org.mate.Marco.keybindings-command]
 command-1='mate-screensaver-command -lock'
+command-2='mate-screenshot --area --interactive'
 
 [org.mate.Marco.global-keybindings]
 run-command-1='<Mod4>l'
+run-command-2='<Shift>Print'
 run-command-terminal='<Control><Alt>t'
 switch-panels='disabled'
 switch-windows='<Alt>Tab'
