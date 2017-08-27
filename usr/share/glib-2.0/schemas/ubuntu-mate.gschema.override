@@ -127,7 +127,7 @@ side-by-side-tiling=true
 theme='Ambiant-MATE'
 titlebar-font='Ubuntu Medium 11'
 
-[org.mate.Marco.keybindings-command]
+[org.mate.Marco.keybinding-commands]
 command-1='mate-screensaver-command -lock'
 command-2='mate-screenshot --area --interactive'
 
