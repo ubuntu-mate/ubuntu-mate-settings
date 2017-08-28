@@ -1,3 +1,11 @@
+ubuntu-mate-settings (17.10.23) artful; urgency=medium
+
+  * Add support for Shift+Print to grab an area for a screenshot.
+  * Add wrappers for Firefox and Thunderbolt to expose AppMenu under
+    MATE.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 27 Aug 2017 10:36:52 +0100
+
 ubuntu-mate-settings (17.10.22) artful; urgency=medium
 
   * Hide gtkhash menu entries.
