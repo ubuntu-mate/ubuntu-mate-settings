@@ -4,5 +4,7 @@ if [ "x$DESKTOP_SESSION" == "xmate" ] || [ "x$XDG_SESSION_DESKTOP" == "xmate" ];
     export QT_QPA_PLATFORMTHEME=gtk2
 
     # Qt automatic scaling, based on the pixel density of the monitor.
-    export QT_AUTO_SCREEN_SCALE_FACTOR=1
+    # Not enabled by default because it scales Qt applications on
+    # 13" 1080p displays
+    # export QT_AUTO_SCREEN_SCALE_FACTOR=1
 fi
