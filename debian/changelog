@@ -1,3 +1,10 @@
+ubuntu-mate-settings (17.10.24) artful; urgency=medium
+
+  * Disable Qt automatic HiDPI scaling because it pixel doubles Qt
+    applications on 13inch 1080p displays. (LP: #1714581)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 04 Sep 2017 14:44:08 +0100
+
 ubuntu-mate-settings (17.10.23) artful; urgency=medium
 
   * Add support for Shift+Print to grab an area for a screenshot.
