@@ -1,3 +1,3 @@
-usr/share/glib-2.0/schemas/zubuntu-mate-live.gschema.override
+usr/share/glib-2.0/schemas/40_ubuntu-mate-live.gschema.override
 usr/share/lightdm/lightdm.conf.d/51-autologin.conf
 usr/share/ubiquity/pixmaps/ubuntu_installed.png
