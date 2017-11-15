@@ -8,6 +8,14 @@ orientation=left
 expand=true
 size=64
 
+[Object windowbuttonsapplet]
+position=0
+toplevel-id=top
+applet-iid=WindowButtonsAppletFactory::WindowButtonsApplet
+object-type=applet
+panel-right-stick=false
+locked=true
+
 [Object appmenuapplet]
 position=64
 toplevel-id=top

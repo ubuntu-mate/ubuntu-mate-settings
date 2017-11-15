@@ -1,7 +1,7 @@
 [general]
 toplevel-id-list=['top', 'left']
 default-layout='mutiny'
-object-id-list=['appmenuapplet', 'notification-area', 'indicatorappletcomplete', 'clock', 'shutdown', 'brisk-menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
+object-id-list=['windowbuttonsapplet', 'appmenuapplet', 'notification-area', 'indicatorappletcomplete', 'clock', 'shutdown', 'brisk-menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
 
 [toplevels/left]
 expand=true
@@ -19,6 +19,14 @@ expand=true
 orientation='top'
 screen=0
 size=28
+
+[objects/windowbuttonsapplet]
+applet-iid='WindowButtonsAppletFactory::WindowButtonsApplet'
+locked=true
+toplevel-id='top'
+position=0
+object-type='applet'
+panel-right-stick=false
 
 [objects/appmenuapplet]
 applet-iid='AppmenuAppletFactory::AppmenuApplet'
