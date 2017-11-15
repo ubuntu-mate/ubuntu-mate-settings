@@ -1,5 +1,9 @@
 #!/bin/sh
 
+rm -f /usr/local/bin/firefox
+rm -f /usr/local/bin/thunderbird
+exit 0
+
 echo '#!/usr/bin/env bash'                                   >  /usr/local/bin/firefox
 echo '# Wrapper to expose AppMenu integration in MATE'       >> /usr/local/bin/firefox
 echo 'if [[ ${XDG_CURRENT_DESKTOP} == *"MATE"* ]]; then'     >> /usr/local/bin/firefox
