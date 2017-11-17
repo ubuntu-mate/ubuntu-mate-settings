@@ -1,3 +1,15 @@
+ubuntu-mate-settings (18.04.1) bionic; urgency=medium
+
+  * Add window buttons applet to Mutiny layout.
+  * Conform to glib-compile-schema naming convention for overrides. (LP: #1577715)
+  * Correct Super+L keybinding to lock the screen. (LP: #1728880)
+  * Drop AppMenu integration for Firefox and Thunderbird. (LP: #1719134)
+  * Use defaultPref() for Firefox defaults. (LP: #1721965) However, the
+    defaultPref() functionality is broken due to this upstream bug report:
+    https://bugzilla.mozilla.org/show_bug.cgi?id=947838
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 15 Nov 2017 23:05:55 +0000
+
 ubuntu-mate-settings (18.04.0) bionic; urgency=medium
 
   * Add gschema overrides for mate-window-applets.
