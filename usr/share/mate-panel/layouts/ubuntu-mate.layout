@@ -38,20 +38,20 @@ position=20
 panel-right-stick=true
 locked=true
 
-[Object clock]
+[Object indicatorappletcomplete]
 object-type=applet
-applet-iid=ClockAppletFactory::ClockApplet
+applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
 toplevel-id=top
 position=10
 panel-right-stick=true
 locked=true
 
-[Object shutdown]
-action-type=shutdown
-object-type=action
+[Object clock]
+object-type=applet
+applet-iid=ClockAppletFactory::ClockApplet
+toplevel-id=top
 position=0
 panel-right-stick=true
-toplevel-id=top
 locked=true
 
 [Object show-desktop]
