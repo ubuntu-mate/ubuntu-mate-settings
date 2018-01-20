@@ -1,5 +1,4 @@
 etc/apport/
-etc/xdg/autostart/*.desktop
 etc/X11/Xsession.d/
 etc/profile.d/
 usr/bin/
