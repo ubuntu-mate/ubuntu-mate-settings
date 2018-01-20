@@ -1,4 +1,15 @@
 #!/usr/bin/make -f
 
+DEB_HOST_MULTIARCH = $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
 %:
 	dh $@
+
+override_dh_install:
+	mkdir -p etc/xdg/autostart/
+	sed "s|@DEB_HOST_MULTIARCH@|$(DEB_HOST_MULTIARCH)|" debian/indicator-application.desktop.in > etc/xdg/autostart/indicator-application.desktop
+	sed "s|@DEB_HOST_MULTIARCH@|$(DEB_HOST_MULTIARCH)|" debian/indicator-messages.desktop.in > etc/xdg/autostart/indicator-messages.desktop
+	sed "s|@DEB_HOST_MULTIARCH@|$(DEB_HOST_MULTIARCH)|" debian/indicator-power.desktop.in > etc/xdg/autostart/indicator-power.desktop
+	sed "s|@DEB_HOST_MULTIARCH@|$(DEB_HOST_MULTIARCH)|" debian/indicator-session.desktop.in > etc/xdg/autostart/indicator-session.desktop
+	sed "s|@DEB_HOST_MULTIARCH@|$(DEB_HOST_MULTIARCH)|" debian/indicator-sound.desktop.in > etc/xdg/autostart/indicator-sound.desktop
+	dh_install
