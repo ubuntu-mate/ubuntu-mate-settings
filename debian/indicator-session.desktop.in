@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Indicator Session
+Exec=/usr/lib/MULTIARCH/indicator-session/indicator-session-service
+StartupNotify=false
+Terminal=false
+OnlyShowIn=MATE
+X-GNOME-Autostart-enabled=true
+X-MATE-Autostart-enabled=true

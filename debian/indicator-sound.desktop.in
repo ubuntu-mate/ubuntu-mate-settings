@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Indicator Sound
+Exec=/usr/lib/@DEB_HOST_MULTIARCH@/indicator-sound/indicator-sound-service
+StartupNotify=false
+Terminal=false
+OnlyShowIn=MATE
+X-GNOME-Autostart-enabled=true
+X-MATE-Autostart-enabled=true

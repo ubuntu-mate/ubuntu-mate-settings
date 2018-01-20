@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Indicator Power
+Exec=/usr/lib/@DEB_HOST_MULTIARCH@/indicator-power/indicator-power-service
+StartupNotify=false
+Terminal=false
+OnlyShowIn=MATE
+X-GNOME-Autostart-enabled=true
+X-MATE-Autostart-enabled=true
