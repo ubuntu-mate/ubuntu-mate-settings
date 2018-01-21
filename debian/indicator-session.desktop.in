@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Indicator Session
-Exec=/usr/lib/MULTIARCH/indicator-session/indicator-session-service
+Exec=/usr/lib/@DEB_HOST_MULTIARCH@/indicator-session/indicator-session-service
 StartupNotify=false
 Terminal=false
 OnlyShowIn=MATE
