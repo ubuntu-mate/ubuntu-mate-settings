@@ -76,6 +76,9 @@ more-backgrounds-url='https://ubuntu-mate.community/c/multimedia/artwork'
 [org.mate.panel]
 default-layout='ubuntu-mate'
 
+[org.mate.panel.menubar]
+show-applications=false
+
 [org.mate.peripherals-touchpad]
 three-finger-click=0
 two-finger-click=0
