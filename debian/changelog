@@ -4,11 +4,11 @@ ubuntu-mate-settings (18.04.3) UNRELEASED; urgency=medium
     environment-core.
   * Use indicators in the default layout. Indicators are now used, by
     default, in all layouts.
-  * Use Brisk Menu in the default layout, but retain Place and System
+  * Use Brisk Menu in the default layout, but retain Places and System
     from the menu-bar.
   * Add appmenu-gtk-module to GTK_MODULES.
-  * Now that indicators are enabled by default at the system level, any
-    duplicate local autostart files are be removed.
+  * Now that indicators and HUD are enabled by default at the system
+    level, any duplicate local autostart files can be removed.
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 20 Jan 2018 11:16:16 +0000
 
