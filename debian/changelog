@@ -1,3 +1,11 @@
+ubuntu-mate-settings (18.04.4) UNRELEASED; urgency=medium
+
+  * Fix ubuntu-mate-settings-overlay so that duplicate autostart files
+    are deleted.
+  * Replace appmenu-gtk-module with unity-gtk-module in GTK_MODULES.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 22 Jan 2018 22:38:53 +0000
+
 ubuntu-mate-settings (18.04.3) bionic; urgency=medium
 
   * Common gschema overrides have been migrated to mate-desktop-
