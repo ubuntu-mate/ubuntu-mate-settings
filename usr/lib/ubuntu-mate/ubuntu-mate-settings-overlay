@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+function autostart_clean() {
+    FILENAME="${1}"
+    if [ -e "/usr/share/mate/autostart/${FILENAME}" ] && [ -e "${HOME}.config/autostart/${FILENAME}" ]; then
+        rm -f "${HOME}.config/autostart/${FILENAME}"
+    fi
+}
+
 function overlay_file() {
     local SYSTEM_FILE="/usr/share/ubuntu-mate/settings-overlay/${1}"
     local USER_FILE="${HOME}/.${1}"
@@ -25,3 +32,11 @@ overlay_file config/folder-color/hide_donation
 overlay_file config/smplayer/smplayer.ini
 overlay_file config/tilda/config_0
 overlay_file config/Trolltech.conf
+
+# Now that indicators are enabled by default at the system level, any
+# duplicate local autostart files can be removed.
+autostart_clean indicator-application.desktop
+autostart_clean indicator-sound.desktop
+autostart_clean indicator-messages.desktop
+autostart_clean indicator-power.desktop
+autostart_clean indicator-session.desktop
