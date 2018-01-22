@@ -2,8 +2,8 @@
 
 function autostart_clean() {
     FILENAME="${1}"
-    if [ -e "/usr/share/mate/autostart/${FILENAME}" ] && [ -e "${HOME}.config/autostart/${FILENAME}" ]; then
-        rm -f "${HOME}.config/autostart/${FILENAME}"
+    if [ -e "/usr/share/mate/autostart/${FILENAME}" ] && [ -e "${HOME}/.config/autostart/${FILENAME}" ]; then
+        rm -f "${HOME}/.config/autostart/${FILENAME}"
     fi
 }
 
