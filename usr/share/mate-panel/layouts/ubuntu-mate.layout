@@ -1,22 +1,29 @@
 [Toplevel top]
 expand=true
 orientation=top
-size=24
+size=28
 
 [Toplevel bottom]
 expand=true
 orientation=bottom
-size=24
+size=28
 
-[Object menu-bar]
-object-type=menu-bar
+[Object briskmenu]
+object-type=applet
+applet-iid=BriskMenuFactory::BriskMenu
 toplevel-id=top
 position=0
 locked=true
 
+[Object menu-bar]
+object-type=menu-bar
+toplevel-id=top
+position=10
+locked=true
+
 [Object firefox]
 locked=true
-position=10
+position=20
 launcher-location=/usr/share/applications/firefox.desktop
 toplevel-id=top
 object-type=launcher
@@ -24,7 +31,7 @@ menu-path=applications:/
 
 [Object welcome]
 locked=true
-position=20
+position=30
 launcher-location=/usr/share/applications/ubuntu-mate-welcome.desktop
 toplevel-id=top
 object-type=launcher
