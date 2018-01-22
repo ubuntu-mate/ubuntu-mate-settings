@@ -33,10 +33,11 @@ overlay_file config/smplayer/smplayer.ini
 overlay_file config/tilda/config_0
 overlay_file config/Trolltech.conf
 
-# Now that indicators are enabled by default at the system level, any
-# duplicate local autostart files can be removed.
+# Now that indicators and HUD are enabled by default at the system
+# level, any duplicate local autostart files can be removed.
 autostart_clean indicator-application.desktop
 autostart_clean indicator-sound.desktop
 autostart_clean indicator-messages.desktop
 autostart_clean indicator-power.desktop
 autostart_clean indicator-session.desktop
+autostart_clean mate-hud.desktop
