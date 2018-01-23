@@ -1,4 +1,4 @@
-ubuntu-mate-settings (18.04.4) UNRELEASED; urgency=medium
+ubuntu-mate-settings (18.04.4) bionic; urgency=medium
 
   * Fix ubuntu-mate-settings-overlay so that duplicate autostart files
     are deleted.
