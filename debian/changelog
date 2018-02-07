@@ -1,3 +1,11 @@
+ubuntu-mate-settings (18.04.5) bionic; urgency=medium
+
+  * Default to placing Brisk Menu searching on the top.
+  * Disbale show-tab-border.
+  * Drop HiDPI tweaks, now handled by MATE directly.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 07 Feb 2018 23:09:36 +0000
+
 ubuntu-mate-settings (18.04.4) bionic; urgency=medium
 
   * Fix ubuntu-mate-settings-overlay so that duplicate autostart files
