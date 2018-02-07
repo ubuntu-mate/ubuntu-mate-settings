@@ -26,7 +26,7 @@ blacklist=['mate-menu', 'mate-panel','mate-indicator-applet','mate-indicator-app
 [com.solus-project.brisk-menu]
 pinned-shortcuts=['matecc.desktop','ubuntu-mate-welcome.desktop']
 rollover-activate=true
-search-position='automatic'
+search-position='top'
 
 [com.ubuntu.sound]
 allow-amplified-volume=true
