@@ -24,7 +24,6 @@ xft-rgba='rgb'
 blacklist=['mate-menu', 'mate-panel','mate-indicator-applet','mate-indicator-applet-appmenu','mate-indicator-applet-complete']
 
 [com.solus-project.brisk-menu]
-pinned-shortcuts=['matecc.desktop','ubuntu-mate-welcome.desktop']
 rollover-activate=true
 search-position='top'
 
@@ -36,7 +35,7 @@ show-details=true
 show-versions=true
 
 [net.launchpad.plank.dock.settings]
-dock-items=['desktop.dockitem','clock.dockitem','firefox.dockitem','caja.dockitem','matecc.dockitem','ubuntu-mate-welcome.dockitem']
+dock-items=['desktop.dockitem','clock.dockitem','firefox.dockitem','caja.dockitem','matecc.dockitem']
 hide-mode='window-dodge'
 show-dock-item=true
 theme='Ubuntu-MATE'

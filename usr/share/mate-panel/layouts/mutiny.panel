@@ -77,7 +77,7 @@ object-type='applet'
 panel-right-stick=false
 
 [objects/dockapplet/prefs]
-pinned-apps=['firefox.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'libreoffice-impress.desktop', 'matecc.desktop', 'ubuntu-mate-welcome.desktop']
+pinned-apps=['firefox.desktop', 'libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'libreoffice-impress.desktop', 'matecc.desktop']
 first-run=false
 indicator-type=6
 app-spacing=4
