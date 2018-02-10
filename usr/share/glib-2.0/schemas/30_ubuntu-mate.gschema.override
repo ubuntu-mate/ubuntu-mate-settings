@@ -75,6 +75,9 @@ more-backgrounds-url='https://ubuntu-mate.community/c/multimedia/artwork'
 [org.mate.Marco.general]
 show-tab-border=false
 
+[org.mate.hud]
+enabled=flase
+
 [org.mate.panel]
 default-layout='ubuntu-mate'
 
