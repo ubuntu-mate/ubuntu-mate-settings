@@ -45,6 +45,9 @@ zoom-percent=150
 [org.gnome.crypto.pgp]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
+[org.gnome.desktop.interface]
+cursor-theme='breeze_cursors'
+
 [org.gnome.rhythmbox.encoding-settings]
 media-type-presets={'audio/x-vorbis':'Ubuntu', 'audio/mpeg':'Ubuntu'}
 
@@ -83,6 +86,9 @@ default-layout='ubuntu-mate'
 
 [org.mate.panel.menubar]
 show-applications=false
+
+[org.mate.peripherals-mouse]
+cursor-theme='breeze_cursors'
 
 [org.mate.peripherals-touchpad]
 three-finger-click=0
