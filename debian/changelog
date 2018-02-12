@@ -1,3 +1,13 @@
+ubuntu-mate-settings (18.04.6) bionic; urgency=medium
+
+  * Replace unity-gtk-module with appmenu-gtk-module in GTK_MODULES.
+  * Replace unity-gtk-module overrides with appmenu-gtk-module overrides.
+  * Make sure breeze_cursors is the default xcursor for MATE and GNOME.
+  * Disable MATE HUD by default while input deadlock issues are being worked on.
+  * Remove all links to Ubuntu MATE Welcome.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 12 Feb 2018 01:53:09 +0000
+
 ubuntu-mate-settings (18.04.5) bionic; urgency=medium
 
   * Default to placing Brisk Menu searching on the top.
