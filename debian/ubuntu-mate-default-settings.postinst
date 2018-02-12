@@ -2,25 +2,6 @@
 
 rm -f /usr/local/bin/firefox
 rm -f /usr/local/bin/thunderbird
-exit 0
-
-echo '#!/usr/bin/env bash'                                   >  /usr/local/bin/firefox
-echo '# Wrapper to expose AppMenu integration in MATE'       >> /usr/local/bin/firefox
-echo 'if [[ ${XDG_CURRENT_DESKTOP} == *"MATE"* ]]; then'     >> /usr/local/bin/firefox
-echo '  exec env UBUNTU_MENUPROXY=0 /usr/bin/firefox "$@" &' >> /usr/local/bin/firefox
-echo 'else'                                                  >> /usr/local/bin/firefox
-echo '  exec /usr/bin/firefox "$@" &'                        >> /usr/local/bin/firefox
-echo 'fi'                                                    >> /usr/local/bin/firefox
-chmod +x /usr/local/bin/firefox
-
-echo '#!/usr/bin/env bash'                                       >  /usr/local/bin/thunderbird
-echo '# Wrapper to expose AppMenu integration in MATE'           >> /usr/local/bin/thunderbird
-echo 'if [[ ${XDG_CURRENT_DESKTOP} == *"MATE"* ]]; then'         >> /usr/local/bin/thunderbird
-echo '  exec env UBUNTU_MENUPROXY=0 /usr/bin/thunderbird "$@" &' >> /usr/local/bin/thunderbird
-echo 'else'                                                      >> /usr/local/bin/thunderbird
-echo '  /usr/bin/thunderbird "$@" &'                             >> /usr/local/bin/thunderbird
-echo 'fi'                                                        >> /usr/local/bin/thunderbird
-chmod +x /usr/local/bin/thunderbird
 
 #DEBHELPER#
 exit 0
