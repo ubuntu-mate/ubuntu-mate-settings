@@ -84,6 +84,9 @@ default-layout='ubuntu-mate'
 [org.mate.panel.menubar]
 show-applications=false
 
+[org.mate.peripherals-keyboard-xkb.indicator]
+show-flags=true
+
 [org.mate.peripherals-mouse]
 cursor-theme='breeze_cursors'
 
