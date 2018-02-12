@@ -20,9 +20,6 @@ xft-dpi=96
 xft-hintstyle='hintslight'
 xft-rgba='rgb'
 
-[com.canonical.unity-gtk-module]
-blacklist=['mate-menu', 'mate-panel','mate-indicator-applet','mate-indicator-applet-appmenu','mate-indicator-applet-complete']
-
 [com.solus-project.brisk-menu]
 rollover-activate=true
 search-position='top'
@@ -79,7 +76,7 @@ more-backgrounds-url='https://ubuntu-mate.community/c/multimedia/artwork'
 show-tab-border=false
 
 [org.mate.hud]
-enabled=flase
+enabled=false
 
 [org.mate.panel]
 default-layout='ubuntu-mate'
@@ -110,6 +107,10 @@ xembed-onboard=true
 [org.onboard.window]
 docking-enabled=true
 force-to-top=true
+
+[org.valapanel.appmenu-gtk-module]
+blacklist=['mate-hud', 'mate-indicator-applet','mate-indicator-applet-appmenu','mate-indicator-applet-complete', 'mate-menu', 'mate-panel']
+whitelist=['firefox', 'thunderbird']
 
 [org.yorba.shotwell.printing]
 titles-font='Ubuntu Bold 12'
