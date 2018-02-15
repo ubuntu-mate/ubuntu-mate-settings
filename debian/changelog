@@ -1,3 +1,11 @@
+ubuntu-mate-settings (18.04.7) bionic; urgency=medium
+
+  * Enable keyboard layout flags.
+  * Re-enable HUD by default.
+  * Use Menu Bar in the default layout.
+
+ -- Martin Wimpress <martin.wimpress@canonical.com>  Thu, 15 Feb 2018 15:05:46 +0000
+
 ubuntu-mate-settings (18.04.6) bionic; urgency=medium
 
   * Replace unity-gtk-module with appmenu-gtk-module in GTK_MODULES.
