@@ -81,9 +81,6 @@ enabled=false
 [org.mate.panel]
 default-layout='ubuntu-mate'
 
-[org.mate.panel.menubar]
-show-applications=false
-
 [org.mate.peripherals-keyboard-xkb.indicator]
 show-flags=true
 

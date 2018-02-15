@@ -8,22 +8,15 @@ expand=true
 orientation=bottom
 size=28
 
-[Object briskmenu]
-object-type=applet
-applet-iid=BriskMenuFactory::BriskMenu
+[Object menu-bar]
+object-type=menu-bar
 toplevel-id=top
 position=0
 locked=true
 
-[Object menu-bar]
-object-type=menu-bar
-toplevel-id=top
-position=10
-locked=true
-
 [Object firefox]
 locked=true
-position=20
+position=10
 launcher-location=/usr/share/applications/firefox.desktop
 toplevel-id=top
 object-type=launcher
