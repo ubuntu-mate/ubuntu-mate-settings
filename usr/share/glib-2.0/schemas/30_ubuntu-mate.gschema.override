@@ -39,6 +39,10 @@ theme='Ubuntu-MATE'
 zoom-enabled=true
 zoom-percent=150
 
+[org.appmenu-gtk-module]
+blacklist=['mate-hud', 'mate-indicator-applet','mate-indicator-applet-appmenu','mate-indicator-applet-complete', 'mate-menu', 'mate-panel']
+whitelist=['firefox', 'thunderbird']
+
 [org.gnome.crypto.pgp]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
@@ -104,10 +108,6 @@ xembed-onboard=true
 [org.onboard.window]
 docking-enabled=true
 force-to-top=true
-
-[org.valapanel.appmenu-gtk-module]
-blacklist=['mate-hud', 'mate-indicator-applet','mate-indicator-applet-appmenu','mate-indicator-applet-complete', 'mate-menu', 'mate-panel']
-whitelist=['firefox', 'thunderbird']
 
 [org.yorba.shotwell.printing]
 titles-font='Ubuntu Bold 12'
