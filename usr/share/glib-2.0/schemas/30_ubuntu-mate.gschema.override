@@ -24,6 +24,9 @@ xft-dpi=96
 xft-hintstyle='hintslight'
 xft-rgba='rgb'
 
+[com.canonical.indicator.session]
+suppress-restart-menuitem=true
+
 [com.solus-project.brisk-menu]
 rollover-activate=true
 search-position='top'
@@ -79,6 +82,9 @@ exec='thunderbird'
 
 [org.mate.control-center.appearance]
 more-backgrounds-url='https://ubuntu-mate.community/c/multimedia/artwork'
+
+[org.mate.hud]
+enabled=false
 
 [org.mate.Marco.general]
 show-tab-border=false
