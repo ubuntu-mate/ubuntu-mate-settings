@@ -54,7 +54,7 @@ whitelist=['firefox', 'thunderbird']
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
 [org.gnome.desktop.interface]
-cursor-theme='breeze_cursors'
+cursor-theme='whiteglass'
 
 [org.gnome.rhythmbox.encoding-settings]
 media-type-presets={'audio/x-vorbis':'Ubuntu', 'audio/mpeg':'Ubuntu'}
@@ -96,7 +96,7 @@ default-layout='ubuntu-mate'
 show-flags=true
 
 [org.mate.peripherals-mouse]
-cursor-theme='breeze_cursors'
+cursor-theme='whiteglass'
 
 [org.mate.peripherals-touchpad]
 three-finger-click=0
