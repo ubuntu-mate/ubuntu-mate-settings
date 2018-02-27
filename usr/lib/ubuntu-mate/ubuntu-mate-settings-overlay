@@ -40,3 +40,4 @@ autostart_clean indicator-messages.desktop
 autostart_clean indicator-power.desktop
 autostart_clean indicator-session.desktop
 autostart_clean mate-hud.desktop
+autostart_clean ubuntu-mate-welcome.desktop
