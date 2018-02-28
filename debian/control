@@ -13,7 +13,7 @@ Architecture: any
 Depends: desktop-file-utils,
          im-config,
          libglib2.0-bin,
-         ttf-ubuntu-font-family,
+         fonts-ubuntu,
          ${misc:Depends},
 Replaces: policykit-desktop-privileges-ubuntu-mate,
 Suggests: mate-desktop-environment-core (>= 1.14.0),
