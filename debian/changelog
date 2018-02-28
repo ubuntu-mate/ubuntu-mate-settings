@@ -1,3 +1,11 @@
+ubuntu-mate-settings (18.04.9) bionic; urgency=medium
+
+  * Settings overlay will delete old style autostart for Ubuntu MATE Welcome.
+  * Change default xcursor to whiteglass.
+  * Correct typo in appmenu schema path. Blacklist appmenu-mate.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 27 Feb 2018 22:32:48 +0000
+
 ubuntu-mate-settings (18.04.8) bionic; urgency=medium
 
   * Relocate gschema overrides for org.valapanel.appmenu-gtk-module to
