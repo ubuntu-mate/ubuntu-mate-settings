@@ -64,14 +64,6 @@ toplevel-id=left
 applet-iid=DockAppletFactory::DockApplet
 object-type=applet
 
-[Object workspaceswitcherapplet]
-locked=true
-position=10
-panel-right-stick=true
-toplevel-id=left
-applet-iid=WnckletFactory::WorkspaceSwitcherApplet
-object-type=applet
-
 [Object trashapplet]
 locked=true
 position=0

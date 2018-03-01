@@ -1,7 +1,7 @@
 [general]
 toplevel-id-list=['top', 'left']
 default-layout='mutiny'
-object-id-list=['windowbuttonsapplet', 'appmenuapplet', 'notification-area', 'indicatorappletcomplete', 'clock', 'shutdown', 'brisk-menu', 'dockapplet', 'workspaceswitcherapplet', 'trashapplet']
+object-id-list=['windowbuttonsapplet', 'appmenuapplet', 'notification-area', 'indicatorappletcomplete', 'clock', 'shutdown', 'brisk-menu', 'dockapplet', 'trashapplet']
 
 [toplevels/left]
 expand=true
@@ -87,14 +87,6 @@ click-restore-last-active=true
 apps-from-all-workspaces=true
 multi-ind=true
 panel-act-list=true
-
-[objects/workspaceswitcherapplet]
-applet-iid='WnckletFactory::WorkspaceSwitcherApplet'
-locked=true
-toplevel-id='left'
-position=10
-object-type='applet'
-panel-right-stick=true
 
 [objects/trashapplet]
 applet-iid='TrashAppletFactory::TrashApplet'
