@@ -1,3 +1,12 @@
+ubuntu-mate-settings (18.04.10) bionic; urgency=medium
+
+  * Make DMZ-Black the default xcursor.
+  * Expand list of appmenu-gtk-module blacklisted applications.
+  * Remove workspace switcher from Mutiny.
+  * Switch from ttf-ubuntu-font-family (now transitional), to fonts-ubuntu.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 01 Mar 2018 02:41:12 +0000
+
 ubuntu-mate-settings (18.04.9) bionic; urgency=medium
 
   * Settings overlay will delete old style autostart for Ubuntu MATE Welcome.
