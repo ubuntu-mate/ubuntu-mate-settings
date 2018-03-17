@@ -90,7 +90,7 @@ enabled=false
 show-tab-border=false
 
 [org.mate.panel]
-default-layout='ubuntu-mate'
+default-layout='familiar'
 
 [org.mate.peripherals-keyboard-xkb.indicator]
 show-flags=true
