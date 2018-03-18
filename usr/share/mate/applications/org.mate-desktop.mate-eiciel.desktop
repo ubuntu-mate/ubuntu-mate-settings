@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MATE Eiciel
+GenericName=Access control list editor
+Comment=View or change ACL and User Extended Attributes on files and directories
+Exec=/usr/bin/mate-eiciel
+Icon=mate-eiciel
+Terminal=false
+Type=Application
+Categories=GTK;System;FileTools;
+NoDisplay=true
