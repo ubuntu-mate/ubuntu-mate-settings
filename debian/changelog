@@ -1,3 +1,11 @@
+ubuntu-mate-settings (18.04.11) bionic; urgency=medium
+
+  * Add the Familiar layout and make it default.
+  * Hide MATE eiciel from the menus.
+  * Autostart the Welcome snap via live settings.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 18 Mar 2018 10:08:38 +0000
+
 ubuntu-mate-settings (18.04.10) bionic; urgency=medium
 
   * Make DMZ-Black the default xcursor.
