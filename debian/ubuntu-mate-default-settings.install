@@ -10,6 +10,11 @@ usr/share/glib-2.0/schemas/30_ubuntu-mate.gschema.override
 usr/share/lightdm/lightdm.conf.d/50-ubuntu-mate.conf
 usr/share/mate-panel/layouts/
 usr/share/mate/applications/
+usr/share/mate/autostart/indicator-application.desktop
+usr/share/mate/autostart/indicator-messages.desktop
+usr/share/mate/autostart/indicator-power.desktop
+usr/share/mate/autostart/indicator-session.desktop
+usr/share/mate/autostart/indicator-sound.desktop
 usr/share/mate/autostart/ubuntu-mate-settings-overlay.desktop
 usr/share/plank/themes/
 usr/share/ubuntu-mate/
