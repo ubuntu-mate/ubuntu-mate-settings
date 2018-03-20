@@ -2,12 +2,11 @@
 if [ "x$DESKTOP_SESSION" == "xmate" ] || [ "x$XDG_SESSION_DESKTOP" == "xmate" ]; then
     # Ensure GTK accessibility modules are active.
     if [ -z "$GTK_MODULES" ]; then
-        GTK_MODULES=appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module
+        GTK_MODULES=gail:atk-bridge:canberra-gtk-module
     else
-        GTK_MODULES="$GTK_MODULES:appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module"
+        GTK_MODULES="$GTK_MODULES:gail:atk-bridge:canberra-gtk-module"
     fi
     export GTK_MODULES
-    export UBUNTU_MENUPROXY=1
 
     # Disable GTK3 overlay scrollbars
     export GTK_OVERLAY_SCROLLING=0
