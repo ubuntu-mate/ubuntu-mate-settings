@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Wrapper to start caja-dropbox if it is installed.
+if [ -f /usr/bin/caja-dropbox ]; then
+    exec /usr/bin/caja-dropbox start -i &
+else
+    echo "caja-dropbox is not installed, doing nothing."
+fi

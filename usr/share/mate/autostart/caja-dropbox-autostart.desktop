@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Autostart Caja Dropbox
+Comment=Autostarts Caja Dropbox if it is installed.
+Exec=caja-dropbox-autostart
+Terminal=false
+Type=Application
+Icon=caja-dropbox
+Categories=Network;FileTransfer;
+StartupNotify=false
+OnlyShowIn=MATE;
+NoDisplay=true
+X-MATE-Autostart-Phase=Applications
+X-MATE-Autostart-Delay=10
