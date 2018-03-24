@@ -50,5 +50,3 @@ panel-right-stick=true
 toplevel-id=top
 applet-iid=ClockAppletFactory::ClockApplet
 object-type=applet
-
-
