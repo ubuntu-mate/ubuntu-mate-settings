@@ -10,12 +10,6 @@ toplevel-id=top
 position=0
 locked=true
 
-[Object menu-bar]
-object-type=menu-bar
-toplevel-id=top
-position=10
-locked=true
-
 [Object notification-area]
 object-type=applet
 applet-iid=NotificationAreaAppletFactory::NotificationArea
