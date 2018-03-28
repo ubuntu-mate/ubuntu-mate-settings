@@ -1,3 +1,11 @@
+ubuntu-mate-settings (18.04.13) bionic; urgency=medium
+
+  * Add dock hints for Cupertino and Pantheon.
+  * Autostart Caja Dropbox if it is installed.
+  * Update Netbook layout.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 20 Mar 2018 11:56:28 +0000
+
 ubuntu-mate-settings (18.04.12) bionic; urgency=medium
 
   * debian/ubuntu-mate-default-settings.install:
