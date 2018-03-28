@@ -8,7 +8,7 @@ expand=true
 orientation='left'
 screen=0
 auto-hide=false
-size=64
+size=66
 
 [toplevels/left/background]
 color='rgba(60,59,55,0.5)'

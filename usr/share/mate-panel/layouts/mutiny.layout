@@ -6,7 +6,7 @@ size=28
 [Toplevel left]
 orientation=left
 expand=true
-size=64
+size=66
 
 [Object windowbuttonsapplet]
 position=0
