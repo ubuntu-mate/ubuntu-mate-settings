@@ -1,3 +1,12 @@
+ubuntu-mate-settings (18.04.14) bionic; urgency=medium
+
+  * Do not override the cursor theme, the defaults are now suitable.
+  * Make sure dock icons and brisk menu icon are the same size in the
+    Mutiny layout.
+  * Remove menu-bar from Pantheon layout. (LP: #1714800)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 29 Mar 2018 01:31:51 +0100
+
 ubuntu-mate-settings (18.04.13) bionic; urgency=medium
 
   * Add dock hints for Cupertino and Pantheon.
