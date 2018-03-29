@@ -53,9 +53,6 @@ whitelist=['firefox', 'thunderbird']
 [org.gnome.crypto.pgp]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
-[org.gnome.desktop.interface]
-cursor-theme='DMZ-Black'
-
 [org.gnome.rhythmbox.encoding-settings]
 media-type-presets={'audio/x-vorbis':'Ubuntu', 'audio/mpeg':'Ubuntu'}
 
@@ -94,9 +91,6 @@ default-layout='familiar'
 
 [org.mate.peripherals-keyboard-xkb.indicator]
 show-flags=true
-
-[org.mate.peripherals-mouse]
-cursor-theme='DMZ-Black'
 
 [org.mate.peripherals-touchpad]
 three-finger-click=0
