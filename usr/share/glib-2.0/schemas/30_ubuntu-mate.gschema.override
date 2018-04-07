@@ -89,9 +89,6 @@ show-tab-border=false
 [org.mate.panel]
 default-layout='familiar'
 
-[org.mate.peripherals-keyboard-xkb.indicator]
-show-flags=true
-
 [org.mate.peripherals-touchpad]
 three-finger-click=0
 two-finger-click=0
