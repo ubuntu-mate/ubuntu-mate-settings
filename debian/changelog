@@ -1,3 +1,9 @@
+ubuntu-mate-settings (18.04.15) bionic; urgency=medium
+
+  * Based on feedback do not use flags for keyboard layout indicators.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 10 Apr 2018 22:14:00 +0100
+
 ubuntu-mate-settings (18.04.14) bionic; urgency=medium
 
   * Do not override the cursor theme, the defaults are now suitable.
