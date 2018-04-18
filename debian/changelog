@@ -1,3 +1,9 @@
+ubuntu-mate-settings (18.04.16) bionic; urgency=medium
+
+  * Correct typos and clean up whitespace in caja-dropbox-autostart.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 18 Apr 2018 03:18:46 +0100
+
 ubuntu-mate-settings (18.04.15) bionic; urgency=medium
 
   * Based on feedback do not use flags for keyboard layout indicators.
