@@ -2,7 +2,7 @@
 
 # Wrapper to start caja-dropbox if it is installed.
 if [ -f /usr/bin/caja-dropbox ]; then
-    if [ ! -f "${HOME}/.config/autostart/caja-dropbox.desktop" ] ; then
+    if [ ! -f "${HOME}/.config/autostart/caja-dropbox.desktop" ]; then
         /usr/bin/caja-dropbox autostart y
         exec /usr/bin/caja-dropbox start -i &
     else
