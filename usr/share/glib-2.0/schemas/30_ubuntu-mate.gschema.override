@@ -89,6 +89,9 @@ show-tab-border=false
 [org.mate.panel]
 default-layout='familiar'
 
+[org.mate.peripherals-mouse]
+cursor-size=24
+
 [org.mate.peripherals-touchpad]
 three-finger-click=0
 two-finger-click=0
