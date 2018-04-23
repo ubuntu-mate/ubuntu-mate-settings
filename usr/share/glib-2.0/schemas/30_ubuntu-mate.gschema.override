@@ -47,7 +47,7 @@ zoom-enabled=true
 zoom-percent=150
 
 [org.appmenu.gtk-module]
-blacklist=['anjuta', 'appmenu-mate', 'glade', 'mate-hud', 'mate-indicator-applet','mate-indicator-applet-appmenu','mate-indicator-applet-complete', 'mate-menu', 'mate-panel']
+blacklist=['appmenu-mate', 'mate-hud', 'mate-indicator-applet','mate-indicator-applet-appmenu','mate-indicator-applet-complete', 'mate-menu', 'mate-panel']
 whitelist=['firefox', 'thunderbird']
 
 [org.gnome.crypto.pgp]
