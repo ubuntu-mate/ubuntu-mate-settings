@@ -1,3 +1,14 @@
+ubuntu-mate-settings (18.04.17) bionic; urgency=medium
+
+  * Add auto-start delay to Welcome in the live session, to give time for
+    the snap to mount.
+  * Set default mouse cursor size to 24 so it is a senisble size on HiDPI
+    and regular DPI displays.
+  * As per upstream, glade and anjuta no longer need blacklisting from 
+    appmenu-gtk-module.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 23 Apr 2018 21:53:08 +0100
+
 ubuntu-mate-settings (18.04.16) bionic; urgency=medium
 
   * Correct typos and clean up whitespace in caja-dropbox-autostart.
