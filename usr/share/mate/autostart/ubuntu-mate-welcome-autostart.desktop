@@ -9,3 +9,4 @@ Exec=/snap/bin/ubuntu-mate-welcome --autostart
 OnlyShowIn=MATE;
 StartupNotify=false
 NoDisplay=true
+X-MATE-Autostart-Delay=30
