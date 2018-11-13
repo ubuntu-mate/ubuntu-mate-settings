@@ -96,6 +96,9 @@ cursor-size=24
 three-finger-click=0
 two-finger-click=0
 
+[org.mate.sound]
+theme-name='Yaru'
+
 [org.mate.window-applets.window-buttons]
 control-maximized-window=true
 padding=9
