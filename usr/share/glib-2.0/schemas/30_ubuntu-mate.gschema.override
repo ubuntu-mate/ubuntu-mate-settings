@@ -31,9 +31,6 @@ suppress-restart-menuitem=true
 rollover-activate=true
 search-position='top'
 
-[com.ubuntu.sound]
-allow-amplified-volume=true
-
 [com.ubuntu.update-manager]
 show-details=true
 show-versions=true
