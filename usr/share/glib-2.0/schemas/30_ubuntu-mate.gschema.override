@@ -69,10 +69,10 @@ exec='onboard'
 exec='orca'
 
 [org.mate.applications-office.calendar]
-exec='thunderbird'
+exec='evolution'
 
 [org.mate.applications-office.tasks]
-exec='thunderbird'
+exec='evolution'
 
 [org.mate.control-center.appearance]
 more-backgrounds-url='https://ubuntu-mate.community/c/multimedia/artwork'
