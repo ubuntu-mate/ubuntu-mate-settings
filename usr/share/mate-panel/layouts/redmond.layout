@@ -25,10 +25,10 @@ toplevel-id=bottom
 object-type=launcher
 menu-path=applications:/
 
-[Object thunderbird]
+[Object evolution]
 locked=true
 position=30
-launcher-location=/usr/share/applications/thunderbird.desktop
+launcher-location=/usr/share/applications/evolution.desktop
 toplevel-id=bottom
 object-type=launcher
 menu-path=applications:/
