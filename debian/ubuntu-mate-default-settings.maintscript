@@ -6,4 +6,4 @@ rm_conffile /etc/skel/.config/libreoffice/4/user/registrymodifications.xcu 0.4.2
 rm_conffile /etc/skel/.config/tilda/config_0 0.4.2ubuntu1
 rm_conffile /etc/profile.d/mate.sh 17.10.17
 rm_conffile /etc/profile.d/gtk-accessibility.sh 17.10.17
-rm_conffile /etc/X11/Xsession.d/99mate-environment
+rm_conffile /etc/X11/Xsession.d/99mate-environment 17.10.17
