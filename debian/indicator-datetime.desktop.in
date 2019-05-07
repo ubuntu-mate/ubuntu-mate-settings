@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Indicator Date and Time
+Exec=/usr/lib/@DEB_HOST_MULTIARCH@/indicator-datetime/indicator-datetime-service
+StartupNotify=false
+Terminal=false
+OnlyShowIn=MATE
+NoDisplay=true
+X-MATE-Autostart-enabled=true

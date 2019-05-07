@@ -12,6 +12,7 @@ usr/share/mate-panel/layouts/
 usr/share/mate/applications/
 usr/share/mate/autostart/caja-dropbox-autostart.desktop
 usr/share/mate/autostart/indicator-application.desktop
+usr/share/mate/autostart/indicator-datetime.desktop
 usr/share/mate/autostart/indicator-messages.desktop
 usr/share/mate/autostart/indicator-power.desktop
 usr/share/mate/autostart/indicator-session.desktop

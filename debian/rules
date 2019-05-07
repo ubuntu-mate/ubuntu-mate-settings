@@ -6,6 +6,7 @@
 override_dh_install:
 	mkdir -p usr/share/mate/autostart
 	sed "s|@DEB_HOST_MULTIARCH@|$(DEB_HOST_MULTIARCH)|" debian/indicator-application.desktop.in > usr/share/mate/autostart/indicator-application.desktop
+	sed "s|@DEB_HOST_MULTIARCH@|$(DEB_HOST_MULTIARCH)|" debian/indicator-datetime.desktop.in > usr/share/mate/autostart/indicator-datetime.desktop
 	sed "s|@DEB_HOST_MULTIARCH@|$(DEB_HOST_MULTIARCH)|" debian/indicator-messages.desktop.in > usr/share/mate/autostart/indicator-messages.desktop
 	sed "s|@DEB_HOST_MULTIARCH@|$(DEB_HOST_MULTIARCH)|" debian/indicator-power.desktop.in > usr/share/mate/autostart/indicator-power.desktop
 	sed "s|@DEB_HOST_MULTIARCH@|$(DEB_HOST_MULTIARCH)|" debian/indicator-session.desktop.in > usr/share/mate/autostart/indicator-session.desktop
