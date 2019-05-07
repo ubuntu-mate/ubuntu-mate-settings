@@ -5,5 +5,5 @@ Exec=/usr/lib/@DEB_HOST_MULTIARCH@/indicator-application/indicator-application-s
 StartupNotify=false
 Terminal=false
 OnlyShowIn=MATE
-X-GNOME-Autostart-enabled=true
+NoDisplay=true
 X-MATE-Autostart-enabled=true

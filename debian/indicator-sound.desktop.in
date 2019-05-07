@@ -5,5 +5,5 @@ Exec=/usr/lib/@DEB_HOST_MULTIARCH@/indicator-sound/indicator-sound-service
 StartupNotify=false
 Terminal=false
 OnlyShowIn=MATE
-X-GNOME-Autostart-enabled=true
+NoDisplay=true
 X-MATE-Autostart-enabled=true
