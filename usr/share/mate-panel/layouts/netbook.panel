@@ -1,6 +1,6 @@
 [general]
 default-layout='netbook'
-object-id-list=['briskmenu', 'dockapplet', 'windowbuttonsapplet', 'notification-area', 'indicatorappletcomplete', 'clockapplet']
+object-id-list=['briskmenu', 'dockapplet', 'windowbuttonsapplet', 'notification-area', 'indicatorappletcomplete']
 toplevel-id-list=['top']
 
 [toplevels/top]
@@ -40,7 +40,7 @@ panel-act-list=true
 applet-iid='WindowButtonsAppletFactory::WindowButtonsApplet'
 locked=true
 toplevel-id='top'
-position=30
+position=20
 object-type='applet'
 panel-right-stick=true
 
@@ -48,7 +48,7 @@ panel-right-stick=true
 applet-iid='NotificationAreaAppletFactory::NotificationArea'
 locked=true
 toplevel-id='top'
-position=20
+position=10
 object-type='applet'
 panel-right-stick=true
 
@@ -56,18 +56,6 @@ panel-right-stick=true
 applet-iid='IndicatorAppletCompleteFactory::IndicatorAppletComplete'
 locked=true
 toplevel-id='top'
-position=10
-object-type='applet'
-panel-right-stick=true
-
-[objects/clockapplet]
-applet-iid='ClockAppletFactory::ClockApplet'
-locked=true
-toplevel-id='top'
 position=0
 object-type='applet'
 panel-right-stick=true
-
-[objects/clockapplet/prefs]
-format='24-hour'
-custom-format=''
