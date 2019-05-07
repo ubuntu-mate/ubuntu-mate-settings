@@ -50,6 +50,15 @@ whitelist=['firefox', 'thunderbird']
 [org.gnome.crypto.pgp]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
+[org.gnome.evolution.mail]
+monospace-font='Ubuntu Mono 12'
+search-gravatar-for-photo=true
+show-sender-photo=true
+variable-width-font='Ubuntu 12'
+
+[org.gnome.evolution.plugin.external-editor]
+command='pluma'
+
 [org.gnome.rhythmbox.encoding-settings]
 media-type-presets={'audio/x-vorbis':'Ubuntu', 'audio/mpeg':'Ubuntu'}
 
