@@ -1,3 +1,10 @@
+ubuntu-mate-settings (19.10.2) eoan; urgency=medium
+
+  * Add NoDisplay=true to ubuntu-mate-settings-overlay.desktop.
+  * Coerce nm-applet to start as an AppIndicator.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 09 May 2019 12:34:46 +0100
+
 ubuntu-mate-settings (19.10.1) eoan; urgency=medium
 
   * Add gschema overrides for Evolution.
