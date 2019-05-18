@@ -28,7 +28,7 @@ menu-path=applications:/
 [Object evolution]
 locked=true
 position=30
-launcher-location=/usr/share/applications/evolution.desktop
+launcher-location=/usr/share/applications/org.gnome.Evolution.desktop
 toplevel-id=bottom
 object-type=launcher
 menu-path=applications:/
