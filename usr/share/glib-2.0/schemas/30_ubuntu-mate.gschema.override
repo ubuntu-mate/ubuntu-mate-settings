@@ -35,6 +35,9 @@ search-position='top'
 show-details=true
 show-versions=true
 
+[net.launchpad.indicator.notifications]
+blacklist=['Spotify', 'NetworkManager', 'Panel Layout Saved']
+
 [net.launchpad.plank.dock.settings]
 dock-items=['desktop.dockitem','clock.dockitem','firefox.dockitem','caja.dockitem','matecc.dockitem']
 hide-mode='window-dodge'
