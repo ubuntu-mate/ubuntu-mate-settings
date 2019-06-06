@@ -1,9 +1,16 @@
-ubuntu-mate-settings (19.10.2) UNRELEASED; urgency=medium
+ubuntu-mate-settings (19.10.3) UNRELEASED; urgency=medium
+
+  * Silence mate-power-manager notifications.
+  * Correct path the the Evolution desktop file in the Redmond layout.
+  * Add .desktop file for Orca.
+  * Add notification blacklist for indicator-notifications.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 18 May 2019 10:15:18 +0100
+
+ubuntu-mate-settings (19.10.2) eoan; urgency=medium
 
   * Add NoDisplay=true to ubuntu-mate-settings-overlay.desktop.
   * Coerce nm-applet to start as an AppIndicator.
-  * Silence mate-power-manager notifications.
-  * Correct path the the Evolution desktop file in the Redmond layout.
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 09 May 2019 12:34:46 +0100
 
