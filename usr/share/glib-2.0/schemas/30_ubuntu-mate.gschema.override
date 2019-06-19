@@ -116,10 +116,10 @@ notify-low-power=false
 theme-name='Yaru'
 
 [org.mate.window-applets.window-buttons]
+behaviour='active-maximized'
 control-maximized-window=true
 padding=9
-spacing=1
-theme='Ambiant-MATE'
+spacing=3
 
 [org.onboard]
 layout='Compact'
