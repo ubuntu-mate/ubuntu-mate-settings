@@ -4,6 +4,7 @@ ubuntu-mate-settings (19.10.3) UNRELEASED; urgency=medium
   * Correct path the the Evolution desktop file in the Redmond layout.
   * Add .desktop file for Orca.
   * Add notification blacklist for indicator-notifications.
+  * Update MATE Window Applets gschema overrides.
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 18 May 2019 10:15:18 +0100
 
