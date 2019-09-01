@@ -35,6 +35,9 @@ search-position='top'
 show-details=true
 show-versions=true
 
+[io.github.GnomeMpv]
+csd-enable=false
+
 [net.launchpad.indicator.notifications]
 blacklist=['Spotify', 'NetworkManager', 'MATE Tweak']
 
