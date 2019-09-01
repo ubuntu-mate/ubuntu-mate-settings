@@ -1,3 +1,10 @@
+ubuntu-mate-settings (19.10.4) UNRELEASED; urgency=medium
+
+  * Transition from VLC to GNOME MPV.
+  * Update notifications blacklist to exclude MATE Tweak.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 01 Sep 2019 02:38:17 +0100
+
 ubuntu-mate-settings (19.10.3) eoan; urgency=medium
 
   * Silence mate-power-manager notifications.
