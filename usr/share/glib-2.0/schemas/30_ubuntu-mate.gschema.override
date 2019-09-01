@@ -36,7 +36,7 @@ show-details=true
 show-versions=true
 
 [net.launchpad.indicator.notifications]
-blacklist=['Spotify', 'NetworkManager', 'Panel Layout Saved']
+blacklist=['Spotify', 'NetworkManager', 'MATE Tweak']
 
 [net.launchpad.plank.dock.settings]
 dock-items=['desktop.dockitem','clock.dockitem','firefox.dockitem','caja.dockitem','matecc.dockitem']
