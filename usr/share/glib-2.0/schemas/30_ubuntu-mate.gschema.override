@@ -116,9 +116,6 @@ notify-fully-charged=false
 notify-low-capacity=false
 notify-low-power=false
 
-[org.mate.sound]
-theme-name='Yaru'
-
 [org.mate.window-applets.window-buttons]
 behaviour='active-maximized'
 control-maximized-window=true
