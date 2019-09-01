@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=TeXInfo
+Comment=The viewer for TexInfo documents
+Exec=info
+Icon=info
+Type=Application
+Categories=Utility;Documentation
+Terminal=true
+X-Desktop-File-Install-Version=0.23
+NoDisplay=true
