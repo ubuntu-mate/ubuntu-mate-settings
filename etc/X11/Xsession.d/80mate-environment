@@ -1,5 +1,5 @@
 # This file is sourced by Xsession(5), not executed.
-if [ "x$DESKTOP_SESSION" == "xmate" ] || [ "x$XDG_SESSION_DESKTOP" == "xmate" ]; then
+if [ "x$DESKTOP_SESSION" = "xmate" ] || [ "x$XDG_SESSION_DESKTOP" = "xmate" ]; then
     # Ensure GTK accessibility modules are active.
     if [ -z "$GTK_MODULES" ]; then
         GTK_MODULES=gail:atk-bridge:canberra-gtk-module
