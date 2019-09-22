@@ -1,4 +1,4 @@
-ubuntu-mate-settings (19.10.7) UNRELEASED; urgency=medium
+ubuntu-mate-settings (19.10.7) eoan; urgency=medium
 
   * Fix comparisons syntax for Xsession.d script.
 
