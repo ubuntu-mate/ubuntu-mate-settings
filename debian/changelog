@@ -1,3 +1,10 @@
+ubuntu-mate-settings (20.04.0) focal; urgency=medium
+
+  * Hide the MATE Time Admin desktop entry; duplicated functionality.
+  * Migrate GNOME MPV overrides to Celluloid.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Fri, 14 Feb 2020 18:30:04 +0000
+
 ubuntu-mate-settings (19.10.7) eoan; urgency=medium
 
   * Fix comparisons syntax for Xsession.d script.
