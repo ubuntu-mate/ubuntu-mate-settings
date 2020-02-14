@@ -35,7 +35,7 @@ search-position='top'
 show-details=true
 show-versions=true
 
-[io.github.GnomeMpv]
+[io.github.celluloid-player.Celluloid]
 csd-enable=false
 dark-theme-enable=false
 
