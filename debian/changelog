@@ -1,3 +1,10 @@
+ubuntu-mate-settings (20.04.1) focal; urgency=medium
+
+  * Show the MATE Time Admin desktop entry.
+  * Hide the GNOME Time Admin desktop entry.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 17 Feb 2020 14:48:36 +0000
+
 ubuntu-mate-settings (20.04.0) focal; urgency=medium
 
   * Hide the MATE Time Admin desktop entry; duplicated functionality.
