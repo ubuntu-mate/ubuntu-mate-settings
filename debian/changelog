@@ -1,3 +1,9 @@
+ubuntu-mate-settings (20.04.2) focal; urgency=medium
+
+  * Update the live session wallpaper to the new default.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Wed, 11 Mar 2020 20:29:23 +0000
+
 ubuntu-mate-settings (20.04.1) focal; urgency=medium
 
   * Show the MATE Time Admin desktop entry.
