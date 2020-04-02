@@ -1,4 +1,5 @@
 etc/apport/
+etc/compizconfig/
 etc/X11/Xsession.d/
 etc/profile.d/
 usr/bin/
