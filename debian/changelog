@@ -1,3 +1,9 @@
+ubuntu-mate-settings (20.04.3) focal; urgency=medium
+
+  * Add Compiz configuration for MATE. (LP: #1864218)
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 02 Apr 2020 22:46:21 +0100
+
 ubuntu-mate-settings (20.04.2) focal; urgency=medium
 
   * Update the live session wallpaper to the new default.
