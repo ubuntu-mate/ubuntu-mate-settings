@@ -53,6 +53,10 @@ zoom-percent=150
 blacklist=['appmenu-mate', 'mate-hud', 'mate-indicator-applet','mate-indicator-applet-appmenu','mate-indicator-applet-complete', 'mate-menu', 'mate-panel']
 whitelist=['firefox', 'thunderbird']
 
+[org.ayatana.indicator.datetime]
+alarm-default-sound='/usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga'
+calendar-default-sound='/usr/share/sounds/Yaru/stereo/message.oga'
+
 [org.gnome.crypto.pgp]
 keyservers=['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
 
