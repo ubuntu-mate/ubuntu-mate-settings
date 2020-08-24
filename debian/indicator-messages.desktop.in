@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Indicator Messages
-Exec=/usr/lib/@DEB_HOST_MULTIARCH@/indicator-messages/indicator-messages-service
-StartupNotify=false
-Terminal=false
-OnlyShowIn=MATE
-NoDisplay=true
-X-MATE-Autostart-enabled=true
