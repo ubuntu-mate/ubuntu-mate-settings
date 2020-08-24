@@ -35,9 +35,6 @@ show-versions=true
 csd-enable=false
 dark-theme-enable=false
 
-[net.launchpad.indicator.notifications]
-blacklist=['Spotify', 'NetworkManager', 'MATE Tweak']
-
 [net.launchpad.plank.dock.settings]
 dock-items=['desktop.dockitem','clock.dockitem','firefox.dockitem','caja.dockitem','matecc.dockitem']
 hide-mode='window-dodge'
@@ -53,6 +50,9 @@ whitelist=['firefox', 'thunderbird']
 [org.ayatana.indicator.datetime]
 alarm-default-sound='/usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga'
 calendar-default-sound='/usr/share/sounds/Yaru/stereo/message.oga'
+
+[org.ayatana.indicator.notifications]
+filter-list=['Spotify', 'NetworkManager', 'MATE Tweak']
 
 [org.ayatana.indicator.session]
 suppress-restart-menuitem=true
