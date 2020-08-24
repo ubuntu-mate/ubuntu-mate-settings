@@ -1,3 +1,11 @@
+ubuntu-mate-settings (20.10.0) groovy; urgency=medium
+
+  * Drop Ubuntu Indicator integrations.
+  * Migrate indicator defaults to Ayatana Indicators.
+  * Migrate defaults to arctica-greeter.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 24 Aug 2020 23:04:06 +0100
+
 ubuntu-mate-settings (20.04.3) focal; urgency=medium
 
   * Add Compiz configuration for MATE. (LP: #1864218)
