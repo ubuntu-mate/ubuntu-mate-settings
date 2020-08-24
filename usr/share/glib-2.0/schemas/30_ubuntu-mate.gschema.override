@@ -1,4 +1,4 @@
-[x.dm.slick-greeter]
+[org.ArcticaProject.arctica-greeter]
 background='/usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo.png'
 background-color='#3C3B37'
 draw-grid=false
@@ -8,17 +8,16 @@ font-name='Ubuntu 11'
 icon-theme-name='Ambiant-MATE'
 high-contrast=false
 show-hostname=true
-#logo=Logo file to use
+indicators=['ug-accessibility', 'org.ayatana.indicator.keyboard', 'org.ayatana.indicator.session', 'org.ayatana.indicator.datetime', 'org.ayatana.indicator.power', 'org.ayatana.indicator.sound', 'ayatana-application']
+logo=''
+only-on-monitor='auto'
 onscreen-keyboard=false
-#other-monitors-logo=Logo file to use for other monitors
-# play-ready-sound=A sound file to play when the greeter is ready
+play-ready-sound=true
 screen-reader=false
-show-power=true
-show-a11y=true
-show-keyboard=true
-show-clock=true
-show-quit=true
+show-hostname=true
 theme-name='Ambiant-MATE'
+togglebox-button-bgcolor='#87A556'
+togglebox-font-fgcolor='#A0A0A0'
 xft-antialias=true
 xft-dpi=96
 xft-hintstyle='hintslight'
