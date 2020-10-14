@@ -30,6 +30,7 @@ fi
 overlay_file config/folder-color/hide_donation
 overlay_file config/smplayer/smplayer.ini
 overlay_file config/tilda/config_0
+overlay_file config/Webcamoid/Webcamoid.conf
 overlay_file config/Trolltech.conf
 
 # Now that the HUD is enabled by default at the system
