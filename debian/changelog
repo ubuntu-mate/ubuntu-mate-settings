@@ -1,3 +1,9 @@
+ubuntu-mate-settings (20.10.1) groovy; urgency=medium
+
+  * Disable Webcamoid update notifications. (LP: #1898419)
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Wed, 14 Oct 2020 13:17:41 +0100
+
 ubuntu-mate-settings (20.10.0) groovy; urgency=medium
 
   * Drop Ubuntu Indicator integrations.
@@ -119,7 +125,7 @@ ubuntu-mate-settings (18.04.17) bionic; urgency=medium
     the snap to mount.
   * Set default mouse cursor size to 24 so it is a senisble size on HiDPI
     and regular DPI displays.
-  * As per upstream, glade and anjuta no longer need blacklisting from 
+  * As per upstream, glade and anjuta no longer need blacklisting from
     appmenu-gtk-module.
 
  -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 23 Apr 2018 21:53:08 +0100
