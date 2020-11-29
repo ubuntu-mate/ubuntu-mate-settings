@@ -11,12 +11,12 @@ toplevel-id=top
 applet-iid=BriskMenuFactory::BriskMenu
 object-type=applet
 
-[Object dockapplet]
+[Object windowpicker]
 locked=true
 position=10
 panel-right-stick=false
 toplevel-id=top
-applet-iid=DockAppletFactory::DockApplet
+applet-iid=MateWindowPickerFactory::MateWindowPicker
 object-type=applet
 
 [Object windowbuttonsapplet]
