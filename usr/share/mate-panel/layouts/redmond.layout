@@ -3,12 +3,12 @@ expand=true
 orientation=bottom
 size=28
 
-[Object mate-menu]
-locked=true
-position=0
-toplevel-id=bottom
-applet-iid=MateMenuAppletFactory::MateMenuApplet
+[Object briskmenu]
 object-type=applet
+applet-iid=BriskMenuFactory::BriskMenu
+toplevel-id=bottom
+position=0
+locked=true
 
 [Object showdesktopapplet]
 locked=true
