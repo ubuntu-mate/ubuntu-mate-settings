@@ -38,8 +38,8 @@ dark-theme-enable=false
 [net.launchpad.plank.dock.settings]
 dock-items=['desktop.dockitem','clock.dockitem','firefox.dockitem','caja.dockitem','matecc.dockitem']
 hide-mode='window-dodge'
-show-dock-item=true
-theme='Ubuntu-MATE'
+show-dock-item=false
+theme='Yaru-dark'
 zoom-enabled=true
 zoom-percent=150
 
