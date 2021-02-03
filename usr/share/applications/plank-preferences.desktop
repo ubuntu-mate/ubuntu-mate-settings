@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Plank Preferences
+Categories=GTK;Settings;DesktopSettings;
+Type=Application
+Exec=plank --preferences
+Icon=plank
+Terminal=false
+NoDisplay=false
+Keywords=mate-control-center;MATE;appearance;properties;dock;customize;look;
+OnlyShowIn=MATE;
