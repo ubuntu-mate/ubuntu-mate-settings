@@ -1,7 +1,7 @@
 [Toplevel top]
 orientation=top
 expand=true
-size=28
+size=32
 
 [Toplevel left]
 orientation=left

@@ -1,7 +1,7 @@
 [Toplevel bottom]
 expand=true
 orientation=bottom
-size=28
+size=32
 
 [Object briskmenu]
 object-type=applet
