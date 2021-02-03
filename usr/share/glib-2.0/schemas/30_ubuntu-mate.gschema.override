@@ -123,8 +123,8 @@ notify-low-power=false
 [org.mate.window-applets.window-buttons]
 behaviour='active-maximized'
 control-maximized-window=true
-padding=9
-spacing=3
+padding=8
+spacing=0
 
 [org.onboard]
 layout='Compact'
