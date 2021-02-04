@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Waiting..."
-sleep 2
+sleep 5
 PLANK_PIDS=$(pidof plank)
 if [ $? -eq 0 ]; then
     echo "Replace plank ${PLANK_PIDS}"
