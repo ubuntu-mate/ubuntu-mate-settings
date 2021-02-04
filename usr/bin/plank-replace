@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+echo "Waiting..."
+sleep 2
+PLANK_PIDS=$(pidof plank)
+if [ $? -eq 0 ]; then
+    echo "Replace plank ${PLANK_PIDS}"
+    killall plank
+    exec plank &
+else
+    echo "Plank not running, nothing to do."
+fi
