@@ -16,7 +16,7 @@ usr/share/mate/autostart/blueman.desktop
 usr/share/mate/autostart/caja-dropbox-autostart.desktop
 usr/share/mate/autostart/geoclue-demo-agent.desktop
 usr/share/mate/autostart/nm-applet.desktop
-usr/share/mate/autostart/plank-replace.desktop
+usr/share/mate/autostart/dock-replace.desktop
 usr/share/mate/autostart/print-applet.desktop
 usr/share/mate/autostart/ubuntu-mate-settings-overlay.desktop
 usr/share/plank/themes/
