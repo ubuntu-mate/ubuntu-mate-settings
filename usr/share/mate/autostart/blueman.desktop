@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Disable Blueman Applet
+Comment=Disable the Blueman applet, so as not to conflict with the bluetooth indicator.
+Icon=blueman
+Exec=blueman-applet
+Terminal=false
+Type=Application
+Categories=
+X-Ubuntu-Gettext-Domain=blueman
+NotShowIn=MATE;
+NoDisplay=true
