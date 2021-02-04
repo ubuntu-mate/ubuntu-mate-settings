@@ -9,7 +9,7 @@ Vcs-Git: https://github.com/ubuntu-mate/ubuntu-mate-settings.git
 Vcs-Browser: https://github.com/ubuntu-mate/ubuntu-mate-settings
 
 Package: ubuntu-mate-default-settings
-Architecture: any
+Architecture: all
 Depends: desktop-file-utils,
          im-config,
          libglib2.0-bin,
