@@ -1,11 +1,11 @@
 [Desktop Entry]
 Name=Caja Dropbox autostart
 Comment=If Caja Dropbox is installed, make sure it autostarts.
+Icon=caja-dropbox
 Exec=/usr/lib/ubuntu-mate/caja-dropbox-autostart
 Terminal=false
 Type=Application
-Icon=caja-dropbox
-Categories=Network;FileTransfer;
 StartupNotify=false
+Categories=Network;FileTransfer;
 OnlyShowIn=MATE;
 NoDisplay=true

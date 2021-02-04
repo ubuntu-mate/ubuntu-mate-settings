@@ -1,11 +1,11 @@
 [Desktop Entry]
 Name=Disable geoclue demo
-Comment=Disabled to save system resources.
+Comment=Disabled geoclue demo to save system resources
 Icon=mark-location-symbolic
 Exec=/usr/libexec/geoclue-2.0/demos/agent
 Terminal=false
 Type=Application
 StartupNotify=false
 Categories=
-NoDisplay=true
 NotShowIn=GNOME;MATE;
+NoDisplay=true
