@@ -2,7 +2,7 @@
 Name=Plank Replace
 Comment=Replace during session start-up to correctly align with panel struts
 Icon=plank
-Exec=plank-replace
+Exec=/usr/lib/ubuntu-mate/plank-replace
 Terminal=false
 Type=Application
 StartupNotify=false

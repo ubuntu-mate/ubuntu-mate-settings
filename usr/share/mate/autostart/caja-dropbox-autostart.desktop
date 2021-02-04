@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=Autostart Caja Dropbox
+Name=Caja Dropbox autostart
 Comment=If Caja Dropbox is installed, make sure it autostarts.
-Exec=caja-dropbox-autostart
+Exec=/usr/lib/ubuntu-mate/caja-dropbox-autostart
 Terminal=false
 Type=Application
 Icon=caja-dropbox
