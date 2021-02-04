@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Create an autostart for Caja Dropbox
-Comment=Creates an autostart for Caja Dropbox if it is installed and an autostart is not missing.
+Name=Autostart Caja Dropbox
+Comment=If Caja Dropbox is installed, make sure it autostarts.
 Exec=caja-dropbox-autostart
 Terminal=false
 Type=Application

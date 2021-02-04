@@ -1,13 +1,11 @@
 [Desktop Entry]
-Name=Disable Print Queue Applet
-Comment=Disable the printer applet, so as not to conflict with the printer indicator.
+Name=Disable printer applet
+Comment=Disabled so it does not conflict with the printer indicator.
+Icon=printer
 Exec=system-config-printer-applet
 Terminal=false
 Type=Application
-Icon=printer
-NotShowIn=KDE;GNOME;Cinnamon;LXDE;Unity;MATE;
 StartupNotify=false
-X-GNOME-Autostart-Delay=30
-X-Ubuntu-Gettext-Domain=system-config-printer
-X-Desktop-File-Install-Version=0.24
-Categories=System;Monitor;GTK;
+Categories=
+NoDisplay=true
+NotShowIn=KDE;GNOME;Cinnamon;LXDE;Unity;MATE;

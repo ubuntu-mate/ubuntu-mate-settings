@@ -1,11 +1,11 @@
 [Desktop Entry]
 Name=Plank Replace
-Comment=If Plank is enabled, replace it during session start-up to correctly align with panel struts
+Comment=Replace during session start-up to correctly align with panel struts
+Icon=plank
 Exec=plank-replace
 Terminal=false
 Type=Application
-Icon=plank
-Categories=Utility;
 StartupNotify=false
-OnlyShowIn=MATE;
+Categories=
 NoDisplay=true
+OnlyShowIn=MATE;
