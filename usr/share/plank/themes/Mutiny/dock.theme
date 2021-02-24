@@ -38,18 +38,18 @@ LaunchBounceHeight=0.5
 FadeOpacity=0.25
 #The amount of time (in ms) for click animations.
 ClickTime=300
-#The amount of time (in ms) to bounce an icon when launching an application.
-LaunchBounceTime=550
 #The amount of time (in ms) to bounce an urgent icon.
-UrgentBounceTime=650
+UrgentBounceTime=600
+#The amount of time (in ms) to bounce an icon when launching an application.
+LaunchBounceTime=600
 #The amount of time (in ms) for active window indicator animations.
 ActiveTime=300
 #The amount of time (in ms) to slide icons into/out of the dock.
 SlideTime=300
 #The time (in ms) to fade the dock in/out on a hide (if FadeOpacity is < 1).
-FadeTime=200
+FadeTime=250
 #The time (in ms) to slide the dock in/out on a hide (if FadeOpacity is 1).
-HideTime=150
+HideTime=250
 #The size of the urgent glow (shown when dock is hidden), in tenths of a percent of IconSize.
 GlowSize=30
 #The total time (in ms) to show the hidden-dock urgent glow.

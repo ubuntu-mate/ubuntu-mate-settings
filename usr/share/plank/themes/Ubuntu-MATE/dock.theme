@@ -31,7 +31,7 @@ IndicatorSize=10
 #The size of the icon-shadow behind every item, in tenths of a percent of IconSize.
 IconShadowSize=1
 #The height (in percent of IconSize) to bounce an icon when the application sets urgent.
-UrgentBounceHeight=1.6666666666666667
+UrgentBounceHeight=1.66
 #The height (in percent of IconSize) to bounce an icon when launching an application.
 LaunchBounceHeight=0.625
 #The opacity value (0 to 1) to fade the dock to when hiding it.
@@ -57,8 +57,10 @@ GlowTime=10000
 #The time (in ms) of each pulse of the hidden-dock urgent glow.
 GlowPulseTime=2000
 #The hue-shift (-180 to 180) of the urgent indicator color.
-UrgentHueShift=150
+UrgentHueShift=-5
 #The time (in ms) to move an item to its new position or its addition/removal to/from the dock.
 ItemMoveTime=450
 #Whether background and icons will unhide/hide with different speeds. The top-border of both will leave/hit the screen-edge at the same time.
 CascadeHide=true
+#The color (RGBA) of the badge displaying urgent count
+BadgeColor=0;;0;;0;;0
