@@ -1,3 +1,22 @@
+ubuntu-mate-settings (21.04.1) hirsute; urgency=medium
+
+  * debian/control:
+    + Set ubuntu-mate-default-settings Architecture: all
+  * Disable print-applet; replaced by Printer Indicator
+  * Coerce nm-applet to always start with indicators enabled
+  * Add dock-replace to align docks with panel struts
+  * Make Yaru-light the default Plank theme
+  * Add Plank Preferences to Control Center
+  * Add Yaru and Mutiny theme for Plank
+  * Add 32 distinct CPU colours to MATE System Monitor
+  * LibreOffice defaults to Yaru icon theme
+  * All panels are now 32px
+  * Simplify Mutiny layout; no longer requires MATE Dock Applet
+  * Set Yaru-MATE theme for Arctica Greeter
+  * Add emoji font configuration
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 04 Feb 2021 16:40:48 +0000
+
 ubuntu-mate-settings (21.04.0) hirsute; urgency=medium
 
   * Change Redmond layout to use Brisk Menu.
