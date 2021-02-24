@@ -50,7 +50,6 @@ whitelist=['firefox', 'thunderbird']
 [org.ayatana.indicator.datetime]
 alarm-default-sound='/usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga'
 calendar-default-sound='/usr/share/sounds/Yaru/stereo/message.oga'
-custom-time-format='%d %b %H:%M'
 
 [org.ayatana.indicator.notifications]
 filter-list=['Spotify', 'NetworkManager', 'MATE Tweak']
