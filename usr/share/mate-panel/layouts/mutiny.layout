@@ -3,12 +3,11 @@ orientation=top
 expand=true
 size=32
 
-[Object brisk-menu]
+[Object briskmenu]
 object-type=applet
 applet-iid=BriskMenuFactory::BriskMenu
 toplevel-id=top
 position=0
-panel-right-stick=true
 locked=true
 
 [Object notification-area]
