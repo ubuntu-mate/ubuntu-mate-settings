@@ -1,12 +1,12 @@
 [Toplevel top]
 expand=true
 orientation=top
-size=32
+size=28
 
 [Toplevel bottom]
 expand=true
 orientation=bottom
-size=32
+size=28
 
 [Object menu-bar]
 object-type=menu-bar
