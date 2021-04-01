@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Ayatana Indicator Keyboard
+Exec=/usr/libexec/ayatana-indicator-keyboard/ayatana-indicator-keyboard-service
+OnlyShowIn=Unity;XFCE;
+NotShowIn=MATE;
+NoDisplay=true
+StartupNotify=false
+Terminal=false
