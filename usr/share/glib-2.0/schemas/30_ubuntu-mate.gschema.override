@@ -105,6 +105,9 @@ show-tab-border=false
 [org.mate.panel]
 default-layout='familiar'
 
+[org.mate.peripherals-keyboard-xkb.general]
+disable-indicator=true
+
 [org.mate.peripherals-mouse]
 cursor-size=24
 
