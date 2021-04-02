@@ -1,3 +1,9 @@
+ubuntu-mate-settings (21.04.6) hirsute; urgency=medium
+
+  * Make Yaru MATE style default for LibreOffice
+
+ -- Martin Wimpress <code@wimpress.io>  Fri, 02 Apr 2021 15:19:12 +0100
+
 ubuntu-mate-settings (21.04.5) hirsute; urgency=medium
 
   * Only show one keyboard indicator (LP: #1918076)
