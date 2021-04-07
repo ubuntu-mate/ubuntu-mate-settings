@@ -6,3 +6,6 @@ command-1='ubiquity gtk_ui'
 
 [org.mate.background]
 picture-filename='/usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo.png'
+
+[org.mate.interface]
+accessibility=true
