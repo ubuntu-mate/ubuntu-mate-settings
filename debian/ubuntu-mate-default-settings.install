@@ -1,6 +1,7 @@
 etc/apport/
 etc/fonts/conf.d/
 etc/compizconfig/
+etc/lightdm/lightdm.conf.d/
 etc/X11/Xsession.d/
 etc/profile.d/
 usr/bin/
