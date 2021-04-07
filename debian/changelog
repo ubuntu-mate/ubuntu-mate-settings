@@ -1,3 +1,10 @@
+ubuntu-mate-settings (21.04.7) hirsute; urgency=medium
+
+  * Disable LightDM manual login. (LP: #1895875)
+  * Enable assistive technologies in the live session (LP: #1231091)
+
+ -- Martin Wimpress <code@wimpress.io>  Wed, 07 Apr 2021 09:30:09 +0100
+
 ubuntu-mate-settings (21.04.6) hirsute; urgency=medium
 
   * Make Yaru MATE style default for LibreOffice
