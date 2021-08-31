@@ -104,6 +104,7 @@ interpolate=false
 enabled=false
 
 [org.mate.Marco.general]
+alt-tab-expand-to-fit-title=true
 show-tab-border=false
 
 [org.mate.panel]
