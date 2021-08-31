@@ -17,7 +17,6 @@ usr/share/mate/applications/
 usr/share/mate/autostart/ayatana-indicator-keyboard.desktop
 usr/share/mate/autostart/caja-dropbox-autostart.desktop
 usr/share/mate/autostart/nm-applet.desktop
-usr/share/mate/autostart/dock-replace.desktop
 usr/share/mate/autostart/print-applet.desktop
 usr/share/mate/autostart/ubuntu-mate-settings-overlay.desktop
 usr/share/plank/themes/
