@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+MOMENT=15
+LOG="/tmp/dock-replace.log"
+
+function logit() {
+  local MSG="${1}"
+  echo "$(date +"%D %H:%M:%S"): ${MSG}" | tee -a "${LOG}"
+}
+
+logit "Getting dock from dconf."
+DOCK=$(dconf read /org/mate/desktop/session/required-components/dock | sed "s/'//g" | sed 's/ //g')
+if [ -n "${DOCK}" ]; then
+  logit "Dock is '${DOCK}'. Waiting a moment..."
+  sleep ${MOMENT}
+  logit "Looking for ${DOCK} process..."
+  DOCK_PIDS=$(pidof "${DOCK}")
+  if [ $? -eq 0 ]; then
+    logit "Replacing ${DOCK} (${DOCK_PIDS})."
+    killall ${DOCK}
+    exec ${DOCK} &
+    logit "${DOCK} has been replaced."
+  else
+    logit "Launching ${DOCK}."
+    exec ${DOCK} &
+    logit "${DOCK} has been launched."
+  fi
+else
+  logit "Dock is not set in dconf, doing nothing."
+fi
