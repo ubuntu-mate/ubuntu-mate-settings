@@ -124,6 +124,9 @@ notify-fully-charged=false
 notify-low-capacity=false
 notify-low-power=false
 
+[org.mate.session.required-components]
+windowmanager='marco-picom'
+
 [org.mate.system-monitor]
 cpu-color0="#9A0606"
 cpu-color1="#B42828"
