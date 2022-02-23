@@ -1,3 +1,10 @@
+ubuntu-mate-settings (22.04.0) jammy; urgency=medium
+
+  * Hide the picom desktop icon in the MATE session
+  * Re-instate dock-replace.
+
+ -- Martin Wimpress <code@wimpress.io>  Fri, 28 Jan 2022 10:49:05 +0000
+
 ubuntu-mate-settings (21.10.0) impish; urgency=medium
 
   * Remove dock-replace. No longer required.
