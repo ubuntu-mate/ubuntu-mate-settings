@@ -31,6 +31,10 @@ search-position='top'
 show-details=true
 show-versions=true
 
+[com.ubuntu.update-notifier:MATE]
+notify-ubuntu-advantage-available=false
+show-livepatch-status-icon=false
+
 [io.github.celluloid-player.Celluloid]
 csd-enable=false
 dark-theme-enable=false
