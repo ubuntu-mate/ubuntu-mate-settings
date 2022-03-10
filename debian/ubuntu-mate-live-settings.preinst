@@ -2,6 +2,7 @@
 
 if [ "$1" = install -o "$1" = upgrade ]; then
   dpkg-divert --add --rename --package ubuntu-mate-live-settings --divert /usr/share/ubiquity/pixmaps/ubuntu_installed.png.distrib /usr/share/ubiquity/pixmaps/ubuntu_installed.png
+  dpkg-divert --add --rename --package ubuntu-mate-live-settings --divert /usr/share/ubiquity/pixmaps/panel.png.distrib /usr/share/ubiquity/pixmaps/panel.png
 fi
 
 #DEBHELPER#
