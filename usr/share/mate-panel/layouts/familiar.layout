@@ -18,7 +18,7 @@ locked=true
 [Object firefox]
 locked=true
 position=10
-launcher-location=/usr/share/applications/firefox.desktop
+launcher-location=/var/lib/snapd/desktop/applications/firefox_firefox.desktop
 toplevel-id=top
 object-type=launcher
 menu-path=applications:/
