@@ -21,11 +21,15 @@ function overlay_file() {
 }
 
 if [ ! -d "${HOME}/.config/plank/dock1" ]; then
-    overlay_file config/plank/dock1/launchers/clock.dockitem
     overlay_file config/plank/dock1/launchers/desktop.dockitem
-    overlay_file config/plank/dock1/launchers/firefox.dockitem
-    overlay_file config/plank/dock1/launchers/caja.dockitem
+    overlay_file config/plank/dock1/launchers/firefox_firefox.dockitem
+    overlay_file config/plank/dock1/launchers/caja-browser.dockitem
     overlay_file config/plank/dock1/launchers/matecc.dockitem
+    overlay_file config/plank/dock1/launchers/mate-system-monitor.dockitem
+    overlay_file config/plank/dock1/launchers/mate-terminal.dockitem
+    overlay_file config/plank/dock1/launchers/mate-calc.dockitem
+    overlay_file config/plank/dock1/launchers/clock.dockitem
+    overlay_file config/plank/dock1/launchers/trash.dockitem
 fi
 overlay_file config/folder-color/hide_donation
 overlay_file config/libreoffice/4/user/registrymodifications.xcu

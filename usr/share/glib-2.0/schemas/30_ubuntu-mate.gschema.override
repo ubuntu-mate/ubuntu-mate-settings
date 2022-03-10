@@ -40,7 +40,7 @@ csd-enable=false
 dark-theme-enable=false
 
 [net.launchpad.plank.dock.settings]
-dock-items=['firefox.dockitem','caja.dockitem','mate-terminal.dockitem','mate-system-monitor.dockitem','mate-calc.dockitem','matecc.dockitem','ubuntu-mate-guide.dockitem','trash.docitem']
+dock-items=['desktop.dockitem', 'firefox_firefox.dockitem', 'caja-browser.dockitem', 'matecc.dockitem', 'mate-system-monitor.dockitem', 'mate-terminal.dockitem', 'mate-calc.dockitem', 'clock.dockitem', 'trash.dockitem']
 hide-mode='window-dodge'
 show-dock-item=false
 theme='Yaru-light'
