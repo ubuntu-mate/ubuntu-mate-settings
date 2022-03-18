@@ -1,4 +1,5 @@
 etc/apport/
+etc/firefox/
 etc/fonts/conf.d/
 etc/compizconfig/
 etc/lightdm/lightdm.conf.d/
