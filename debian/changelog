@@ -1,3 +1,9 @@
+ubuntu-mate-settings (22.04.5) jammy; urgency=medium
+
+  * Configure default home page for the Firefox snap
+
+ -- Martin Wimpress <code@wimpress.io>  Fri, 18 Mar 2022 14:49:44 +0000
+
 ubuntu-mate-settings (22.04.4) jammy; urgency=medium
 
   * debian/ubuntu-mate-live-settings.install:
