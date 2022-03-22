@@ -1,5 +1,5 @@
 [org.ArcticaProject.arctica-greeter]
-background='/usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo.png'
+background='/usr/share/backgrounds/ubuntu-mate-jammy/Jammy-Jellyfish_WP_4096x2304_Green.png'
 background-color='#3C3B37'
 draw-grid=false
 draw-user-backgrounds=false
