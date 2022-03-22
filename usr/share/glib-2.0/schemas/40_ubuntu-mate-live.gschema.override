@@ -5,7 +5,7 @@ run-command-1='<Mod4>1'
 command-1='ubiquity gtk_ui'
 
 [org.mate.background]
-picture-filename='/usr/share/backgrounds/ubuntu-mate-jammy/Jammy-Jellyfish_WP_4096x2304_Green.png'
+picture-filename='/usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo.png'
 
 [org.mate.interface]
 accessibility=true
