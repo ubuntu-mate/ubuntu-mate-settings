@@ -1,3 +1,9 @@
+ubuntu-mate-settings (22.04.8) jammy; urgency=medium
+
+  * Actually make the mascot wallpaper default.
+
+ -- Martin Wimpress <code@wimpress.io>  Tue, 22 Mar 2022 21:40:24 +0000
+
 ubuntu-mate-settings (22.04.7) jammy; urgency=medium
 
   * Drop session-migration, does not work on Ubuntu MATE.
