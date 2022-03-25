@@ -61,7 +61,9 @@ plank_dark="'Yaru-dark'"
 cursor_theme="'Yaru'"
 
 gtk_theme=$(gsettings get org.mate.interface gtk-theme | cut -d"'" -f2)
-if [ ! -e "${HOME}/.themes/${gtk_theme}/index.theme" ] && [ ! -e "/usr/share/themes/${gtk_theme}/index.theme" ]; then
+if [ ! -e "${HOME}/.themes/${gtk_theme}/index.theme" ] && \
+   [ ! -e "${HOME}/.local/share/${gtk_theme}/index.theme" ] && \
+   [ ! -e "/usr/share/themes/${gtk_theme}/index.theme" ]; then
     # Migrate from missing gtk theme
     case ${gtk_theme} in
         "$ambiant"|"$ambiant_dark")
@@ -82,7 +84,9 @@ if [ ! -e "${HOME}/.themes/${gtk_theme}/index.theme" ] && [ ! -e "/usr/share/the
 fi
 
 icon_theme=$(gsettings get org.mate.interface icon-theme | cut -d"'" -f2)
-if [ ! -e "${HOME}/.icons/${icon_theme}/index.theme" ] && [ ! -e "/usr/share/icons/${icon_theme}/index.theme" ]; then
+if [ ! -e "${HOME}/.icons/${icon_theme}/index.theme" ] && \
+   [ ! -e "${HOME}/.local/share/icons/${icon_theme}/index.theme" ] && \
+   [ ! -e "/usr/share/icons/${icon_theme}/index.theme" ]; then
     # Migrate from missing icon theme
     case ${icon_theme} in
         "$ambiant"|"$ambiant_dark")
@@ -105,7 +109,9 @@ case $(gsettings get org.mate.peripherals-mouse cursor-theme) in
 esac
 
 marco_theme=$(gsettings get org.mate.Marco.general theme | cut -d"'" -f2)
-if [ ! -e "${HOME}/.themes/${marco_theme}/metacity-1/metacity-theme-1.xml" ] && [ ! -e "/usr/share/themes/${marco_theme}/metacity-1/metacity-theme-1.xml" ]; then
+if [ ! -e "${HOME}/.themes/${marco_theme}/metacity-1/metacity-theme-1.xml" ] && \
+   [ ! -e "${HOME}/.local/share/${marco_theme}/metacity-1/metacity-theme-1.xml" ] && \
+   [ ! -e "/usr/share/themes/${marco_theme}/metacity-1/metacity-theme-1.xml" ]; then
     # Migrate from missing Metacity theme
     case ${marco_theme} in
         "$ambiant"|"$ambiant_dark") gsettings set org.mate.Marco.general theme "$yaru_dark";;
