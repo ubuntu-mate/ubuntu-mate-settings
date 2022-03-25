@@ -44,9 +44,9 @@ autostart_clean mate-hud.desktop
 autostart_clean ubuntu-mate-welcome.desktop
 
 # Migrate from Ambiant/Radiant themes for Yaru/Yaru-MATE
-ambiant="'Ambiant-MATE'"
-ambiant_dark="'Ambiant-MATE-Dark'"
-radiant="'Radiant-MATE'"
+ambiant="Ambiant-MATE"
+ambiant_dark="Ambiant-MATE-Dark"
+radiant="Radiant-MATE"
 
 yaru_mate_light="'Yaru-MATE-light'"
 yaru_mate_dark="'Yaru-MATE-dark'"
@@ -60,35 +60,41 @@ plank_light="'Yaru-light'"
 plank_dark="'Yaru-dark'"
 cursor_theme="'Yaru'"
 
-# Migrate from Ambiant/Radiant gtk theme
-case $(gsettings get org.mate.interface gtk-theme) in
-    "$ambiant"|"$ambiant_dark")
-        gsettings set org.mate.interface gtk-theme "$yaru_mate_dark"
-        gsettings set org.gnome.desktop.interface gtk-theme "$yaru_mate_dark"
-        gsettings set org.gnome.desktop.interface color-scheme "$color_scheme_dark"
-        gsettings set net.launchpad.plank.dock.settings theme "$plank_dark"
-        dconf write /net/launchpad/plank/docks/dock1/theme "$plank_dark"
-        ;;
-    "$radiant")
-        gsettings set org.mate.interface gtk-theme "$yaru_mate_light"
-        gsettings set org.gnome.desktop.interface gtk-theme "$yaru_mate_light"
-        gsettings set org.gnome.desktop.interface color-scheme "$color_scheme_light"
-        gsettings set net.launchpad.plank.dock.settings theme "$plank_light"
-        dconf write /net/launchpad/plank/docks/dock1/theme "$plank_dark"
-        ;;
-esac
+gtk_theme=$(gsettings get org.mate.interface gtk-theme | cut -d"'" -f2)
+if [ ! -e "${HOME}/.themes/${gtk_theme}/index.theme" ] && [ ! -e "/usr/share/themes/${gtk_theme}/index.theme" ]; then
+    # Migrate from missing gtk theme
+    case ${gtk_theme} in
+        "$ambiant"|"$ambiant_dark")
+            gsettings set org.mate.interface gtk-theme "$yaru_mate_dark"
+            gsettings set org.gnome.desktop.interface gtk-theme "$yaru_mate_dark"
+            gsettings set org.gnome.desktop.interface color-scheme "$color_scheme_dark"
+            gsettings set net.launchpad.plank.dock.settings theme "$plank_dark"
+            dconf write /net/launchpad/plank/docks/dock1/theme "$plank_dark"
+            ;;
+        *)
+            gsettings set org.mate.interface gtk-theme "$yaru_mate_light"
+            gsettings set org.gnome.desktop.interface gtk-theme "$yaru_mate_light"
+            gsettings set org.gnome.desktop.interface color-scheme "$color_scheme_light"
+            gsettings set net.launchpad.plank.dock.settings theme "$plank_light"
+            dconf write /net/launchpad/plank/docks/dock1/theme "$plank_dark"
+            ;;
+    esac
+fi
 
-# Migrate from Ambiant/Radiant icon theme
-case $(gsettings get org.mate.interface icon-theme) in
-    "$ambiant"|"$ambiant_dark")
-        gsettings set org.mate.interface icon-theme "$yaru_mate_dark"
-        gsettings set org.gnome.desktop.interface icon-theme "$yaru_mate_dark"
-        ;;
-    "$radiant")
-        gsettings set org.mate.interface icon-theme "$yaru_mate_light"
-        gsettings set org.gnome.desktop.interface icon-theme "$yaru_mate_light"
-        ;;
-esac
+icon_theme=$(gsettings get org.mate.interface icon-theme | cut -d"'" -f2)
+if [ ! -e "${HOME}/.icons/${icon_theme}/index.theme" ] && [ ! -e "/usr/share/icons/${icon_theme}/index.theme" ]; then
+    # Migrate from missing icon theme
+    case ${icon_theme} in
+        "$ambiant"|"$ambiant_dark")
+            gsettings set org.mate.interface icon-theme "$yaru_mate_dark"
+            gsettings set org.gnome.desktop.interface icon-theme "$yaru_mate_dark"
+            ;;
+        *)
+            gsettings set org.mate.interface icon-theme "$yaru_mate_light"
+            gsettings set org.gnome.desktop.interface icon-theme "$yaru_mate_light"
+            ;;
+    esac
+fi
 
 # Migrate from Ambiant/Radiant/Yaru-MATE xcursor theme
 case $(gsettings get org.mate.peripherals-mouse cursor-theme) in
@@ -98,11 +104,14 @@ case $(gsettings get org.mate.peripherals-mouse cursor-theme) in
         ;;
 esac
 
-# Migrate from Ambiant/Radiant Metacity theme
-case $(gsettings get org.mate.Marco.general theme) in
-    "$ambiant"|"$ambiant_dark") gsettings set org.mate.Marco.general theme "$yaru_dark";;
-    "$radiant") gsettings set org.mate.Marco.general theme "$yaru_light";;
-esac
+marco_theme=$(gsettings get org.mate.Marco.general theme | cut -d"'" -f2)
+if [ ! -e "${HOME}/.themes/${marco_theme}/metacity-1/metacity-theme-1.xml" ] && [ ! -e "/usr/share/themes/${marco_theme}/metacity-1/metacity-theme-1.xml" ]; then
+    # Migrate from missing Metacity theme
+    case ${marco_theme} in
+        "$ambiant"|"$ambiant_dark") gsettings set org.mate.Marco.general theme "$yaru_dark";;
+        *) gsettings set org.mate.Marco.general theme "$yaru_light";;
+    esac
+fi
 
 # Migrate from Ambiant/Radiant/Yaru-MATE GtkSourceView styles
 case $(gsettings get org.mate.pluma color-scheme) in
