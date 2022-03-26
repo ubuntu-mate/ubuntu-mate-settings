@@ -1,3 +1,9 @@
+ubuntu-mate-settings (22.04.11) jammy; urgency=medium
+
+  * Correct desktop menu items/icons in MATE.
+
+ -- Martin Wimpress <code@wimpress.io>  Sat, 26 Mar 2022 01:52:29 +0000
+
 ubuntu-mate-settings (22.04.10) jammy; urgency=medium
 
   * Add another conditional check for theme migration. (LP: #1966439)
