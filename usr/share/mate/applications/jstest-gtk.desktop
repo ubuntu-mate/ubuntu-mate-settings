@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Joystick
+Comment=Joystick testing and configuration tool
+Comment[es]=Herramienta de comprobación y configuración de joysticks
+TryExec=jstest-gtk
+Exec=jstest-gtk
+Terminal=false
+Type=Application
+Icon=jstest-gtk
+Categories=Settings;HardwareSettings;
+Keywords=joystick;calibration;

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Settings;DesktopSettings;X-LXDE-Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+Comment=Ayatana Indicators Settings
+TryExec=/usr/bin/ayatana-settings
+Exec=/usr/bin/ayatana-settings
+Icon=system-component-addon
+Keywords=settings;indicators;ayatana;control;system;sound;notifications;datetime;events;messages;bluetooth;network;session;
+Name=Indicators
+Terminal=false
+Type=Application
+X-Ubuntu-Gettext-Domain=ayatana-settings
+
