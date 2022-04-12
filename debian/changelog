@@ -1,3 +1,9 @@
+ubuntu-mate-settings (22.04.14) jammy; urgency=medium
+
+  * Use symbolic icon for Classic Menu. (LP: #1968726)
+
+ -- Martin Wimpress <code@wimpress.io>  Tue, 12 Apr 2022 14:07:12 +0100
+
 ubuntu-mate-settings (22.04.13) jammy; urgency=medium
 
   * Invoke x-terminal-emulator. (LP: #1873750)
