@@ -1,3 +1,9 @@
+ubuntu-mate-settings (22.04.13) jammy; urgency=medium
+
+  * Invoke x-terminal-emulator. (LP: #1873750)
+
+ -- Martin Wimpress <code@wimpress.io>  Wed, 06 Apr 2022 17:34:04 +0100
+
 ubuntu-mate-settings (22.04.12) jammy; urgency=medium
 
   * Override system-config-printer icon in MATE to use full color
