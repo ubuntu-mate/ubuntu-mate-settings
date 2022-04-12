@@ -114,6 +114,9 @@ show-tab-border=false
 [org.mate.panel]
 default-layout='familiar'
 
+[org.mate.panel.menubar]
+icon-name='start-here-symbolic'
+
 [org.mate.peripherals-mouse]
 cursor-size=24
 
