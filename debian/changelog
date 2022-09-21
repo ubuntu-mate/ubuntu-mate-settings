@@ -1,3 +1,11 @@
+ubuntu-mate-settings (22.10.0) kinetic; urgency=medium
+
+  * Correct the default wallpaper.
+  * Remove obsolete settings.
+  * Update gtkhash override.
+
+ -- Martin Wimpress <code@wimpress.io>  Wed, 21 Sep 2022 11:21:17 +0100
+
 ubuntu-mate-settings (22.04.14) jammy; urgency=medium
 
   * Use symbolic icon for Classic Menu. (LP: #1968726)
