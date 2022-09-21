@@ -27,7 +27,7 @@ object-type=applet
 applet-iid=NotificationAreaAppletFactory::NotificationArea
 toplevel-id=top
 position=10
-panel-right-stick=true
+relative-to-edge=end
 locked=true
 
 [Object indicatorappletcomplete]
@@ -35,7 +35,7 @@ object-type=applet
 applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
 toplevel-id=top
 position=0
-panel-right-stick=true
+relative-to-edge=end
 locked=true
 
 [Object show-desktop]
@@ -57,7 +57,7 @@ object-type=applet
 applet-iid=WnckletFactory::WorkspaceSwitcherApplet
 toplevel-id=bottom
 position=10
-panel-right-stick=true
+relative-to-edge=end
 locked=true
 
 [Object trashapplet]
@@ -66,4 +66,4 @@ position=0
 toplevel-id=bottom
 applet-iid=TrashAppletFactory::TrashApplet
 object-type=applet
-panel-right-stick=true
+relative-to-edge=end

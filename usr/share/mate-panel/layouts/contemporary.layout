@@ -20,7 +20,7 @@ position=10
 toplevel-id=top
 applet-iid=AppmenuAppletFactory::AppmenuApplet
 object-type=applet
-panel-right-stick=false
+relative-to-edge=end
 locked=true
 
 [Object notification-area]
@@ -28,7 +28,7 @@ object-type=applet
 applet-iid=NotificationAreaAppletFactory::NotificationArea
 toplevel-id=top
 position=10
-panel-right-stick=true
+relative-to-edge=end
 locked=true
 
 [Object indicatorappletcomplete]
@@ -36,7 +36,7 @@ object-type=applet
 applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
 toplevel-id=top
 position=0
-panel-right-stick=true
+relative-to-edge=end
 locked=true
 
 [Object show-desktop]
@@ -58,13 +58,13 @@ object-type=applet
 applet-iid=WnckletFactory::WorkspaceSwitcherApplet
 toplevel-id=bottom
 position=10
-panel-right-stick=true
+relative-to-edge=end
 locked=true
 
 [Object trashapplet]
-locked=true
-position=0
-toplevel-id=bottom
-applet-iid=TrashAppletFactory::TrashApplet
 object-type=applet
-panel-right-stick=true
+applet-iid=TrashAppletFactory::TrashApplet
+toplevel-id=bottom
+position=0
+relative-to-edge=end
+locked=true
