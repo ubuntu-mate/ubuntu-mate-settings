@@ -97,6 +97,9 @@ exec='evolution'
 [org.mate.applications-office.tasks]
 exec='evolution'
 
+[org.mate.background]
+picture-filename='/usr/share/backgrounds/ubuntu-mate-common/Green-Wall-Logo.png'
+
 [org.mate.control-center.appearance]
 more-backgrounds-url='https://ubuntu-mate.community/c/multimedia/artwork'
 
