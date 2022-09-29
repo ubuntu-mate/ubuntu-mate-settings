@@ -1,3 +1,9 @@
+ubuntu-mate-settings (22.10.2) kinetic; urgency=medium
+
+  * Set a default wallpaper. (LP: #1991300)
+
+ -- Martin Wimpress <code@wimpress.io>  Thu, 29 Sep 2022 18:23:04 +0100
+
 ubuntu-mate-settings (22.10.1) kinetic; urgency=medium
 
   * Migrate panel layouts to relative-to-edge alignment.
