@@ -1,0 +1,71 @@
+# whitelabel.yaml: specifies behavior of ubuntu-desktop-bootstrap installer
+#
+# (Optional) Drives overall behavior for specific provisioners.
+#
+# Options:
+# - standard (default): the common provision flow for Ubuntu Desktop and Flavors
+# - oem: enables the eula page and disables the user creation page during bootstrap
+# - core-desktop: disables exiting the installer at the end (because there is no
+# live session), and only allows to reboot
+mode: standard
+
+ # (Optional) When set, the light and dark theme is inherited from ubuntu-flutter-plugins and the distro name is set.
+#
+# Options:
+# - budgie
+# - cinnamon
+# - edubuntu
+# - kubuntu
+# - kylin
+# - lubuntu
+# - mate
+# - studio
+# - unity
+# - xubuntu
+flavor: mate
+
+ # (Optional) Sets the window's title (e.g. the text in alt|super + tab)
+app-name: Ubuntu MATE Installer
+
+ # (Optional) Overrides the theme's accent colors (remember the quotes)
+theme:
+  light:
+    accent-color: "#69844a" # i.e. "#ff0011"
+#      elevated-button-color: <color-hex-code>
+#      elevated-button-text-color: <color-hex-code>
+  dark:
+    accent-color: "#69844a" # i.e. "#ff0011"
+#      elevated-button-color: <color-hex-code>
+#      elevated-button-text-color: <color-hex-code>
+ # (Optional) Override a page's image asset and whether they should be shown or not.
+# Images expected in /usr/share/desktop-provision/images/<image-name>
+#
+# Bootstrap pages:
+# - locale: Select the interface language
+# - accessibility: Allow user to configure GNOME accessibility options
+# - try-or-install: Choose between trying the live session or installing (only shown when --try-or-install is passed)
+# - rst: Identifies if the computer has Intel Rapid Storage Technology (rst) active
+# - keyboard: Set keyboard layout
+# - network: Connect to a network
+# - refresh: Expose installer's auto-update mechanism
+# - source-selection: Choose installation source, i.e. which applications that should be installed
+# - codecs-and-drivers: Choose if proprietary codecs and drivers should be installed
+# - not-enough-disk-space: Notifies if there is insufficient disk space
+# - secure-boot: Handles secure boot# - storage: Select target disk and partition
+# - identity: Create the first-user account (only displayed if mode = default)
+# - confirm: A summary of the installation and confirmation button to start the install
+# - done: Choose whether to restart or continue testing in the live session
+#
+# Init pages (for oem only)
+# - identity: Create the first-user account
+# - ubuntu-pro: Enable Ubuntu Pro
+# - privacy: Enable location services
+# - timezone: Set the timezone
+# - telemetry: Enable sending telemetry
+#
+# Do note that currently only accessibility, try-or-install, refresh and source-selection can be hidden.
+pages:
+  locale:
+    image: ubuntu-mate.png
+  try-or-install:
+    image: ubuntu-mate.png
