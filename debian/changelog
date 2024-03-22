@@ -2,7 +2,7 @@ ubuntu-mate-settings (24.04.1) noble; urgency=medium
 
   * Add initial branding for ubuntu-desktop-bootstrap
 
- -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Tue, 19 Mar 2024 15:10:15 -0700
+ -- Martin Wimpress <code@wimpress.io>  Tue, 19 Mar 2024 15:10:15 -0700
 
 ubuntu-mate-settings (22.10.2) kinetic; urgency=medium
 
