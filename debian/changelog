@@ -1,3 +1,9 @@
+ubuntu-mate-settings (24.04.2) noble; urgency=medium
+
+  * fix: remove non-breaking spaces from whitelabel.yaml
+
+ -- Martin Wimpress <code@wimpress.io>  Fri, 22 Mar 2024 14:47:31 +0000
+
 ubuntu-mate-settings (24.04.1) noble; urgency=medium
 
   * Add initial branding for ubuntu-desktop-bootstrap
