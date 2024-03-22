@@ -9,7 +9,7 @@
 # live session), and only allows to reboot
 mode: standard
 
- # (Optional) When set, the light and dark theme is inherited from ubuntu-flutter-plugins and the distro name is set.
+# (Optional) When set, the light and dark theme is inherited from ubuntu-flutter-plugins and the distro name is set.
 #
 # Options:
 # - budgie
@@ -24,10 +24,10 @@ mode: standard
 # - xubuntu
 flavor: mate
 
- # (Optional) Sets the window's title (e.g. the text in alt|super + tab)
+# (Optional) Sets the window's title (e.g. the text in alt|super + tab)
 app-name: Ubuntu MATE Installer
 
- # (Optional) Overrides the theme's accent colors (remember the quotes)
+# (Optional) Overrides the theme's accent colors (remember the quotes)
 theme:
   light:
     accent-color: "#69844a" # i.e. "#ff0011"
@@ -37,7 +37,7 @@ theme:
     accent-color: "#69844a" # i.e. "#ff0011"
 #      elevated-button-color: <color-hex-code>
 #      elevated-button-text-color: <color-hex-code>
- # (Optional) Override a page's image asset and whether they should be shown or not.
+# (Optional) Override a page's image asset and whether they should be shown or not.
 # Images expected in /usr/share/desktop-provision/images/<image-name>
 #
 # Bootstrap pages:
