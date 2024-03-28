@@ -67,5 +67,11 @@ theme:
 pages:
   locale:
     image: ubuntu-mate.png
+  refresh:
+    image: ubuntu-mate-icon.svg
   try-or-install:
     image: ubuntu-mate.png
+  storage-icon:
+    image: ubuntu-mate-icon.svg
+  done:
+    image: ubuntu-mate-icon.svg
