@@ -1,3 +1,12 @@
+ubuntu-mate-settings (24.04.3) noble; urgency=medium
+
+  * desktop-provision:
+    - add slideshow
+    - override resize icon
+    - override done and refresh graphic
+
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Thu, 28 Mar 2024 14:48:49 -0700
+
 ubuntu-mate-settings (24.04.2) noble; urgency=medium
 
   * fix: remove non-breaking spaces from whitelabel.yaml
