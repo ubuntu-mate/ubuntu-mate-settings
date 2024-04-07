@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=rofi -show
+Name=Rofi
+Icon=rofi
+Keywords=application-launcher;window-switcher;
+NoDisplay=true

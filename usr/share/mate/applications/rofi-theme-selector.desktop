@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=rofi-theme-selector
+Name=Rofi Theme Selector
+Icon=rofi
+Keywords=theme-selector;
+NoDisplay=true
