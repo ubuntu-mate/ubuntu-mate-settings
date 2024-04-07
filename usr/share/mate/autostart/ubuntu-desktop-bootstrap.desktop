@@ -1,12 +1,11 @@
 [Desktop Entry]
 Version=1.0
-Name=Welcome
-Comment=Ubuntu MATE Welcome autostart
-Exec=/snap/bin/ubuntu-mate-welcome --autostart
+Name=Install Ubuntu MATE
+Comment=Install Ubuntu MATE
+Exec=/snap/bin/ubuntu-desktop-bootstrap --try-or-install
 Terminal=false
 Type=Application
 StartupNotify=false
 Categories=
 OnlyShowIn=MATE;
 NoDisplay=true
-X-MATE-Autostart-Delay=30
