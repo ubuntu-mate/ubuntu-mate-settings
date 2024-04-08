@@ -1,8 +1,8 @@
 ubuntu-mate-settings (24.04.4) noble; urgency=medium
 
-  * Add autostart for ubuntu-desktop-bootstrap. (LP: 2060406)
+  * Add autostart for ubuntu-desktop-bootstrap. (LP: #2060406)
   * Hide Rofi menu entries. (LP: #2060407)
-  * Update installer slide show. (LP: 2060409)
+  * Update installer slide show. (LP: #2060409)
   * Hide Tilda (Dbus) menu entry. (LP: #2060461)
   * Remove obsolete artwork for Ubiquity.
   * Remove obsolete autostart for Ubuntu MATE Welcome.
