@@ -6,7 +6,6 @@ draw-user-backgrounds=false
 enable-hidpi='auto'
 font-name='Ubuntu 11'
 icon-theme-name='Yaru-MATE-dark'
-idle-timeout=300
 high-contrast=false
 #logo=Logo file to use
 onscreen-keyboard=false
